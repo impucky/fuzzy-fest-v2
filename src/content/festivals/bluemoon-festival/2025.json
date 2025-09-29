@@ -1,0 +1,30 @@
+{
+  "name": "Bluemoon Festival",
+  "slug": "bluemoon-festival",
+  "website": "https://www.bluemoonfestival.de/",
+  "country": "Germany",
+  "city": "Cottbus",
+  "lat": 51.751131191225475,
+  "lng": 14.34181493121305,
+  "indoor": false,
+  "startDate": "2025-07-25",
+  "endDate": "2025-07-27",
+  "lineup": [
+    "melvins",
+    "mantar",
+    "slomosa",
+    "my-sleeping-karma",
+    "the-atomic-bitchwax",
+    "gnome",
+    "valley-of-the-sun",
+    "heckspoiler",
+    "praise-the-plague",
+    "beehoover",
+    "earthbong",
+    "spirit-mother",
+    "zhaat",
+    "nalar",
+    "methuselian",
+    "rifftree"
+  ]
+}

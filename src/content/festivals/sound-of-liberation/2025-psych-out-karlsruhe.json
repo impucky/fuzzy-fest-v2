@@ -1,0 +1,19 @@
+{
+  "name": "SoL Psych Out Karlsruhe",
+  "slug": "sol-psych-out-karlsruhe",
+  "website": "https://www.soundofliberation.com/festivals/sol-psych-out-karlsruhe",
+  "country": "Germany",
+  "city": "Karlsruhe",
+  "lat": 49.008468189364066,
+  "lng": 8.409402163315466,
+  "indoor": true,
+  "startDate": "2025-03-28",
+  "endDate": "2025-03-28",
+  "lineup": [
+    "kant",
+    "daily-thompson",
+    "earth-tongue",
+    "greenleaf",
+    "colour-haze"
+  ]
+}

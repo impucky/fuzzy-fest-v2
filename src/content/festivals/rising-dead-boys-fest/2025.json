@@ -1,0 +1,25 @@
+{
+  "name": "Rising Dead Boys Fest",
+  "slug": "rising-dead-boys-fest",
+  "website": "https://www.instagram.com/risingdeadboys",
+  "country": "France",
+  "city": "La Fare-les-Oliviers",
+  "lat": 43.5550605489675,
+  "lng": 5.196230387241038,
+  "indoor": true,
+  "startDate": "2025-09-20",
+  "endDate": "2025-09-20",
+  "lineup": [
+    "stone-from-the-sky",
+    "yurodivy",
+    "yarostan",
+    "supermunk",
+    "vesuve",
+    "joe-la-truite",
+    "glabre",
+    "kalvaire",
+    "fincher",
+    "hot-sauce-party",
+    "glitch"
+  ]
+}

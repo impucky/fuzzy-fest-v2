@@ -1,0 +1,20 @@
+{
+  "name": "Vigo Psych Fest",
+  "slug": "vigo-psych-fest",
+  "website": "https://www.instagram.com/vigopsychfest_/",
+  "country": "Spain",
+  "city": "Vigo",
+  "lat": 42.23605278346967,
+  "lng": -8.719580110892226,
+  "indoor": true,
+  "startDate": "2025-10-10",
+  "endDate": "2025-10-11",
+  "lineup": [
+    "mil-homes",
+    "the-miffs",
+    "atomic-vulture",
+    "totengott",
+    "madmess",
+    "travo"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Namass Pamouss",
+  "slug": "namass-pamouss",
+  "website": "https://www.namass-pamouss-festival.com/",
+  "country": "France",
+  "city": "Manigod",
+  "lat": 45.86124896583297,
+  "lng": 6.3691443832065655,
+  "indoor": false,
+  "startDate": "2025-06-27",
+  "endDate": "2025-06-29",
+  "lineup": [
+    "black-rainbows",
+    "zig-zags",
+    "tisdass",
+    "early-moods",
+    "daily-thompson",
+    "sacri-monti",
+    "margarita-witch-cult",
+    "karkara",
+    "wormsand",
+    "star-rider",
+    "fuzzy-grass",
+    "lemon-rose"
+  ]
+}

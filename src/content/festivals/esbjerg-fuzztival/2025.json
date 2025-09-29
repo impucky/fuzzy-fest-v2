@@ -1,0 +1,27 @@
+{
+  "name": "Esbjerg Fuzztival",
+  "slug": "esbjerg-fuzztival",
+  "website": "https://www.fuzztival.com/",
+  "country": "Denmark",
+  "city": "Esbjerg",
+  "lat": 55.46497946389984,
+  "lng": 8.459744361489337,
+  "indoor": true,
+  "startDate": "2025-06-06",
+  "endDate": "2025-07-07",
+  "lineup": [
+    "stoned-jesus",
+    "dead-meadow",
+    "causa-sui",
+    "daevar",
+    "wyatt-e",
+    "karkara",
+    "daily-thompson",
+    "green-milk-from-the-planet-orange",
+    "skyjoggers",
+    "djiin",
+    "dunes",
+    "aptera",
+    "vestjysk-orken"
+  ]
+}

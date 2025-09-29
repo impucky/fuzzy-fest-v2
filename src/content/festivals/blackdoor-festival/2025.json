@@ -1,0 +1,33 @@
+{
+  "name": "Blackdoor Festival",
+  "slug": "blackdoor-festival",
+  "website": "https://blackdoor-festival.com/",
+  "country": "Germany",
+  "city": "Thyrnau",
+  "lat": 48.585752907035385,
+  "lng": 13.556426640740348,
+  "indoor": false,
+  "startDate": "2025-06-26",
+  "endDate": "2025-06-28",
+  "lineup": [
+    "cone",
+    "margarita-witch-cult",
+    "acid-row",
+    "the-sonic-brewery",
+    "kudos-to-kosmos",
+    "einseinseins",
+    "greenleaf",
+    "stoned-jesus",
+    "el-perro",
+    "daily-thompson",
+    "flokati",
+    "the-delayed",
+    "planet-of-zeus",
+    "puta-volcano",
+    "mothers-cake",
+    "mary-janes-soundgarden",
+    "the-lunar-effect",
+    "white-noise-generator",
+    "shiveringfit"
+  ]
+}

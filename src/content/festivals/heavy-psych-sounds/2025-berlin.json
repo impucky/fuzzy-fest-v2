@@ -1,0 +1,25 @@
+{
+  "name": "Heavy Psych Sounds Fest Berlin",
+  "slug": "heavy-psych-sounds-fest-berlin",
+  "website": "https://www.heavypsychsounds.com/fests.htm",
+  "country": "Germany",
+  "city": "Berlin",
+  "lat": 52.50784432535015,
+  "lng": 13.451620328843457,
+  "indoor": true,
+  "startDate": "2025-10-24",
+  "endDate": "2025-10-25",
+  "lineup": [
+    "rotor",
+    "weedpecker",
+    "mephistofeles",
+    "wyatt-e",
+    "giobia",
+    "tons",
+    "ananda-mida",
+    "fvzz-popvli",
+    "litania",
+    "komatsu",
+    "krake"
+  ]
+}

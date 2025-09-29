@@ -1,0 +1,22 @@
+{
+  "name": "Doom By The Sea",
+  "slug": "doom-by-the-sea",
+  "website": "https://www.daltonsbrighton.com/event-details/doom-by-the-sea-vol-4",
+  "country": "United Kingdom",
+  "city": "Brighton",
+  "lat": 50.8189696781984,
+  "lng": -0.13442159998011988,
+  "indoor": true,
+  "startDate": "2025-11-01",
+  "endDate": "2025-11-01",
+  "lineup": [
+    "sea-bastard",
+    "acid-throne",
+    "outback",
+    "black-groove",
+    "borehead",
+    "crowgod",
+    "kush-thulhu",
+    "droop"
+  ]
+}

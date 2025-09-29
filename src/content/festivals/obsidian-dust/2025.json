@@ -1,0 +1,23 @@
+{
+  "name": "Obsidian Dust",
+  "slug": "obsidian-dust",
+  "website": "https://obsidiandust.be/",
+  "country": "Belgium",
+  "city": "Brussels",
+  "lat": 50.85470323966327,
+  "lng": 4.366298097308854,
+  "indoor": true,
+  "startDate": "2025-05-15",
+  "endDate": "2025-05-15",
+  "lineup": [
+    "zeal-and-ardor",
+    "elder",
+    "pallbearer",
+    "llnn",
+    "rickshaw-billies-burger-patrol",
+    "green-milk-from-the-planet-orange",
+    "villenoire",
+    "liturgy",
+    "wiegedood"
+  ]
+}

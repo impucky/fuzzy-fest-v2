@@ -1,22 +1,30 @@
+---
+import "../global.css";
+import { ClientRouter } from "astro:transitions";
+import Map from "../components/Map.jsx";
+---
+
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <ClientRouter />
+    <title>Fuzzy Fest</title>
+  </head>
+  <body>
+    <main
+      class="flex h-dvh w-full flex-col bg-gradient-to-t from-neutral-950 to-neutral-800 lg:flex-row"
+    >
+      <Map client:load transition:persist />
+      <div
+        class="relative z-[500] flex h-2/5 w-full flex-col overflow-auto shadow-[0_0_8px_rgba(0,0,0,0.7)] lg:h-full lg:w-2/5"
+      >
+        <h1 class="m-2 text-5xl font-black text-[salmon] italic">FUZZY FEST</h1>
+        <slot />
+      </div>
+    </main>
+  </body>
 </html>
-
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>

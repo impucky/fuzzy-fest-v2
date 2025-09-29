@@ -1,0 +1,30 @@
+{
+  "name": "Heavy Psych Sounds Fest Venezia",
+  "slug": "heavy-psych-sounds-fest-venezia",
+  "website": "https://www.godownrecords.com/events-1/hps-fest-rivolta-venezia",
+  "country": "Italy",
+  "city": "Venezia",
+  "lat": 45.470870695755764,
+  "lng": 12.229811942287382,
+  "indoor": true,
+  "startDate": "2025-05-02",
+  "endDate": "2025-05-03",
+  "lineup": [
+    "stoned-jesus",
+    "conan",
+    "monkey3",
+    "mars-red-sky",
+    "margarita-witch-cult",
+    "hippie-death-cult",
+    "the-cosmic-dead",
+    "tons",
+    "wyatt-e",
+    "alunah",
+    "ananda-mida",
+    "fvzz-popvli",
+    "humulus",
+    "underdogs",
+    "quiet-confusion",
+    "a-forest-mighty-black"
+  ]
+}

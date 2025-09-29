@@ -1,0 +1,26 @@
+{
+  "name": "Rock in Bourlon",
+  "slug": "rock-in-bourlon",
+  "website": "https://www.rockinbourlon.com/",
+  "country": "France",
+  "city": "Bourlon",
+  "lat": 50.179271456083306,
+  "lng": 3.120282178088326,
+  "indoor": false,
+  "startDate": "2025-06-27",
+  "endDate": "2025-06-29",
+  "lineup": [
+    "health",
+    "coilguns",
+    "hellripper",
+    "brat",
+    "thou",
+    "the-midnight-ghost-train",
+    "spaced",
+    "couch-slut",
+    "furia",
+    "zig-zags",
+    "false-reality",
+    "wormsand"
+  ]
+}

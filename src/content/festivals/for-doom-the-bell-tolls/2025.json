@@ -1,0 +1,19 @@
+{
+  "name": "For Doom the Bell Tolls",
+  "slug": "for-doom-the-bell-tolls",
+  "website": "https://www.instagram.com/fordoomthebelltolls_fest/",
+  "country": "Portugal",
+  "city": "Figueira da Foz",
+  "lat": 40.1436890925024,
+  "lng": -8.845499521880456,
+  "indoor": true,
+  "startDate": "2025-04-12",
+  "endDate": "2025-04-12",
+  "lineup": [
+    "eyze",
+    "stones-of-babylon",
+    "orum",
+    "lord-of-confusion",
+    "evadne"
+  ]
+}

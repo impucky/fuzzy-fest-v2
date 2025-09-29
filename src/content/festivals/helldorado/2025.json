@@ -1,0 +1,26 @@
+{
+  "name": "Helldorado",
+  "slug": "helldorado",
+  "website": "https://helldorado.nl/",
+  "country": "Netherlands",
+  "city": "Eindhoven",
+  "lat": 51.448621302544055,
+  "lng": 5.456991029546806,
+  "indoor": true,
+  "startDate": "2025-11-15",
+  "endDate": "2025-11-15",
+  "lineup": [
+    "bildtstar",
+    "reach",
+    "tarmac",
+    "dikke-dennis-en-de-rockers",
+    "the-turbo-acs",
+    "stoned-jesus",
+    "mantar",
+    "asphyx",
+    "life-of-agony",
+    "uncle-acid-and-the-deadbeats",
+    "turbonegro",
+    "peter-pan-speedrock"
+  ]
+}

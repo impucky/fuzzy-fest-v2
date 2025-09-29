@@ -1,0 +1,31 @@
+{
+  "name": "Freak Valley Festival",
+  "slug": "freak-valley-festival",
+  "website": "https://www.freakvalley.de/",
+  "country": "Germany",
+  "city": "Weiherdamm",
+  "lat": 50.89062731963505,
+  "lng": 8.12708699622017,
+  "indoor": false,
+  "startDate": "2025-06-19",
+  "endDate": "2025-06-21",
+  "lineup": [
+    "scott-hepple-and-the-sun-band",
+    "lurch",
+    "travo",
+    "wedge",
+    "kombynat-robotron",
+    "zig-zags",
+    "early-moods",
+    "pendejo",
+    "wucan",
+    "the-devil-and-the-almighty-blues",
+    "motorpsycho",
+    "dead-meadow",
+    "my-sleeping-karma",
+    "the-thing",
+    "the-polvos",
+    "sarkh",
+    "windhand"
+  ]
+}

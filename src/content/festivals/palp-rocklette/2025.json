@@ -1,0 +1,31 @@
+{
+  "name": "Palp Rocklette",
+  "slug": "palp-rocklette",
+  "website": "https://palpfestival.ch/en/evenements/rocklette-2/",
+  "country": "Switzerland",
+  "city": "Val de Bagnes",
+  "lat": 46.08037535923256,
+  "lng": 7.214465901391112,
+  "indoor": false,
+  "startDate": "2025-08-02",
+  "endDate": "2025-08-10",
+  "lineup": [
+    "melvins",
+    "monkey3",
+    "hooveriii",
+    "fu-manchu",
+    "earthless",
+    "puta-volcano",
+    "me-and-that-man",
+    "my-sleeping-karma",
+    "yo-diablo",
+    "heartworms",
+    "iguana-death-cult",
+    "green-lung",
+    "maidavale",
+    "black-willows",
+    "diiv",
+    "slomosa",
+    "ghostwoman"
+  ]
+}

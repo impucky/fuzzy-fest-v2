@@ -1,0 +1,42 @@
+---
+import { getCollection } from "astro:content";
+import type { Festival } from "../content.config";
+
+const festival: Festival = Astro.props.festival;
+
+const { name, website, country, city, indoor, startDate, endDate, lineup } = festival;
+
+export async function getBandNames(slugs: string[]): Promise<string[]> {
+  const bands = await getCollection("bands");
+
+  return slugs
+    .map((slug) => bands.find((b) => b.data.slug === slug)?.data.name)
+    .filter((name): name is string => Boolean(name))
+    .sort((a, b) => a.localeCompare(b));
+}
+
+const bands = lineup ? await getBandNames(lineup) : null;
+---
+
+<section class="flex flex-col items-center text-center text-white">
+  <h2 class="text-xl font-bold sm:text-2xl">{name}</h2>
+  <p class="text-lg sm:text-xl">{city}, {country}</p>
+  <p>{indoor ? "Indoor" : "Outdoor"}</p>
+  <p>{startDate}</p>
+  <p>{endDate}</p>
+  <a
+    href={website}
+    target="_blank"
+    class="cursor-pointer text-[salmon] underline transition hover:text-white"
+  >
+    Homepage
+  </a>
+  <h3>Lineup</h3>
+  <ul>
+    {
+      bands
+        ? bands.map((band) => <li class="font-black">{band.toUpperCase()}</li>)
+        : "To be announced"
+    }
+  </ul>
+</section>

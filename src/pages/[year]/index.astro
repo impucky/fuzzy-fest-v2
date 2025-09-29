@@ -1,0 +1,35 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getCollection, getEntry } from "astro:content";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("festivals");
+  const years = [...new Set(entries.map(({ data }) => new Date(data.startDate).getFullYear()))];
+  return years.map((year) => ({ params: { year } }));
+}
+
+const { year } = Astro.params;
+
+const festivals = (
+  await getCollection("festivals", ({ data }) => {
+    return new Date(data.startDate).getFullYear() === +year;
+  })
+).sort((a, b) => a.data.slug.localeCompare(b.data.slug));
+---
+
+<Layout>
+  <h2 class="text-xl text-white">{year}</h2>
+  <ul>
+    {
+      festivals.map((f) => {
+        return (
+          <li class="p-1 text-center text-white">
+            <a class="text-xl transition hover:text-[salmon]" href={`/${year}/${f.data.slug}`}>
+              {f.data.name}
+            </a>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Layout>

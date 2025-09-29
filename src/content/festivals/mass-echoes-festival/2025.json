@@ -1,0 +1,23 @@
+{
+  "name": "Mass Echoes Festival",
+  "slug": "mass-echoes-festival",
+  "website": "https://www.instagram.com/poutrasseau/",
+  "country": "France",
+  "city": "Castillon",
+  "lat": 43.83774403981404,
+  "lng": 7.460961279914499,
+  "indoor": false,
+  "startDate": "2025-08-30",
+  "endDate": "2025-08-30",
+  "lineup": [
+    "wormsand",
+    "yarostan",
+    "sator",
+    "spiralpark",
+    "indykush",
+    "glitch",
+    "pray",
+    "hah",
+    "vanr"
+  ]
+}

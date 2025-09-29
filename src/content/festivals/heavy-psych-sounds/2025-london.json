@@ -1,0 +1,26 @@
+{
+  "name": "Heavy Psych Sounds Fest London",
+  "slug": "heavy-psych-sounds-fest-london",
+  "website": "https://www.heavypsychsounds.com/fests.htm",
+  "country": "United Kingdom",
+  "city": "London",
+  "lat": 51.54438337087999,
+  "lng": -0.021456626995791674,
+  "indoor": true,
+  "startDate": "2025-10-31",
+  "endDate": "2025-11-01",
+  "lineup": [
+    "brant-bjork-trio",
+    "dopelord",
+    "belzebong",
+    "mephistofeles",
+    "weedpecker",
+    "1782",
+    "giobia",
+    "tons",
+    "komatsu",
+    "ananda-mida",
+    "fvzz-popvli",
+    "death-wvrm"
+  ]
+}

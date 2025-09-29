@@ -1,0 +1,27 @@
+{
+  "name": "Krach am Bach",
+  "slug": "krach-am-bach",
+  "website": "https://krachambach.de/",
+  "country": "Germany",
+  "city": "Beelen",
+  "lat": 51.91839860165112,
+  "lng": 8.097309672737138,
+  "indoor": false,
+  "startDate": "2025-08-01",
+  "endDate": "2025-08-02",
+  "lineup": [
+    "osees",
+    "god-is-an-astronaut",
+    "rezn",
+    "elephant-tree",
+    "the-warlocks",
+    "the-cosmic-dead",
+    "full-earth",
+    "to-yo",
+    "khan",
+    "feedy",
+    "desert-smoke",
+    "oakfarm",
+    "kalamata"
+  ]
+}

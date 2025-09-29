@@ -1,0 +1,28 @@
+{
+  "name": "Into the Void",
+  "slug": "into-the-void",
+  "website": "https://intothevoid.nl/",
+  "country": "Netherlands",
+  "city": "Leeuwarden",
+  "lat": 53.20037408530867,
+  "lng": 5.790178831895955,
+  "indoor": true,
+  "startDate": "2025-09-27",
+  "endDate": "2025-09-27",
+  "lineup": [
+    "dool",
+    "the-vintage-caravan",
+    "psychonaut",
+    "lowen",
+    "temple-fang",
+    "haunted",
+    "hippotraktor",
+    "gott",
+    "an-evening-with-knives",
+    "ggu-ll",
+    "sons-of-arrakis",
+    "earth-ship",
+    "mr-bison",
+    "motorowl"
+  ]
+}

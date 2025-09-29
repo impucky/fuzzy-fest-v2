@@ -1,0 +1,23 @@
+---
+import { getCollection, getEntry } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import Festival from "../../components/Festival.astro";
+
+export async function getStaticPaths() {
+  const festivals = await getCollection("festivals");
+  return festivals.map(({ data }) => ({
+    params: {
+      year: new Date(data.startDate).getFullYear(),
+      slug: data.slug,
+    },
+  }));
+}
+
+const { slug, year } = Astro.params;
+const festival = (await getEntry("festivals", slug))!.data;
+---
+
+<Layout>
+  <a class="text-white" href={`/${year}`}>Back</a>
+  <Festival festival={festival} />
+</Layout>

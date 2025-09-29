@@ -1,0 +1,24 @@
+{
+  "name": "SoL Sonic Ride Cologne",
+  "slug": "sol-sonic-ride-cologne",
+  "website": "https://www.soundofliberation.com/festivals/sol-sonic-ride-cologne",
+  "country": "Germany",
+  "city": "Köln",
+  "lat": 50.96510886325583,
+  "lng": 7.012098442308215,
+  "indoor": true,
+  "startDate": "2025-03-29",
+  "endDate": "2025-03-29",
+  "lineup": [
+    "kant",
+    "lucid-void",
+    "daevar",
+    "earth-tongue",
+    "gnome",
+    "greenleaf",
+    "my-sleeping-karma",
+    "slomosa",
+    "1000mods",
+    "colour-haze"
+  ]
+}

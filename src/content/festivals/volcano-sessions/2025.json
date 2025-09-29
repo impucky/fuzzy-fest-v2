@@ -1,0 +1,25 @@
+{
+  "name": "Volcano Sessions",
+  "slug": "volcano-sessions",
+  "website": "https://www.instagram.com/volcanosessions/",
+  "country": "France",
+  "city": "Saillant",
+  "lat": 45.47172449288895,
+  "lng": 3.9140821686883487,
+  "indoor": false,
+  "startDate": "2025-08-15",
+  "endDate": "2025-08-16",
+  "lineup": [
+    "slobber",
+    "smooth-motion",
+    "motorik",
+    "wormsand",
+    "iron-jinn",
+    "frankie-and-the-witch-fingers",
+    "coogans-bluff",
+    "fuzzy-grass",
+    "decasia",
+    "grandmas-ashes",
+    "temple-fang"
+  ]
+}
