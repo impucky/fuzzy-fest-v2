@@ -3,5 +3,14 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
+  <h1 class="m-2 text-5xl font-black text-[salmon] italic">FUZZY FEST</h1>
   <p>Hello from the index page</p>
 </Layout>
+
+<script>
+  if (localStorage.getItem("visited") && window.location.pathname === "/") {
+    window.location.href = `/${new Date().getFullYear()}`;
+  } else {
+    localStorage.setItem("visited", "true");
+  }
+</script>

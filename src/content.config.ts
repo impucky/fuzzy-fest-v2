@@ -3,7 +3,7 @@ import { defineCollection, z } from "astro:content";
 import { glob, file } from "astro/loaders";
 
 const bands = defineCollection({
-  loader: file("src/content/bands.json"),
+  loader: file("content/bands.json"),
   schema: z.object({
     slug: z.string(),
     name: z.string(),
@@ -28,7 +28,7 @@ const festivalSchema = z.object({
 });
 
 const festivals = defineCollection({
-  loader: glob({ pattern: "src/content/festivals/*/*.json" }),
+  loader: glob({ pattern: "content/festivals/*/*.json" }),
   schema: festivalSchema,
 });
 

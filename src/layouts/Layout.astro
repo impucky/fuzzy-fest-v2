@@ -2,6 +2,13 @@
 import "../global.css";
 import { ClientRouter } from "astro:transitions";
 import Map from "../components/Map.jsx";
+import Sidebar from "../components/Sidebar.astro";
+import { getFestivalsByYear } from "../utils/content.js";
+
+const path = Astro.url.pathname;
+const { year } = Astro.params;
+const currentYear = year ? +year : new Date().getFullYear();
+const festivals = await getFestivalsByYear(currentYear);
 ---
 
 <!doctype html>
@@ -9,22 +16,22 @@ import Map from "../components/Map.jsx";
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="generator" content={Astro.generator} />
+    <meta property="og:image" content="/preview.webp" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="description" content="Heavy music festivals in Europe" />
+    <meta name="keywords" content="music, festival, heavy, stoner, doom, psychedelic" />
     <ClientRouter />
-    <title>Fuzzy Fest</title>
+    <title>Fuzzy Fest {year}</title>
   </head>
   <body>
-    <main
-      class="flex h-dvh w-full flex-col bg-gradient-to-t from-neutral-950 to-neutral-800 lg:flex-row"
-    >
-      <Map client:load transition:persist />
-      <div
-        class="relative z-[500] flex h-2/5 w-full flex-col overflow-auto shadow-[0_0_8px_rgba(0,0,0,0.7)] lg:h-full lg:w-2/5"
-      >
-        <h1 class="m-2 text-5xl font-black text-[salmon] italic">FUZZY FEST</h1>
+    <main class="flex h-dvh w-full flex-col bg-gradient-to-t from-neutral-950 to-neutral-800 lg:flex-row">
+      <Map festivals={festivals} path={path} client:only transition:persist />
+      <Sidebar>
         <slot />
-      </div>
+      </Sidebar>
     </main>
   </body>
 </html>

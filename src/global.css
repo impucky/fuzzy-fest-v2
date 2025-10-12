@@ -10,3 +10,19 @@ body {
   scrollbar-width: thin;
   scrollbar-color: #555 transparent;
 }
+
+.maplibregl-popup {
+  max-width: none !important;
+  opacity: 0.9;
+}
+
+.maplibregl-popup-content {
+  background: #262626 !important;
+  border-radius: 0.5rem !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.maplibregl-popup-tip {
+  border-top-color: #262626 !important;
+}

@@ -1,6 +1,9 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import { getCollection, getEntry } from "astro:content";
+import FestivalsList from "../../components/FestivalsList";
+import YearPicker from "../../components/YearPicker.astro";
+import { getCollection } from "astro:content";
+import { getFestivalsByYear } from "../../utils/content";
 
 export async function getStaticPaths() {
   const entries = await getCollection("festivals");
@@ -8,28 +11,16 @@ export async function getStaticPaths() {
   return years.map((year) => ({ params: { year } }));
 }
 
-const { year } = Astro.params;
+const year = +Astro.params.year;
 
-const festivals = (
-  await getCollection("festivals", ({ data }) => {
-    return new Date(data.startDate).getFullYear() === +year;
-  })
-).sort((a, b) => a.data.slug.localeCompare(b.data.slug));
+const festivals = await getFestivalsByYear(year);
+const years = (await getCollection("festivals")).map((festival) =>
+  new Date(festival.data.startDate).getFullYear()
+);
+const uniqueYears = Array.from(new Set(years)).sort((a, b) => a - b);
 ---
 
-<Layout>
-  <h2 class="text-xl text-white">{year}</h2>
-  <ul>
-    {
-      festivals.map((f) => {
-        return (
-          <li class="p-1 text-center text-white">
-            <a class="text-xl transition hover:text-[salmon]" href={`/${year}/${f.data.slug}`}>
-              {f.data.name}
-            </a>
-          </li>
-        );
-      })
-    }
-  </ul>
+<Layout year={year}>
+  <YearPicker year={year} uniqueYears={uniqueYears} />
+  <FestivalsList festivals={festivals} year={year} client:only />
 </Layout>

@@ -17,7 +17,7 @@ const { slug, year } = Astro.params;
 const festival = (await getEntry("festivals", slug))!.data;
 ---
 
-<Layout>
+<Layout year={year}>
   <a class="text-white" href={`/${year}`}>Back</a>
   <Festival festival={festival} />
 </Layout>

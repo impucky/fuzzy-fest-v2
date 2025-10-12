@@ -1,0 +1,34 @@
+---
+export interface Props {
+  year: number;
+  uniqueYears: number[];
+}
+
+const { year, uniqueYears } = Astro.props;
+const nextYear = uniqueYears.find((y) => y > year);
+const prevYear = [...uniqueYears].reverse().find((y) => y < year);
+---
+
+<div class="flex justify-center gap-4 p-2 text-center text-3xl font-black">
+  <div class="w-[4ch]">
+    {
+      prevYear && (
+        <a class="text-neutral-500 transition hover:text-[salmon]" href={`/${prevYear}`}>
+          {prevYear}
+        </a>
+      )
+    }
+  </div>
+  <div class="w-[4ch]">
+    <h2 class="text-white">{year}</h2>
+  </div>
+  <div class="w-[4ch]">
+    {
+      nextYear && (
+        <a class="text-neutral-500 transition hover:text-[salmon]" href={`/${nextYear}`}>
+          {nextYear}
+        </a>
+      )
+    }
+  </div>
+</div>
