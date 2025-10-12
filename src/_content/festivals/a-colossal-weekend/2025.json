@@ -1,0 +1,29 @@
+{
+  "name": "A Colossal Weekend",
+  "slug": "a-colossal-weekend",
+  "img": "./a-colossal-weekend.webp",
+  "website": "https://www.acolossalweekend.dk/",
+  "country": "Denmark",
+  "city": "Copenhagen",
+  "lat": 55.66813197817983,
+  "lng": 12.543795053372234,
+  "indoor": true,
+  "startDate": "2025-05-08",
+  "endDate": "2025-05-10",
+  "lineup": [
+    "daufodt",
+    "pallbearer",
+    "kellermensch",
+    "white-ward",
+    "agriculture",
+    "chat-pile",
+    "elder",
+    "god-is-an-astronaut",
+    "kylesa",
+    "oranssi-pazuzu",
+    "bosco-sacro",
+    "frail-body",
+    "jo-quail",
+    "machukha"
+  ]
+}

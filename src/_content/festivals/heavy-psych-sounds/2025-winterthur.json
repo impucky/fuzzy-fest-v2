@@ -1,0 +1,25 @@
+{
+  "name": "Heavy Psych Sounds Fest Winterthur",
+  "slug": "heavy-psych-sounds-fest-winterthur",
+  "img": "./heavy-psych-sounds.webp",
+  "website": "https://www.heavypsychsounds.com/fests.htm",
+  "country": "Switzerland",
+  "city": "Winterthur",
+  "lat": 47.494502141933445,
+  "lng": 8.709174215521251,
+  "indoor": true,
+  "startDate": "2025-06-13",
+  "endDate": "2025-03-14",
+  "lineup": [
+    "dead-meadow",
+    "brant-bjork-trio",
+    "acid-mammoth",
+    "duel",
+    "wyatt-e",
+    "the-cosmic-dead",
+    "alunah",
+    "love-gang",
+    "ananda-mida",
+    "castle-rat"
+  ]
+}

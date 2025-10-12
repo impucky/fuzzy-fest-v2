@@ -100,19 +100,18 @@ export default function Map({ festivals, path }: { festivals: Festival[]; path: 
     [festivals, activeFestival, onMarkerClick, $highlight],
   );
 
-  if (!festivals) return null;
-
   return (
     <div className="relative h-3/5 w-full flex-grow lg:h-full lg:w-3/5">
-      {$highlight + " highlight"}
-      <MapPane
-        initialViewState={initialViewState}
-        mapStyle={darkmatter as StyleSpecification}
-        attributionControl={false}
-      >
-        <MapNavigation target={flyTarget} />
-        {markers}
-      </MapPane>
+      {festivals && (
+        <MapPane
+          initialViewState={initialViewState}
+          mapStyle={darkmatter as StyleSpecification}
+          attributionControl={false}
+        >
+          <MapNavigation target={flyTarget} />
+          {markers}
+        </MapPane>
+      )}
     </div>
   );
 }

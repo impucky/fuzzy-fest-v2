@@ -1,0 +1,25 @@
+{
+  "name": "Pietra Sonica Festival",
+  "slug": "pietra-sonica-festival",
+  "img": "./pietra-sonica-festival.webp",
+  "website": "http://www.pietrasonica.com/",
+  "country": "Italy",
+  "city": "Osoppo",
+  "lat": 46.26196748226936,
+  "lng": 13.076819963958808,
+  "indoor": false,
+  "startDate": "2025-08-01",
+  "endDate": "2025-08-02",
+  "lineup": [
+    "the-atomic-bitchwax",
+    "the-myrrors",
+    "kaleidobolt",
+    "karkara",
+    "maragda",
+    "huge-molasses-tank-explodes",
+    "jantar",
+    "the-magogas",
+    "samstation",
+    "voodoograve"
+  ]
+}

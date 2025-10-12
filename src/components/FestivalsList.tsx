@@ -8,7 +8,6 @@ export default function FestivalsList({ festivals, year }: { festivals: Festival
 
   return (
     <ul>
-      {$highlight ?? "No highlight"}
       {festivals.map((f) => {
         return (
           <li className="p-1 text-center text-white" key={f.slug}>

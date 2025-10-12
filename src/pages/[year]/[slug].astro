@@ -18,6 +18,5 @@ const festival = (await getEntry("festivals", slug))!.data;
 ---
 
 <Layout year={year}>
-  <a class="text-white" href={`/${year}`}>Back</a>
   <Festival festival={festival} />
 </Layout>

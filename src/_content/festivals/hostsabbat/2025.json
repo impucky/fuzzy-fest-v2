@@ -1,0 +1,14 @@
+{
+  "name": "Høstsabbat",
+  "slug": "hostsabbat",
+  "img": "./hostsabbat.webp",
+  "website": "https://www.hostsabbat.no/",
+  "country": "Norway",
+  "city": "Oslo",
+  "lat": 59.91820831456108,
+  "lng": 10.754424692426477,
+  "indoor": true,
+  "startDate": "2025-10-24",
+  "endDate": "2025-10-25",
+  "provisionalDate": false
+}

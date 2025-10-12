@@ -1,0 +1,14 @@
+{
+  "name": "Motocultor Festival",
+  "slug": "motocultor-festival",
+  "img": "./motocultor-festival.webp",
+  "website": "https://www.motocultor-festival.com/",
+  "country": "France",
+  "city": "Carhaix",
+  "lat": 48.26994148832191,
+  "lng": -3.560419066670786,
+  "indoor": false,
+  "startDate": "2025-08-14",
+  "endDate": "2025-08-17",
+  "lineup": ["magma", "king-buffalo", "green-lung", "monolord", "pelican"]
+}

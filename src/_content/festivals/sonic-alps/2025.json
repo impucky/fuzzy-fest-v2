@@ -1,0 +1,14 @@
+{
+  "name": "Sonic Alps",
+  "slug": "sonic-alps",
+  "img": "./sonic-alps.webp",
+  "website": "https://www.instagram.com/sonicalpsfest/",
+  "country": "Italy",
+  "city": "Minucciano",
+  "lat": 44.13818582279772,
+  "lng": 10.194175062337461,
+  "indoor": false,
+  "startDate": "2025-06-01",
+  "endDate": "2025-06-01",
+  "lineup": ["la-briscola-bugiarda", "traum", "milo-dragovic", "ermete"]
+}

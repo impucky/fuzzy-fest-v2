@@ -1,0 +1,14 @@
+{
+  "name": "atMOERSphere",
+  "slug": "atmoersphere",
+  "img": "./atmoersphere.webp",
+  "website": "https://www.instagram.com/atmoersphere/",
+  "country": "Germany",
+  "city": "Moers",
+  "lat": 51.45157175041066,
+  "lng": 6.63121887328665,
+  "indoor": true,
+  "startDate": "2025-04-12",
+  "endDate": "2025-04-12",
+  "lineup": ["swan-valley-heights", "drive-by-wire", "rovar"]
+}

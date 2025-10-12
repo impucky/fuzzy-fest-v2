@@ -1,17 +1,31 @@
 ---
-import { getCollection } from "astro:content";
-import type { Festival } from "../content.config";
+import { Image } from "astro:assets";
+
 import { getBandNamesFromSlugs } from "../utils/content";
 import { formatFestivalDates } from "../utils/dates";
 
+import type { Festival } from "../content.config";
+import type { ImageMetadata } from "astro";
+
 const festival: Festival = Astro.props.festival;
-
-const { name, website, country, city, indoor, startDate, endDate, lineup } = festival;
-
+const { name, website, country, city, indoor, startDate, endDate, lineup, img } = festival;
 const bands = lineup ? await getBandNamesFromSlugs(lineup) : null;
+const year = new Date(startDate).getFullYear();
 ---
 
 <section class="flex flex-col items-center text-center text-white">
+  <div class="flex justify-center gap-4 p-2 text-center text-3xl font-black">
+    <a class="text-white" href={`/${year}`}>X</a>
+  </div>
+  {
+    img && (
+      <Image
+        src={img}
+        alt={name + " logo"}
+        class="mt-2 h-auto max-h-20 w-auto max-w-64 md:max-h-32 lg:max-w-80 xl:max-w-full"
+      />
+    )
+  }
   <h2 class="text-xl font-bold sm:text-2xl">{name}</h2>
   <p class="text-lg sm:text-xl">{city}, {country}</p>
   <p>{indoor ? "Indoor" : "Open-air"}</p>

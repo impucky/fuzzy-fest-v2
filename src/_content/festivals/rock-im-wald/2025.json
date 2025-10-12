@@ -1,0 +1,31 @@
+{
+  "name": "Rock im Wald",
+  "slug": "rock-im-wald",
+  "img": "./rock-im-wald.webp",
+  "website": "https://rockimwald.de/",
+  "country": "Germany",
+  "city": "Neuensee",
+  "lat": 50.18117490532942,
+  "lng": 11.1174404019055,
+  "indoor": true,
+  "startDate": "2025-07-24",
+  "endDate": "2025-07-26",
+  "lineup": [
+    "deathchant",
+    "desert-sun",
+    "dirty-sound-magnet",
+    "gnome",
+    "greenleaf",
+    "kant",
+    "melvins",
+    "mothers-cake",
+    "nightstalker",
+    "ol",
+    "slomosa",
+    "spirit-mother",
+    "the-atomic-bitchwax",
+    "velvet-two-stripes",
+    "wine-lips",
+    "zeal-and-ardor"
+  ]
+}

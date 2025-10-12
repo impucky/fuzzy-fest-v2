@@ -1,0 +1,29 @@
+{
+  "name": "Stoned from the Underground",
+  "slug": "stoned-from-the-underground",
+  "img": "./stoned-from-the-underground.webp",
+  "website": "https://www.sftu.de/",
+  "country": "Germany",
+  "city": "Erfurt",
+  "lat": 51.06952796976761,
+  "lng": 11.037207334071617,
+  "indoor": false,
+  "startDate": "2025-07-10",
+  "endDate": "2025-07-12",
+  "lineup": [
+    "monolord",
+    "slift",
+    "king-buffalo",
+    "brant-bjork-trio",
+    "elephant-tree",
+    "el-perro",
+    "sacri-monti",
+    "coogans-bluff",
+    "ahab",
+    "skyjoggers",
+    "splinter",
+    "stonerhead",
+    "kant",
+    "convoy"
+  ]
+}

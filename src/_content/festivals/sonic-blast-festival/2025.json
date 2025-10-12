@@ -1,0 +1,29 @@
+{
+  "name": "SonicBlast Festival",
+  "slug": "sonic-blast-festival",
+  "img": "./sonic-blast-festival.webp",
+  "website": "https://sonicblastfestival.com/",
+  "country": "Portugal",
+  "city": "Âncora",
+  "lat": 41.807307302798684,
+  "lng": -8.861946138134142,
+  "indoor": false,
+  "startDate": "2025-08-07",
+  "endDate": "2025-08-09",
+  "lineup": [
+    "circle-jerks",
+    "fu-manchu",
+    "amenra",
+    "my-sleeping-karma",
+    "earthless",
+    "emma-ruth-rundle",
+    "patriarchy",
+    "dopethrone",
+    "slomosa",
+    "jjuujjuu",
+    "gnome",
+    "dame-area",
+    "daevar",
+    "spoon-benders"
+  ]
+}

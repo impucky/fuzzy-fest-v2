@@ -1,0 +1,25 @@
+{
+  "name": "Grand Paris Sludge",
+  "slug": "grand-paris-sludge",
+  "img": "./grand-paris-sludge.webp",
+  "website": "https://www.instagram.com/grandparissludge/",
+  "country": "France",
+  "city": "Savigny-le-Temple",
+  "lat": 48.59530463520367,
+  "lng": 2.5848737423180768,
+  "indoor": true,
+  "startDate": "2025-05-17",
+  "endDate": "2025-05-18",
+  "lineup": [
+    "elder",
+    "whores",
+    "godsleep",
+    "help",
+    "cerbere",
+    "dirty-sound-magnet",
+    "daily-thompson",
+    "subterraen",
+    "nvage",
+    "the-crazy-world-of-arthur-brown"
+  ]
+}

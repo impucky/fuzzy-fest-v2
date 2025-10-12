@@ -1,0 +1,26 @@
+{
+  "name": "Keep It Low Festival",
+  "slug": "keep-it-low-festival",
+  "img": "./keep-it-low-festival.webp",
+  "website": "https://www.keepitlow.de/",
+  "country": "Germany",
+  "city": "Munich",
+  "lat": 48.14516298288267,
+  "lng": 11.521611734201125,
+  "indoor": true,
+  "startDate": "2025-10-10",
+  "endDate": "2025-10-11",
+  "lineup": [
+    "graveyard",
+    "masters-of-reality",
+    "colour-haze",
+    "the-obsessed",
+    "bongzilla",
+    "conan",
+    "sienna-root",
+    "the-vintage-caravan",
+    "the-great-machine",
+    "luna-sol",
+    "hidas"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Up in Smoke Festival",
+  "slug": "up-in-smoke-festival",
+  "img": "./up-in-smoke-festival.webp",
+  "website": "https://www.upinsmoke.de/",
+  "country": "Switzerland",
+  "city": "Pratteln",
+  "lat": 47.52739764563815,
+  "lng": 7.694003097998303,
+  "indoor": true,
+  "startDate": "2025-10-03",
+  "endDate": "2025-10-05",
+  "lineup": [
+    "orange-goblin",
+    "masters-of-reality",
+    "the-obsessed",
+    "conan",
+    "the-vintage-caravan",
+    "bongzilla",
+    "sienna-root",
+    "heckspoiler",
+    "zerre",
+    "lurch"
+  ]
+}

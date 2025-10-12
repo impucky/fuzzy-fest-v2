@@ -1,0 +1,27 @@
+{
+  "name": "Saalepartie",
+  "slug": "saalepartie",
+  "img": "./saalepartie.webp",
+  "website": "https://www.saalepartie.de/",
+  "country": "Germany",
+  "city": "Auerstedt",
+  "lat": 51.100098469627575,
+  "lng": 11.58288871161322,
+  "indoor": true,
+  "startDate": "2025-09-05",
+  "endDate": "2025-09-07",
+  "lineup": [
+    "long-distance-calling",
+    "ufomammut",
+    "dyse",
+    "new-candys",
+    "mad-foxes",
+    "glasgow-coma-scale",
+    "kaskadeur",
+    "methadone-skies",
+    "motorowl",
+    "zolle",
+    "dead-myrick",
+    "lazar"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Heavy Psych Sounds Fest Athens",
+  "slug": "heavy-psych-sounds-fest-athens",
+  "img": "./heavy-psych-sounds.webp",
+  "website": "https://www.heavypsychsounds.com/fests.htm",
+  "country": "Greece",
+  "city": "Athens",
+  "lat": 37.98210776503,
+  "lng": 23.711932194015564,
+  "indoor": true,
+  "startDate": "2025-03-07",
+  "endDate": "2025-03-08",
+  "lineup": [
+    "orange-goblin",
+    "nightstalker",
+    "belzebong",
+    "black-rainbows",
+    "margarita-witch-cult",
+    "acid-mammoth",
+    "tuber",
+    "mr-bison",
+    "puta-volcano",
+    "fvzz-popvli",
+    "birds-of-vale",
+    "truckfighters",
+    "alunah",
+    "wyatt-e",
+    "warlung",
+    "sadhus",
+    "congulus"
+  ]
+}

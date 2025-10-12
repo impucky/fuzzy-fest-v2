@@ -1,0 +1,14 @@
+{
+  "name": "PsyKA Festival",
+  "slug": "psyka-festival",
+  "img": "./psyka-festival.webp",
+  "website": "https://psyka.org/",
+  "country": "Germany",
+  "city": "Karlsruhe",
+  "lat": 49.00490962905796,
+  "lng": 8.431626590579864,
+  "indoor": true,
+  "startDate": "2025-11-01",
+  "endDate": "2025-11-02",
+  "provisionalDate": false
+}
