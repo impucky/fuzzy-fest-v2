@@ -9,7 +9,7 @@ const nextYear = uniqueYears.find((y) => y > year);
 const prevYear = [...uniqueYears].reverse().find((y) => y < year);
 ---
 
-<div class="flex justify-center gap-4 p-2 text-center text-3xl font-black">
+<div class="flex justify-center gap-4 p-2 text-center text-4xl font-black">
   <div class="w-[4ch]">
     {
       prevYear && (
@@ -20,7 +20,7 @@ const prevYear = [...uniqueYears].reverse().find((y) => y < year);
     }
   </div>
   <div class="w-[4ch]">
-    <h2 class="text-white">{year}</h2>
+    <h2 class="text-[salmon]">{year}</h2>
   </div>
   <div class="w-[4ch]">
     {

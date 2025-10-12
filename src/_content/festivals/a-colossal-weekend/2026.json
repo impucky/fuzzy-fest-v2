@@ -1,0 +1,14 @@
+{
+  "name": "A Colossal Weekend",
+  "slug": "a-colossal-weekend",
+  "img": "./a-colossal-weekend-2.webp",
+  "website": "https://www.acolossalweekend.dk/",
+  "country": "Denmark",
+  "city": "Copenhagen",
+  "lat": 55.66813197817983,
+  "lng": 12.543795053372234,
+  "indoor": true,
+  "startDate": "2026-05-07",
+  "endDate": "2026-05-09",
+  "lineup": ["russian-circles", "pelican"]
+}

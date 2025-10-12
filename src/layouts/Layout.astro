@@ -7,6 +7,7 @@ import { getFestivalsByYear } from "../utils/content.js";
 
 const path = Astro.url.pathname;
 const { year } = Astro.params;
+const { title } = Astro.props;
 const currentYear = year ? +year : new Date().getFullYear();
 const festivals = await getFestivalsByYear(currentYear);
 ---
@@ -24,7 +25,7 @@ const festivals = await getFestivalsByYear(currentYear);
     <meta name="description" content="Heavy music festivals in Europe" />
     <meta name="keywords" content="music, festival, heavy, stoner, doom, psychedelic" />
     <ClientRouter />
-    <title>Fuzzy Fest {year}</title>
+    <title>{title}</title>
   </head>
   <body>
     <main class="flex h-dvh w-full flex-col bg-gradient-to-t from-neutral-950 to-neutral-800 lg:flex-row">

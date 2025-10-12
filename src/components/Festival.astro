@@ -1,5 +1,6 @@
 ---
 import { Image } from "astro:assets";
+import { Icon } from "astro-icon/components";
 
 import { getBandNamesFromSlugs } from "../utils/content";
 import { formatFestivalDates } from "../utils/dates";
@@ -14,31 +15,58 @@ const year = new Date(startDate).getFullYear();
 ---
 
 <section class="flex flex-col items-center text-center text-white">
-  <div class="flex justify-center gap-4 p-2 text-center text-3xl font-black">
-    <a class="text-white" href={`/${year}`}>X</a>
+  <div class="absolute top-0 right-0 z-[1] p-2 pr-3 lg:p-4 lg:pr-5">
+    <a href={`/${year}`}
+      ><Icon name="close" class="text-3xl text-neutral-400 transition hover:text-white" /></a
+    >
   </div>
   {
     img && (
       <Image
         src={img}
         alt={name + " logo"}
-        class="mt-2 h-auto max-h-20 w-auto max-w-64 md:max-h-32 lg:max-w-80 xl:max-w-full"
+        class="mt-8 h-auto max-h-20 w-auto max-w-64 md:max-h-32 lg:max-w-80 xl:max-w-full"
       />
     )
   }
-  <h2 class="text-xl font-bold sm:text-2xl">{name}</h2>
-  <p class="text-lg sm:text-xl">{city}, {country}</p>
-  <p>{indoor ? "Indoor" : "Open-air"}</p>
-  <p>{formatFestivalDates(startDate, endDate)}</p>
-  <a
-    href={website}
-    target="_blank"
-    class="cursor-pointer text-[salmon] underline transition hover:text-white"
-  >
-    Homepage
-  </a>
-  <h3>Lineup</h3>
-  <ul>
-    {bands ? bands.map((band) => <li class="font-black">{band.toUpperCase()}</li>) : "To be announced"}
+  <h2 class="mt-3 text-xl sm:text-2xl">{name}</h2>
+
+  <div class="mt-4 flex items-center gap-1 text-center">
+    <Icon name="pin" class="text-xl" />
+    <h3 class="text-lg">{city}, {country}</h3>
+  </div>
+
+  <div class="flex items-center gap-1 text-center">
+    <Icon name="calendar" class="text-xl" />
+    <p>{formatFestivalDates(startDate, endDate)}</p>
+  </div>
+
+  <div class="flex items-center gap-1 text-center">
+    <Icon name={indoor ? "building" : "tent"} class="text-xl" />
+    <p>{indoor ? "Indoor" : "Open-air"}</p>
+  </div>
+
+  <div class="mt-3 flex items-center gap-1 text-center">
+    <Icon name="link" class="text-xl" />
+    <a
+      href={website}
+      target="_blank"
+      class="cursor-pointer text-xl text-[salmon] underline transition hover:text-white"
+    >
+      homepage
+    </a>
+  </div>
+
+  <h3 class="mt-4 text-xl font-bold text-neutral-300">- Lineup -</h3>
+  <ul class="flex w-full flex-col flex-wrap">
+    {
+      bands
+        ? bands.map((band) => {
+            return (
+              <li class="text-md leading-snug font-black sm:text-xl md:text-2xl">{band.toUpperCase()}</li>
+            );
+          })
+        : "To be announced"
+    }
   </ul>
 </section>

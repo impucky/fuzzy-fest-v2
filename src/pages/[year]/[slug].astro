@@ -17,6 +17,6 @@ const { slug, year } = Astro.params;
 const festival = (await getEntry("festivals", slug))!.data;
 ---
 
-<Layout year={year}>
+<Layout year={year} title={`Fuzzy Fest - ${festival.name}`}>
   <Festival festival={festival} />
 </Layout>
