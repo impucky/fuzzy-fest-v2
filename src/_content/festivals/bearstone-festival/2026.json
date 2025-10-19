@@ -1,0 +1,30 @@
+{
+  "name": "Bearstone Festival",
+  "key": "bearstone-festival",
+  "img": "./bearstone-festival.webp",
+  "website": "https://bearstonefestival.com/",
+  "country": "Croatia",
+  "city": "Donje Primišlje",
+  "lat": 45.192907799026486,
+  "lng": 15.435350718188525,
+  "indoor": false,
+  "startDate": "2026-07-02",
+  "endDate": "2026-07-05",
+  "lineup": [
+    "uncle-acid-and-the-deadbeats",
+    "elder",
+    "my-sleeping-karma",
+    "planet-of-zeus",
+    "travo",
+    "wyatt-e",
+    "ungraven",
+    "saint-karloff",
+    "zen",
+    "otrovna-kristina",
+    "drone-hunter",
+    "godzilla-was-too-drunk-to-destroy-tokyo",
+    "hrmulja",
+    "suntan-club",
+    "linija-109"
+  ]
+}

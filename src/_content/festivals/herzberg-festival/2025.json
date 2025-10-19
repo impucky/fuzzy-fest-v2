@@ -1,6 +1,6 @@
 {
   "name": "Herzberg Festival",
-  "slug": "herzberg-festival",
+  "key": "herzberg-festival",
   "img": "./herzberg-festival.webp",
   "website": "https://herzberg-festival.com/",
   "country": "Germany",

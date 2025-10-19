@@ -1,6 +1,6 @@
 {
   "name": "Desertfest Oslo",
-  "slug": "desertfest-oslo",
+  "key": "desertfest-oslo",
   "img": "./desertfest.webp",
   "website": "https://www.desertfest.no/",
   "country": "Norway",

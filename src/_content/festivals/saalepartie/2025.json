@@ -1,6 +1,6 @@
 {
   "name": "Saalepartie",
-  "slug": "saalepartie",
+  "key": "saalepartie",
   "img": "./saalepartie.webp",
   "website": "https://www.saalepartie.de/",
   "country": "Germany",

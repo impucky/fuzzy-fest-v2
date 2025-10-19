@@ -1,0 +1,28 @@
+{
+  "name": "Desertfest Berlin",
+  "key": "desertfest-berlin",
+  "img": "./desertfest.webp",
+  "website": "https://www.desertfest.de/",
+  "country": "Germany",
+  "city": "Berlin",
+  "lat": 52.484589854749174,
+  "lng": 13.39243011744567,
+  "indoor": true,
+  "startDate": "2026-05-14",
+  "endDate": "2026-05-16",
+  "lineup": [
+    "russian-circles",
+    "hermano",
+    "the-sword",
+    "acid-king",
+    "king-buffalo",
+    "truckfighters",
+    "earthless",
+    "crippled-black-phoenix",
+    "pelican",
+    "mothers-cake",
+    "high-desert-queen",
+    "zerre",
+    "dope-purple"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "name": "Doom By The Sea",
-  "slug": "doom-by-the-sea",
+  "key": "doom-by-the-sea",
   "img": "./doom-by-the-sea.webp",
   "website": "https://www.daltonsbrighton.com/event-details/doom-by-the-sea-vol-4",
   "country": "United Kingdom",
@@ -11,13 +11,14 @@
   "startDate": "2025-11-01",
   "endDate": "2025-11-01",
   "lineup": [
-    "sea-bastard",
-    "acid-throne",
-    "outback",
-    "black-groove",
-    "borehead",
-    "crowgod",
-    "kush-thulhu",
-    "droop"
+    "witchthroat-serpent",
+    "froglord",
+    "sugar-horse",
+    "gevaudan",
+    "high",
+    "caravan-of-whores",
+    "falling-boy",
+    "haeze",
+    "wrench"
   ]
 }

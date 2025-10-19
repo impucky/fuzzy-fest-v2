@@ -1,6 +1,6 @@
 {
   "name": "Tombstoned Fest",
-  "slug": "tombstoned-fest",
+  "key": "tombstoned-fest",
   "website": "https://www.facebook.com/events/bochumer-eventcenter/tombstoned-fest-bochumer-event-center/1364358744697604/",
   "country": "Germany",
   "city": "Bochum",
@@ -9,5 +9,5 @@
   "indoor": true,
   "startDate": "2025-11-08",
   "endDate": "2025-11-08",
-  "lineup": ["mantar", "brant-bjork-trio", "stoned-jesus", "ad-infinitum", "seven-spires", "phantom-elite"]
+  "lineup": ["mantar", "brant-bjork-trio", "stoned-jesus", "ad-infinitum", "seven-spires", "tulip"]
 }

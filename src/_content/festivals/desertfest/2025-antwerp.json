@@ -1,6 +1,6 @@
 {
   "name": "Desertfest Antwerp",
-  "slug": "desertfest-antwerp",
+  "key": "desertfest-antwerp",
   "img": "./desertfest.webp",
   "website": "https://www.desertfest.be/antwerp/",
   "country": "Belgium",

@@ -15,7 +15,7 @@ const festivals = defineCollection({
   schema: ({ image }) =>
     z.object({
       name: z.string(),
-      slug: z.string(),
+      key: z.string(),
       img: image().optional(),
       website: z.string(),
       country: z.string(),

@@ -1,6 +1,6 @@
 {
   "name": "Crabcore Fest",
-  "slug": "crabcore-fest",
+  "key": "crabcore-fest",
   "img": "./crabcore-fest.webp",
   "website": "https://crabcore.ch/",
   "country": "Switzerland",

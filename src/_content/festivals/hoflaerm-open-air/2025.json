@@ -1,6 +1,6 @@
 {
   "name": "Hoflärm Open Air",
-  "slug": "hoflaerm-open-air",
+  "key": "hoflaerm-open-air",
   "img": "./hoflaerm-open-air.webp",
   "website": "https://www.hoflaerm.de/",
   "country": "Germany",

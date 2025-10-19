@@ -1,6 +1,6 @@
 {
   "name": "PsyKA Festival",
-  "slug": "psyka-festival",
+  "key": "psyka-festival",
   "img": "./psyka-festival.webp",
   "website": "https://psyka.org/",
   "country": "Germany",
@@ -10,5 +10,5 @@
   "indoor": true,
   "startDate": "2025-11-01",
   "endDate": "2025-11-02",
-  "provisionalDate": false
+  "provisionalDate": true
 }

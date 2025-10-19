@@ -2,19 +2,20 @@
 import { getCollection, getEntry } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
 import Festival from "../../components/Festival.astro";
+import { getFestivalByYearAndKey } from "../../utils/content";
 
 export async function getStaticPaths() {
   const festivals = await getCollection("festivals");
   return festivals.map(({ data }) => ({
     params: {
       year: new Date(data.startDate).getFullYear(),
-      slug: data.slug,
+      key: data.key,
     },
   }));
 }
 
-const { slug, year } = Astro.params;
-const festival = (await getEntry("festivals", slug))!.data;
+const { key, year } = Astro.params;
+const festival = await getFestivalByYearAndKey(+year, key);
 ---
 
 <Layout year={year} title={`Fuzzy Fest - ${festival.name}`}>

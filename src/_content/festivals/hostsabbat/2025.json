@@ -1,6 +1,6 @@
 {
   "name": "Høstsabbat",
-  "slug": "hostsabbat",
+  "key": "hostsabbat",
   "img": "./hostsabbat.webp",
   "website": "https://www.hostsabbat.no/",
   "country": "Norway",

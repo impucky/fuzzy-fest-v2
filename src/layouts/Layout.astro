@@ -29,7 +29,9 @@ const festivals = await getFestivalsByYear(currentYear);
   </head>
   <body>
     <main class="flex h-dvh w-full flex-col bg-gradient-to-t from-neutral-950 to-neutral-800 lg:flex-row">
-      <Map festivals={festivals} path={path} client:only transition:persist />
+      <div class="relative h-3/5 w-full flex-grow lg:h-full lg:w-4/6">
+        <Map festivals={festivals} path={path} client:only transition:persist />
+      </div>
       <Sidebar>
         <slot />
       </Sidebar>

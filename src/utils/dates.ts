@@ -18,3 +18,9 @@ export function formatFestivalDates(start: string, end: string) {
   // Different month: July 30 - August 1
   return `${startStr} - ${endStr}, ${year}`;
 }
+
+export function formatProvisionalDate(date: string) {
+  return `~ ${new Date(date).toLocaleDateString("en-US", {
+    month: "long",
+  })} (TBA)`;
+}

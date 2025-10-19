@@ -1,6 +1,6 @@
 {
   "name": "Esbjerg Fuzztival",
-  "slug": "esbjerg-fuzztival",
+  "key": "esbjerg-fuzztival",
   "img": "./esbjerg-fuzztival.webp",
   "website": "https://www.fuzztival.com/",
   "country": "Denmark",

@@ -9,12 +9,13 @@ export default function FestivalsList({ festivals, year }: { festivals: Festival
   return (
     <ul>
       {festivals.map((f) => {
+        const pastFestival = new Date(f.startDate) < new Date();
         return (
-          <li className="text-center text-white" key={f.slug}>
+          <li className="text-center" key={f.key}>
             <a
-              className="text-md leading-snug font-black transition hover:text-[salmon] sm:text-xl md:text-2xl"
-              href={`/${year}/${f.slug}`}
-              onMouseEnter={() => highlightAtom.set(f.slug)}
+              className={`text-lg leading-snug font-black transition hover:text-[salmon] md:text-xl ${pastFestival ? "text-neutral-400 line-through" : "text-white"}`}
+              href={`/${year}/${f.key}`}
+              onMouseEnter={() => highlightAtom.set(f.key)}
               onMouseLeave={() => highlightAtom.set(null)}
             >
               {f.name.toUpperCase()}

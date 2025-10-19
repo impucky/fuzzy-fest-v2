@@ -1,6 +1,6 @@
 {
   "name": "Lazy Bones Festival",
-  "slug": "lazy-bones-festival",
+  "key": "lazy-bones-festival",
   "img": "./lazy-bones-festival.webp",
   "website": "https://www.soundofliberation.com/festivals/lazy-bones-festival",
   "country": "Germany",
@@ -11,12 +11,11 @@
   "startDate": "2025-10-25",
   "endDate": "2025-10-25",
   "lineup": [
-    "elder",
-    "king-buffalo",
-    "greenleaf",
-    "the-atomic-bitchwax",
-    "slomosa",
-    "daily-thompson",
-    "gnome"
+    "graveyard",
+    "brant-bjork-trio",
+    "the-obsessed",
+    "my-sleeping-karma",
+    "dirty-sound-magnet",
+    "kant"
   ]
 }

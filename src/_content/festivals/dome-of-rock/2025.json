@@ -1,6 +1,6 @@
 {
   "name": "Dome of Rock",
-  "slug": "dome-of-rock",
+  "key": "dome-of-rock",
   "img": "./dome-of-rock.webp",
   "website": "https://www.facebook.com/domeofrockfestival/",
   "country": "Austria",
@@ -10,5 +10,18 @@
   "indoor": true,
   "startDate": "2025-11-27",
   "endDate": "2025-11-29",
-  "lineup": ["ellende", "belzebong", "coltaine"]
+  "lineup": [
+    "ellende",
+    "belzebong",
+    "coltaine",
+    "orange-goblin",
+    "karg",
+    "throne",
+    "ultima-radio",
+    "harrowist",
+    "gyfth",
+    "grey-czar",
+    "auszaat",
+    "lara"
+  ]
 }

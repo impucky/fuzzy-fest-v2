@@ -1,6 +1,6 @@
 {
   "name": "Ripplefest Cologne",
-  "slug": "ripplefest-cologne",
+  "key": "ripplefest-cologne",
   "img": "./ripplefest.webp",
   "website": "https://ripplefest.de/cologne.html",
   "country": "Germany",
@@ -10,5 +10,5 @@
   "indoor": true,
   "startDate": "2025-11-30",
   "endDate": "2025-11-30",
-  "provisionalDate": false
+  "provisionalDate": true
 }

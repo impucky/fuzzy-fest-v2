@@ -1,6 +1,6 @@
 {
   "name": "Krökbacken Festival",
-  "slug": "krokbacken-festival",
+  "key": "krokbacken-festival",
   "img": "./krokbacken-festival.webp",
   "website": "https://kroekbacken.com/",
   "country": "Sweden",

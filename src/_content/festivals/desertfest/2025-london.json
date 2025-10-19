@@ -1,6 +1,6 @@
 {
   "name": "Desertfest London",
-  "slug": "desertfest-london",
+  "key": "desertfest-london",
   "img": "./desertfest.webp",
   "website": "https://www.desertfest.co.uk/",
   "country": "United Kingdom",
