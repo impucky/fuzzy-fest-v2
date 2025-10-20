@@ -35,13 +35,13 @@ export default function Map({ festivals, path }: { festivals: Festival[]; path: 
   });
 
   const firstLoadRef = useRef(true);
-  const yearCenter = findCoordsCenter(festivals.map((f) => [f.lng, f.lat]));
+  const centerForCurrentYear = findCoordsCenter(festivals.map((f) => [f.lng, f.lat]));
   const currentFestival: Festival | undefined = festivals.find((f) => path.includes(f.key));
   const $highlight = useStore(highlightAtom);
 
   const initialViewState: Partial<ViewState> = currentFestival
     ? { longitude: currentFestival.lng, latitude: currentFestival.lat, zoom: 5 }
-    : { longitude: yearCenter[0], latitude: yearCenter[1], zoom: 4 };
+    : { longitude: centerForCurrentYear[0], latitude: centerForCurrentYear[1], zoom: 3 };
 
   const mapRef = useRef<MapRef>(null);
 
@@ -66,7 +66,8 @@ export default function Map({ festivals, path }: { festivals: Festival[]; path: 
       setActiveFestival(currentFestival.key);
     } else {
       const [lng, lat] = findCoordsCenter(festivals.map((f) => [f.lng, f.lat]));
-      setFlyTarget({ lng, lat, zoom: 4 });
+      setFlyTarget({ lng, lat, zoom: 3 });
+      highlightAtom.set(null);
       setActiveFestival(null);
     }
   }, [festivals]);
