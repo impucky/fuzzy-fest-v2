@@ -3,14 +3,25 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Fuzzy Fest">
-  <h1 class="m-2 text-5xl font-black text-[salmon] italic">FUZZY FEST</h1>
-  <p>Hello from the index page</p>
+  <section class="flex w-full flex-col items-center text-center text-white">
+    <h1 class="font-blt mt-4 text-4xl font-black text-[salmon] drop-shadow-[0px_5px_0_#724641] lg:text-5xl">
+      FUZZY FEST
+    </h1>
+    <p class="mt-2 text-xl">
+      Undergoing a major update...<br /> The map filters and more festivals for 2026 are coming soon.
+    </p>
+    <a
+      class="text-xl text-[salmon] underline transition hover:text-white"
+      href={`/${new Date().getFullYear()}`}>Go to the festival list</a
+    >
+  </section>
 </Layout>
 
 <script>
-  if (localStorage.getItem("visited") && window.location.pathname === "/") {
+  if (localStorage.getItem("visited")) {
     window.location.href = `/${new Date().getFullYear()}`;
   } else {
     localStorage.setItem("visited", "true");
+    document.querySelector("section")!.style.display = "flex";
   }
 </script>

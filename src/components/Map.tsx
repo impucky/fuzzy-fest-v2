@@ -1,6 +1,7 @@
 import { Map as MapPane, Marker, Popup, useMap } from "@vis.gl/react-maplibre";
-import { useState, useEffect, useRef, useMemo, useCallback, memo } from "react";
+import Pin from "../icons/pin-fill.svg?react";
 
+import { useState, useEffect, useRef, useMemo, memo } from "react";
 import { findCoordsCenter } from "../utils/map";
 import { formatFestivalDates, formatProvisionalDate } from "../utils/dates";
 import { useStore } from "@nanostores/react";
@@ -9,7 +10,6 @@ import { highlightAtom } from "../stores/highlightAtom";
 import type { Festival } from "../content.config";
 import type { StyleSpecification } from "maplibre-gl";
 import type { ViewState, MapRef } from "@vis.gl/react-maplibre";
-import Pin from "../icons/pin-fill.svg?react";
 
 import darkmatter from "../darkmatter.json";
 import "maplibre-gl/dist/maplibre-gl.css";
@@ -43,7 +43,7 @@ export default function Map({ festivals, path }: { festivals: Festival[]; path: 
     ? { longitude: currentFestival.lng, latitude: currentFestival.lat, zoom: 5 }
     : { longitude: yearCenter[0], latitude: yearCenter[1], zoom: 4 };
 
-  const mapRef = useRef<MapRef>();
+  const mapRef = useRef<MapRef>(null);
 
   // Initial centering
   useEffect(() => {
@@ -88,9 +88,10 @@ export default function Map({ festivals, path }: { festivals: Festival[]; path: 
           href={`/${new Date(festival.startDate).getFullYear()}/${festival.key}`}
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
+          onClick={() => highlightAtom.set(festival.key)}
         >
           <Pin
-            className={`relative size-8 cursor-pointer text-[salmon] transition hover:brightness-200 ${pastFestival ? "text-neutral-500 opacity-60" : ""}`}
+            className={`relative size-8 cursor-pointer text-[salmon] transition hover:opacity-100! hover:brightness-200 ${pastFestival ? "text-neutral-500 opacity-60" : ""}`}
           />
         </a>
         {showPopup && <FestivalTooltip festival={festival} />}
@@ -110,12 +111,7 @@ export default function Map({ festivals, path }: { festivals: Festival[]; path: 
     <>
       <div className="pointer-events-none absolute z-[450] h-full w-full shadow-[inset_0_0_64px_rgba(0,0,0,0.9)]"></div>
       {festivals && (
-        <MapPane
-          initialViewState={initialViewState}
-          mapStyle={darkmatter as StyleSpecification}
-          attributionControl={false}
-          ref={mapRef}
-        >
+        <MapPane initialViewState={initialViewState} mapStyle={darkmatter as StyleSpecification} ref={mapRef}>
           <MapNavigation target={flyTarget} />
           {markers}
         </MapPane>
@@ -133,7 +129,7 @@ function FestivalTooltip({ festival }: { festival: Festival }) {
       closeButton={false}
       closeOnClick={false}
       anchor="bottom"
-      className="pointer-events-none text-center text-white"
+      className="pointer-events-none text-center text-white text-shadow-lg"
     >
       <span className="text-[1rem] font-black">{festival.name.toUpperCase()}</span>
       <br />

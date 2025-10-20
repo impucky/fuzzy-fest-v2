@@ -1,19 +1,29 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Bolota';
+  src: url('/fonts/bolota-bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   margin: 0;
   display: flex;
   min-height: 100dvh;
-  font-family: system-ui, sans-serif;
+  font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
   background: #333;
   scrollbar-gutter: auto;
   scrollbar-width: thin;
   scrollbar-color: #555 transparent;
+  -webkit-font-smoothing: antialiased;
 }
 
 .maplibregl-popup {
   max-width: none !important;
   opacity: 0.9;
+  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.6));
 }
 
 .maplibregl-popup-content {
@@ -21,8 +31,21 @@ body {
   border-radius: 0.5rem !important;
   border: none !important;
   box-shadow: none !important;
+  background-image: url('/bgnoise.svg') !important;
 }
 
 .maplibregl-popup-tip {
   border-top-color: #262626 !important;
+}
+
+.maplibregl-ctrl-attrib {
+  background: #aaa !important;
+}
+
+.font-blt {
+  font-family: 'Bolota', sans-serif;
+}
+
+.bgnoise {
+  background-image: url('/bgnoise.svg');
 }

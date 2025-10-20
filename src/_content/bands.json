@@ -116,6 +116,10 @@
     "name": "Årabrot"
   },
   {
+    "slug": "arv",
+    "name": "ARV"
+  },
+  {
     "slug": "ashbury-heights",
     "name": "Ashbury Heights"
   },
@@ -234,6 +238,10 @@
   {
     "slug": "black-willows",
     "name": "Black Willows"
+  },
+  {
+    "slug": "blodkvalt",
+    "name": "Blodkvalt"
   },
   {
     "slug": "blue-heron",
@@ -378,6 +386,10 @@
   {
     "slug": "crippled-black-phoenix",
     "name": "Crippled Black Phoenix"
+  },
+  {
+    "slug": "crouch",
+    "name": "Crouch"
   },
   {
     "slug": "crowgod",
@@ -658,6 +670,10 @@
   {
     "slug": "feral-nature",
     "name": "Feral Nature"
+  },
+  {
+    "slug": "fights",
+    "name": "Fights"
   },
   {
     "slug": "fincher",
@@ -1000,6 +1016,10 @@
     "name": "Joe La Truite"
   },
   {
+    "slug": "john-cxnnor-x-witch-club-satan",
+    "name": "John Cxnnor x Witch Club Satan"
+  },
+  {
     "slug": "josiah",
     "name": "Josiah"
   },
@@ -1028,6 +1048,14 @@
     "name": "Kalvaire"
   },
   {
+    "slug": "kambodsja",
+    "name": "Kambodsja"
+  },
+  {
+    "slug": "kanaan-and-aevestaden",
+    "name": "Kanaan And Ævestaden"
+  },
+  {
     "slug": "kannabinoid",
     "name": "Kannabinõid"
   },
@@ -1046,6 +1074,10 @@
   {
     "slug": "kaskadeur",
     "name": "Kaskadeur"
+  },
+  {
+    "slug": "katla",
+    "name": "Katla"
   },
   {
     "slug": "kellermensch",
@@ -1074,6 +1106,10 @@
   {
     "slug": "king-coyote",
     "name": "King Coyote"
+  },
+  {
+    "slug": "kloster",
+    "name": "Kløster"
   },
   {
     "slug": "komatsu",
@@ -1146,6 +1182,10 @@
   {
     "slug": "liturgy",
     "name": "Liturgy"
+  },
+  {
+    "slug": "living-gate",
+    "name": "Living Gate"
   },
   {
     "slug": "llnn",
@@ -1360,6 +1400,14 @@
     "name": "My Sleeping Karma"
   },
   {
+    "slug": "nadir",
+    "name": "Nadir"
+  },
+  {
+    "slug": "nagircalmmiid",
+    "name": "Nagircalmmiid"
+  },
+  {
     "slug": "nalar",
     "name": "Nalar"
   },
@@ -1378,6 +1426,10 @@
   {
     "slug": "new-candys",
     "name": "New Candys"
+  },
+  {
+    "slug": "new-money",
+    "name": "New Money"
   },
   {
     "slug": "nightstalker",
@@ -1548,6 +1600,10 @@
     "name": "Redstone"
   },
   {
+    "slug": "redwood-temple",
+    "name": "Redwood Temple"
+  },
+  {
     "slug": "rezn",
     "name": "REZN"
   },
@@ -1582,6 +1638,14 @@
   {
     "slug": "russian-circles",
     "name": "Russian Circles"
+  },
+  {
+    "slug": "ruun",
+    "name": "RUUN"
+  },
+  {
+    "slug": "s-t-erik",
+    "name": "S:T Erik"
   },
   {
     "slug": "sacri-monti",
@@ -2218,6 +2282,10 @@
   {
     "slug": "yurodivy",
     "name": "Yurodivy"
+  },
+  {
+    "slug": "yvris",
+    "name": "Yvris"
   },
   {
     "slug": "zeal-and-ardor",
