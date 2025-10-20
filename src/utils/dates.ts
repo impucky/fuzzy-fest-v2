@@ -22,5 +22,6 @@ export function formatFestivalDates(start: string, end: string) {
 export function formatProvisionalDate(date: string) {
   return `~ ${new Date(date).toLocaleDateString("en-US", {
     month: "long",
+    year: "numeric",
   })} (TBA)`;
 }

@@ -29,6 +29,7 @@ body {
 .maplibregl-popup-content {
   background: #262626 !important;
   border-radius: 0.5rem !important;
+  padding: 8px !important;
   border: none !important;
   box-shadow: none !important;
   background-image: url('/bgnoise.svg') !important;

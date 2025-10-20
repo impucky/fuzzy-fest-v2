@@ -41,7 +41,7 @@ export default function Map({ festivals, path }: { festivals: Festival[]; path: 
 
   const initialViewState: Partial<ViewState> = currentFestival
     ? { longitude: currentFestival.lng, latitude: currentFestival.lat, zoom: 5 }
-    : { longitude: centerForCurrentYear[0], latitude: centerForCurrentYear[1], zoom: 3 };
+    : { longitude: centerForCurrentYear[0], latitude: centerForCurrentYear[1], zoom: 3.5 };
 
   const mapRef = useRef<MapRef>(null);
 
@@ -66,7 +66,7 @@ export default function Map({ festivals, path }: { festivals: Festival[]; path: 
       setActiveFestival(currentFestival.key);
     } else {
       const [lng, lat] = findCoordsCenter(festivals.map((f) => [f.lng, f.lat]));
-      setFlyTarget({ lng, lat, zoom: 3 });
+      setFlyTarget({ lng, lat, zoom: 3.5 });
       highlightAtom.set(null);
       setActiveFestival(null);
     }
