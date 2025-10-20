@@ -35,7 +35,7 @@ const festivals = await getFestivalsByYear(currentYear);
       <div class="relative h-3/5 w-full flex-grow lg:h-full lg:w-4/6">
         <Map festivals={festivals} path={path} client:only transition:persist />
       </div>
-      <Sidebar transition:animate={fade({ duration: "0.6s" })}>
+      <Sidebar transition:animate={fade({ duration: "0.6s" })} client:always>
         <slot />
       </Sidebar>
     </main>
