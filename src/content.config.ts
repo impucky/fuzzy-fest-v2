@@ -1,14 +1,6 @@
 import { defineCollection, z } from "astro:content";
 import type { InferEntrySchema } from "astro:content";
-import { glob, file } from "astro/loaders";
-
-const bands = defineCollection({
-  loader: file("src/_content/bands.json"),
-  schema: z.object({
-    slug: z.string(),
-    name: z.string(),
-  }),
-});
+import { glob } from "astro/loaders";
 
 const festivals = defineCollection({
   loader: glob({ pattern: "src/_content/festivals/*/*.json" }),
@@ -32,6 +24,6 @@ const festivals = defineCollection({
     }),
 });
 
-export const collections = { bands, festivals };
+export const collections = { festivals };
 
 export type Festival = InferEntrySchema<"festivals">;
