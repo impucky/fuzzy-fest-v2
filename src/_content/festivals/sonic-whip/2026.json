@@ -1,0 +1,14 @@
+{
+  "name": "Sonic Whip",
+  "key": "sonic-whip",
+  "img": "./sonic-whip.webp",
+  "website": "https://www.doornroosje.nl/festival/sonic-whip/",
+  "country": "Netherlands",
+  "city": "Nijmegen",
+  "lat": 51.84432425462978,
+  "lng": 5.854116671106721,
+  "indoor": true,
+  "startDate": "2026-05-15",
+  "endDate": "2026-05-16",
+  "lineup": ["russian-circles", "king-buffalo", "the-sword", "pelican", "dope-purple", "smote", "ronker"]
+}

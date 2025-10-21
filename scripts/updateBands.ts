@@ -2,44 +2,50 @@ import fs from "fs";
 import path from "path";
 
 const festivalsDir = path.resolve("src/_content/festivals");
-const bandsFile = path.resolve("src/_content/bands.json");
+const bandsPath = path.resolve("src/_content/bands.json");
 
-const bandsData: { slug: string; name: string }[] = JSON.parse(fs.readFileSync(bandsFile, "utf-8"));
-const existingSlugs = new Set(bandsData.map((b) => b.slug));
+const bands: Record<string, string> = JSON.parse(fs.readFileSync(bandsPath, "utf-8"));
+const newBands = new Set<string>();
 
-const festivalFiles = fs
-  .readdirSync(festivalsDir, { withFileTypes: true })
-  .filter((dirent) => dirent.isDirectory())
-  .map((dirent) => path.join(festivalsDir, dirent.name));
+function titleize(slug: string) {
+  return slug
+    .split("-")
+    .map((term) => term.charAt(0).toUpperCase() + term.slice(1))
+    .join(" ");
+}
 
-const newBands: { slug: string; name: string }[] = [];
+function getFestivalFiles(dir: string): string[] {
+  return fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) return getFestivalFiles(fullPath);
+    if (entry.isFile() && entry.name.endsWith(".json")) return [fullPath];
+    return [];
+  });
+}
 
-for (const festivalFolder of festivalFiles) {
-  const jsonFiles = fs.readdirSync(festivalFolder).filter((f) => f.endsWith(".json"));
-  for (const jsonFile of jsonFiles) {
-    const festival = JSON.parse(fs.readFileSync(path.join(festivalFolder, jsonFile), "utf-8"));
-    if (festival.lineup?.length) {
-      for (const slug of festival.lineup) {
-        if (!existingSlugs.has(slug)) {
-          const name = slug
-            .split("-")
-            .map((term: string) => term.charAt(0).toUpperCase() + term.slice(1))
-            .join(" ");
-          newBands.push({ slug, name });
-          existingSlugs.add(slug);
-        }
+const festivalFiles = getFestivalFiles(festivalsDir);
+
+for (const file of festivalFiles) {
+  const content = JSON.parse(fs.readFileSync(file, "utf-8"));
+  if (Array.isArray(content.lineup)) {
+    for (const slug of content.lineup) {
+      if (!bands[slug]) {
+        bands[slug] = titleize(slug);
+        newBands.add(slug);
       }
     }
   }
 }
 
-if (newBands.length === 0) {
-  console.log("No bands to add");
-  process.exit(0);
+// Sort alphabetically by slug
+const sorted = Object.fromEntries(Object.entries(bands).sort(([a], [b]) => a.localeCompare(b)));
+
+// Write back to file
+fs.writeFileSync(bandsPath, JSON.stringify(sorted, null, 2) + "\n", "utf-8");
+
+if (newBands.size) {
+  console.log("Added new bands:");
+  console.log([...newBands].sort().join("\n"));
+} else {
+  console.log("No new bands found.");
 }
-
-const mergedBands = [...bandsData, ...newBands].sort((a, b) => a.name.localeCompare(b.name));
-fs.writeFileSync(bandsFile, JSON.stringify(mergedBands, null, 2), "utf-8");
-
-console.log("Updated bands:");
-newBands.forEach((b) => console.log(`- ${b.name}`));

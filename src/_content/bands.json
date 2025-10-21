@@ -1,2314 +1,581 @@
-[
-  {
-    "slug": "pendejo",
-    "name": "¡PENDEJO!"
-  },
-  {
-    "slug": "10000-years",
-    "name": "10,000 Years"
-  },
-  {
-    "slug": "1000mods",
-    "name": "1000mods"
-  },
-  {
-    "slug": "1782",
-    "name": "1782"
-  },
-  {
-    "slug": "24-7-diva-heaven",
-    "name": "24/7 Diva Heaven"
-  },
-  {
-    "slug": "a",
-    "name": "Å"
-  },
-  {
-    "slug": "a-forest-mighty-black",
-    "name": "A Forest Mighty Black"
-  },
-  {
-    "slug": "a-place-to-bury-strangers",
-    "name": "A Place To Bury Strangers"
-  },
-  {
-    "slug": "abramis-brama",
-    "name": "Abramis Brama"
-  },
-  {
-    "slug": "acid-king",
-    "name": "Acid King"
-  },
-  {
-    "slug": "acid-mammoth",
-    "name": "Acid Mammoth"
-  },
-  {
-    "slug": "acid-row",
-    "name": "Acid Row"
-  },
-  {
-    "slug": "acid-throne",
-    "name": "Acid Throne"
-  },
-  {
-    "slug": "acidsloth",
-    "name": "Acidsloth"
-  },
-  {
-    "slug": "ad-infinitum",
-    "name": "Ad Infinitum"
-  },
-  {
-    "slug": "agriculture",
-    "name": "Agriculture"
-  },
-  {
-    "slug": "ahab",
-    "name": "Ahab"
-  },
-  {
-    "slug": "ahmed-eid-and-ilyf",
-    "name": "Ahmed Eid And Ilyf"
-  },
-  {
-    "slug": "akersborg",
-    "name": "Akersborg"
-  },
-  {
-    "slug": "alber-jupiter",
-    "name": "Alber Jupiter"
-  },
-  {
-    "slug": "altin-gun",
-    "name": "Altın Gün"
-  },
-  {
-    "slug": "alunah",
-    "name": "Alunah"
-  },
-  {
-    "slug": "amenra",
-    "name": "Amenra"
-  },
-  {
-    "slug": "an-evening-with-knives",
-    "name": "An Evening With Knives"
-  },
-  {
-    "slug": "ananda-mida",
-    "name": "Ananda Mida"
-  },
-  {
-    "slug": "annie-taylor",
-    "name": "Annie Taylor"
-  },
-  {
-    "slug": "apex-ten",
-    "name": "Apex Ten"
-  },
-  {
-    "slug": "aptera",
-    "name": "Aptera"
-  },
-  {
-    "slug": "arabrot",
-    "name": "Årabrot"
-  },
-  {
-    "slug": "arv",
-    "name": "ARV"
-  },
-  {
-    "slug": "ashbury-heights",
-    "name": "Ashbury Heights"
-  },
-  {
-    "slug": "asphyx",
-    "name": "Asphyx"
-  },
-  {
-    "slug": "astodan",
-    "name": "Astodan"
-  },
-  {
-    "slug": "astral-nomad",
-    "name": "Astral Nomad"
-  },
-  {
-    "slug": "astroqueen",
-    "name": "Astroqueen"
-  },
-  {
-    "slug": "atomic-mold",
-    "name": "Atomic Mold"
-  },
-  {
-    "slug": "atomic-vulture",
-    "name": "Atomic Vulture"
-  },
-  {
-    "slug": "atonia",
-    "name": "Atonia"
-  },
-  {
-    "slug": "auszaat",
-    "name": "Auszaat"
-  },
-  {
-    "slug": "avon",
-    "name": "Avon"
-  },
-  {
-    "slug": "balate",
-    "name": "Baläte"
-  },
-  {
-    "slug": "bcuc",
-    "name": "Bantu Continua Uhuru Consciousness"
-  },
-  {
-    "slug": "barbarian-hermit",
-    "name": "Barbarian Hermit"
-  },
-  {
-    "slug": "barren-womb",
-    "name": "Barren Womb"
-  },
-  {
-    "slug": "battlesnake",
-    "name": "Battlesnake"
-  },
-  {
-    "slug": "bautastor",
-    "name": "Bautastor"
-  },
-  {
-    "slug": "beehoover",
-    "name": "Beehoover"
-  },
-  {
-    "slug": "belzebong",
-    "name": "Belzebong"
-  },
-  {
-    "slug": "bikini-beach",
-    "name": "Bikini Beach"
-  },
-  {
-    "slug": "bildtstar",
-    "name": "Bildtstar"
-  },
-  {
-    "slug": "birds-of-vale",
-    "name": "Birds Of Vale"
-  },
-  {
-    "slug": "birth-control",
-    "name": "Birth Control"
-  },
-  {
-    "slug": "bismut",
-    "name": "Bismut"
-  },
-  {
-    "slug": "bizon",
-    "name": "Bizon"
-  },
-  {
-    "slug": "black-curse",
-    "name": "Black Curse"
-  },
-  {
-    "slug": "black-elephant",
-    "name": "Black Elephant"
-  },
-  {
-    "slug": "black-groove",
-    "name": "Black Groove"
-  },
-  {
-    "slug": "black-pyramid",
-    "name": "Black Pyramid"
-  },
-  {
-    "slug": "black-rainbows",
-    "name": "Black Rainbows"
-  },
-  {
-    "slug": "black-willows",
-    "name": "Black Willows"
-  },
-  {
-    "slug": "blodkvalt",
-    "name": "Blodkvalt"
-  },
-  {
-    "slug": "blue-heron",
-    "name": "Blue Heron"
-  },
-  {
-    "slug": "bobbie-dazzle",
-    "name": "Bobbie Dazzle"
-  },
-  {
-    "slug": "bong-ra",
-    "name": "Bong-Ra"
-  },
-  {
-    "slug": "bongripper",
-    "name": "Bongripper"
-  },
-  {
-    "slug": "bongzilla",
-    "name": "Bongzilla"
-  },
-  {
-    "slug": "borehead",
-    "name": "Borehead"
-  },
-  {
-    "slug": "bosco-sacro",
-    "name": "Bosco Sacro"
-  },
-  {
-    "slug": "brant-bjork-trio",
-    "name": "Brant Björk Trio"
-  },
-  {
-    "slug": "brat",
-    "name": "Brat"
-  },
-  {
-    "slug": "caboose",
-    "name": "Caboose"
-  },
-  {
-    "slug": "capitan",
-    "name": "Capitan"
-  },
-  {
-    "slug": "caravan-of-whores",
-    "name": "Caravan Of Whores"
-  },
-  {
-    "slug": "carson",
-    "name": "Carson"
-  },
-  {
-    "slug": "castle-rat",
-    "name": "Castle Rat"
-  },
-  {
-    "slug": "causa-sui",
-    "name": "Causa Sui"
-  },
-  {
-    "slug": "cavern-deep",
-    "name": "Cavern Deep"
-  },
-  {
-    "slug": "cerbere",
-    "name": "Cerbère"
-  },
-  {
-    "slug": "chat-pile",
-    "name": "Chat Pile"
-  },
-  {
-    "slug": "chod",
-    "name": "Chöd"
-  },
-  {
-    "slug": "choke-chain",
-    "name": "Choke Chain"
-  },
-  {
-    "slug": "cinder-well",
-    "name": "Cinder Well"
-  },
-  {
-    "slug": "circle-jerks",
-    "name": "Circle Jerks"
-  },
-  {
-    "slug": "circus-cannon",
-    "name": "Circus Cannon"
-  },
-  {
-    "slug": "cisnienie",
-    "name": "Ciśnienie"
-  },
-  {
-    "slug": "coilguns",
-    "name": "Coilguns"
-  },
-  {
-    "slug": "colour-haze",
-    "name": "Colour Haze"
-  },
-  {
-    "slug": "coltaine",
-    "name": "Coltaine"
-  },
-  {
-    "slug": "conan",
-    "name": "Conan"
-  },
-  {
-    "slug": "concrete-winds",
-    "name": "Concrete Winds"
-  },
-  {
-    "slug": "cone",
-    "name": "Cone"
-  },
-  {
-    "slug": "congulus",
-    "name": "Congulus"
-  },
-  {
-    "slug": "convoy",
-    "name": "Convoy"
-  },
-  {
-    "slug": "coogans-bluff",
-    "name": "Coogan's Bluff"
-  },
-  {
-    "slug": "couch-slut",
-    "name": "Couch Slut"
-  },
-  {
-    "slug": "craneium",
-    "name": "Craneium"
-  },
-  {
-    "slug": "crippled-black-phoenix",
-    "name": "Crippled Black Phoenix"
-  },
-  {
-    "slug": "crouch",
-    "name": "Crouch"
-  },
-  {
-    "slug": "crowgod",
-    "name": "Crowgod"
-  },
-  {
-    "slug": "cult-member",
-    "name": "Cult Member"
-  },
-  {
-    "slug": "d",
-    "name": "D."
-  },
-  {
-    "slug": "daevar",
-    "name": "Daevar"
-  },
-  {
-    "slug": "daily-thompson",
-    "name": "Daily Thompson"
-  },
-  {
-    "slug": "dame-area",
-    "name": "Dame Area"
-  },
-  {
-    "slug": "dark-tree-bark",
-    "name": "Dark Tree Bark"
-  },
-  {
-    "slug": "darsombra",
-    "name": "Darsombra"
-  },
-  {
-    "slug": "daufodt",
-    "name": "Daufødt"
-  },
-  {
-    "slug": "de-mannen-broeders",
-    "name": "De Mannen Broeders"
-  },
-  {
-    "slug": "dead-meadow",
-    "name": "Dead Meadow"
-  },
-  {
-    "slug": "dead-myrick",
-    "name": "Dead Myrick"
-  },
-  {
-    "slug": "death-wvrm",
-    "name": "Death Wvrm"
-  },
-  {
-    "slug": "deathchant",
-    "name": "Deathchant"
-  },
-  {
-    "slug": "decasia",
-    "name": "Decasia"
-  },
-  {
-    "slug": "delving",
-    "name": "Delving"
-  },
-  {
-    "slug": "den-der-hale",
-    "name": "Den Der Hale"
-  },
-  {
-    "slug": "denisa",
-    "name": "Denisa"
-  },
-  {
-    "slug": "desert-smoke",
-    "name": "Desert Smoke"
-  },
-  {
-    "slug": "desert-sun",
-    "name": "Desert Sun"
-  },
-  {
-    "slug": "deville",
-    "name": "Deville"
-  },
-  {
-    "slug": "devon-allmans-blues-summit",
-    "name": "Devon Allman's Blues Summit"
-  },
-  {
-    "slug": "dewolff",
-    "name": "DeWolff"
-  },
-  {
-    "slug": "diiv",
-    "name": "DIIV"
-  },
-  {
-    "slug": "dikke-dennis-en-de-rockers",
-    "name": "Dikke Dennis En De Røckers"
-  },
-  {
-    "slug": "dinosaur-jr",
-    "name": "Dinosaur Jr."
-  },
-  {
-    "slug": "dirty-sound-magnet",
-    "name": "Dirty Sound Magnet"
-  },
-  {
-    "slug": "djiin",
-    "name": "DJIIN"
-  },
-  {
-    "slug": "domkraft",
-    "name": "Domkraft"
-  },
-  {
-    "slug": "dool",
-    "name": "Dool"
-  },
-  {
-    "slug": "dope-purple",
-    "name": "Dope Purple"
-  },
-  {
-    "slug": "dopelord",
-    "name": "Dopelord"
-  },
-  {
-    "slug": "dopethrone",
-    "name": "Dopethrone"
-  },
-  {
-    "slug": "dozer",
-    "name": "Dozer"
-  },
-  {
-    "slug": "dresden-wolves",
-    "name": "Dresden Wolves"
-  },
-  {
-    "slug": "drive-by-wire",
-    "name": "Drive By Wire"
-  },
-  {
-    "slug": "drone-hunter",
-    "name": "Drone Hunter"
-  },
-  {
-    "slug": "droop",
-    "name": "Droop"
-  },
-  {
-    "slug": "duel",
-    "name": "Duel"
-  },
-  {
-    "slug": "dunbarrow",
-    "name": "Dunbarrow"
-  },
-  {
-    "slug": "dunes",
-    "name": "Dunes"
-  },
-  {
-    "slug": "dvne",
-    "name": "Dvne"
-  },
-  {
-    "slug": "dyse",
-    "name": "DŸSE"
-  },
-  {
-    "slug": "eagle-twin",
-    "name": "Eagle Twin"
-  },
-  {
-    "slug": "early-moods",
-    "name": "Early Moods"
-  },
-  {
-    "slug": "earth",
-    "name": "Earth"
-  },
-  {
-    "slug": "earth-ship",
-    "name": "Earth Ship"
-  },
-  {
-    "slug": "earth-tongue",
-    "name": "Earth Tongue"
-  },
-  {
-    "slug": "earthbong",
-    "name": "Earthbong"
-  },
-  {
-    "slug": "earthless",
-    "name": "Earthless"
-  },
-  {
-    "slug": "eihwar",
-    "name": "Eihwar"
-  },
-  {
-    "slug": "einseinseins",
-    "name": "Einseinseins"
-  },
-  {
-    "slug": "el-moono",
-    "name": "El Moono"
-  },
-  {
-    "slug": "el-perro",
-    "name": "El Perro"
-  },
-  {
-    "slug": "elder",
-    "name": "Elder"
-  },
-  {
-    "slug": "elephant-tree",
-    "name": "Elephant Tree"
-  },
-  {
-    "slug": "ellende",
-    "name": "Ellende"
-  },
-  {
-    "slug": "emma-ruth-rundle",
-    "name": "Emma Ruth Rundle"
-  },
-  {
-    "slug": "enojado",
-    "name": "Enojado"
-  },
-  {
-    "slug": "eremit",
-    "name": "Eremit"
-  },
-  {
-    "slug": "ermete",
-    "name": "Ermete"
-  },
-  {
-    "slug": "erronaut",
-    "name": "Erronaut"
-  },
-  {
-    "slug": "evadne",
-    "name": "Evadne"
-  },
-  {
-    "slug": "eyehategod",
-    "name": "Eyehategod"
-  },
-  {
-    "slug": "eyze",
-    "name": "Eyze"
-  },
-  {
-    "slug": "faetooth",
-    "name": "Faetooth"
-  },
-  {
-    "slug": "falling-boy",
-    "name": "Falling Boy"
-  },
-  {
-    "slug": "false-reality",
-    "name": "False Reality"
-  },
-  {
-    "slug": "feedy",
-    "name": "Feedy"
-  },
-  {
-    "slug": "feral-nature",
-    "name": "Feral Nature"
-  },
-  {
-    "slug": "fights",
-    "name": "Fights"
-  },
-  {
-    "slug": "fincher",
-    "name": "Fincher"
-  },
-  {
-    "slug": "fire",
-    "name": "Fire!"
-  },
-  {
-    "slug": "flamebearer",
-    "name": "Flamebearer"
-  },
-  {
-    "slug": "flokati",
-    "name": "Flokati"
-  },
-  {
-    "slug": "flowers-must-die",
-    "name": "Flowers Must Die"
-  },
-  {
-    "slug": "focus",
-    "name": "Focus"
-  },
-  {
-    "slug": "frail-body",
-    "name": "Frail Body"
-  },
-  {
-    "slug": "frankie-and-the-witch-fingers",
-    "name": "Frankie and the Witch Fingers"
-  },
-  {
-    "slug": "free-ride",
-    "name": "Free Ride"
-  },
-  {
-    "slug": "froglord",
-    "name": "Froglord"
-  },
-  {
-    "slug": "from-another-mother",
-    "name": "From Another Mother"
-  },
-  {
-    "slug": "fu-manchu",
-    "name": "Fu Manchu"
-  },
-  {
-    "slug": "full-earth",
-    "name": "Full Earth"
-  },
-  {
-    "slug": "furia",
-    "name": "Furia"
-  },
-  {
-    "slug": "fuzzy-grass",
-    "name": "Fuzzy Grass"
-  },
-  {
-    "slug": "fvzz-popvli",
-    "name": "FVZZ POPVLI"
-  },
-  {
-    "slug": "glitch",
-    "name": "G L I T C H"
-  },
-  {
-    "slug": "gaupa",
-    "name": "Gaupa"
-  },
-  {
-    "slug": "gevaudan",
-    "name": "Gevaudan"
-  },
-  {
-    "slug": "ggu-ll",
-    "name": "Ggu:ll"
-  },
-  {
-    "slug": "ghostwoman",
-    "name": "Ghostwoman"
-  },
-  {
-    "slug": "giobia",
-    "name": "Giöbia"
-  },
-  {
-    "slug": "gjenferd",
-    "name": "Gjenferd"
-  },
-  {
-    "slug": "glabre",
-    "name": "Glabre"
-  },
-  {
-    "slug": "glasgow-coma-scale",
-    "name": "Glasgow Coma Scale"
-  },
-  {
-    "slug": "gnome",
-    "name": "Gnome"
-  },
-  {
-    "slug": "goat-major",
-    "name": "Goat Major"
-  },
-  {
-    "slug": "goblinsmoker",
-    "name": "Goblinsmoker"
-  },
-  {
-    "slug": "god-is-an-astronaut",
-    "name": "God is an Astronaut"
-  },
-  {
-    "slug": "godsleep",
-    "name": "Godsleep"
-  },
-  {
-    "slug": "godzilla-was-too-drunk-to-destroy-tokyo",
-    "name": "Godzilla Was Too Drunk To Destroy Tokyo"
-  },
-  {
-    "slug": "gong",
-    "name": "Gong"
-  },
-  {
-    "slug": "gosta-berglings-saga",
-    "name": "Gösta Berglings Saga"
-  },
-  {
-    "slug": "gott",
-    "name": "Gott"
-  },
-  {
-    "slug": "grand-atomic",
-    "name": "Grand Atomic"
-  },
-  {
-    "slug": "grandmas-ashes",
-    "name": "Grandma's Ashes"
-  },
-  {
-    "slug": "graveyard",
-    "name": "Graveyard"
-  },
-  {
-    "slug": "green-lung",
-    "name": "Green Lung"
-  },
-  {
-    "slug": "green-milk-from-the-planet-orange",
-    "name": "Green Milk from the Planet Orange"
-  },
-  {
-    "slug": "greenleaf",
-    "name": "Greenleaf"
-  },
-  {
-    "slug": "grey-czar",
-    "name": "Grey Czar"
-  },
-  {
-    "slug": "guiltless",
-    "name": "Guiltless"
-  },
-  {
-    "slug": "gyfth",
-    "name": "Gyfth"
-  },
-  {
-    "slug": "haeze",
-    "name": "Haeze"
-  },
-  {
-    "slug": "hah",
-    "name": "HAH"
-  },
-  {
-    "slug": "handgemeng",
-    "name": "Håndgemeng"
-  },
-  {
-    "slug": "harrowist",
-    "name": "Harrowist"
-  },
-  {
-    "slug": "haunted",
-    "name": "Haunted"
-  },
-  {
-    "slug": "have-a-nice-life",
-    "name": "Have A Nice Life"
-  },
-  {
-    "slug": "health",
-    "name": "Health"
-  },
-  {
-    "slug": "heartworms",
-    "name": "Heartworms"
-  },
-  {
-    "slug": "heath",
-    "name": "Heath"
-  },
-  {
-    "slug": "heckspoiler",
-    "name": "Heckspoiler"
-  },
-  {
-    "slug": "hedonist",
-    "name": "Hedonist"
-  },
-  {
-    "slug": "hedvig-mollestad-trio",
-    "name": "Hedvig Mollestad Trio"
-  },
-  {
-    "slug": "hellripper",
-    "name": "Hellripper"
-  },
-  {
-    "slug": "hellroom-projectors",
-    "name": "Hellroom Projectors"
-  },
-  {
-    "slug": "help",
-    "name": "Help"
-  },
-  {
-    "slug": "hemelbestormer",
-    "name": "Hemelbestormer"
-  },
-  {
-    "slug": "hermano",
-    "name": "Hermano"
-  },
-  {
-    "slug": "hexjakt",
-    "name": "Hexjakt"
-  },
-  {
-    "slug": "hidas",
-    "name": "Hidas"
-  },
-  {
-    "slug": "high",
-    "name": "High"
-  },
-  {
-    "slug": "high-desert-queen",
-    "name": "High Desert Queen"
-  },
-  {
-    "slug": "high-parasite",
-    "name": "High Parasite"
-  },
-  {
-    "slug": "hippie-death-cult",
-    "name": "Hippie Death Cult"
-  },
-  {
-    "slug": "hippotraktor",
-    "name": "Hippotraktor"
-  },
-  {
-    "slug": "homegrown",
-    "name": "Homegrown"
-  },
-  {
-    "slug": "hooveriii",
-    "name": "Hooveriii"
-  },
-  {
-    "slug": "hot-sauce-party",
-    "name": "Hot Sauce Party"
-  },
-  {
-    "slug": "hrmulja",
-    "name": "Hrmülja"
-  },
-  {
-    "slug": "huge-molasses-tank-explodes",
-    "name": "Huge Molasses Tank Explodes"
-  },
-  {
-    "slug": "human-impact",
-    "name": "Human Impact"
-  },
-  {
-    "slug": "humulus",
-    "name": "Humulus"
-  },
-  {
-    "slug": "iah",
-    "name": "IAH"
-  },
-  {
-    "slug": "iguana-death-cult",
-    "name": "Iguana Death Cult"
-  },
-  {
-    "slug": "il-civetto",
-    "name": "Il Civetto"
-  },
-  {
-    "slug": "indykush",
-    "name": "INDYKUSH"
-  },
-  {
-    "slug": "inter-arma",
-    "name": "Inter Arma"
-  },
-  {
-    "slug": "iron-jinn",
-    "name": "Iron Jinn"
-  },
-  {
-    "slug": "ixzhilion",
-    "name": "Ixzhilion"
-  },
-  {
-    "slug": "jantar",
-    "name": "Jantar"
-  },
-  {
-    "slug": "jjuujjuu",
-    "name": "Jjuujjuu"
-  },
-  {
-    "slug": "jo-quail",
-    "name": "Jo Quail"
-  },
-  {
-    "slug": "joe-la-truite",
-    "name": "Joe La Truite"
-  },
-  {
-    "slug": "john-cxnnor-x-witch-club-satan",
-    "name": "John Cxnnor x Witch Club Satan"
-  },
-  {
-    "slug": "josiah",
-    "name": "Josiah"
-  },
-  {
-    "slug": "kadavar",
-    "name": "Kadavar"
-  },
-  {
-    "slug": "kaiser",
-    "name": "Kaiser"
-  },
-  {
-    "slug": "kal-el",
-    "name": "Kal El"
-  },
-  {
-    "slug": "kalamata",
-    "name": "Kalamata"
-  },
-  {
-    "slug": "kaleidobolt",
-    "name": "Kaleidobolt"
-  },
-  {
-    "slug": "kalvaire",
-    "name": "Kalvaire"
-  },
-  {
-    "slug": "kambodsja",
-    "name": "Kambodsja"
-  },
-  {
-    "slug": "kanaan-and-aevestaden",
-    "name": "Kanaan And Ævestaden"
-  },
-  {
-    "slug": "kannabinoid",
-    "name": "Kannabinõid"
-  },
-  {
-    "slug": "kant",
-    "name": "Kant"
-  },
-  {
-    "slug": "karg",
-    "name": "Karg"
-  },
-  {
-    "slug": "karkara",
-    "name": "Karkara"
-  },
-  {
-    "slug": "kaskadeur",
-    "name": "Kaskadeur"
-  },
-  {
-    "slug": "katla",
-    "name": "Katla"
-  },
-  {
-    "slug": "kellermensch",
-    "name": "Kellermensch"
-  },
-  {
-    "slug": "khan",
-    "name": "Khan"
-  },
-  {
-    "slug": "killed-a-fox",
-    "name": "Killed a Fox"
-  },
-  {
-    "slug": "kind",
-    "name": "Kind"
-  },
-  {
-    "slug": "king-blotfly",
-    "name": "King Blotfly"
-  },
-  {
-    "slug": "king-buffalo",
-    "name": "King Buffalo"
-  },
-  {
-    "slug": "king-coyote",
-    "name": "King Coyote"
-  },
-  {
-    "slug": "kloster",
-    "name": "Kløster"
-  },
-  {
-    "slug": "komatsu",
-    "name": "Komatsu"
-  },
-  {
-    "slug": "kombynat-robotron",
-    "name": "Kombynat Robotron"
-  },
-  {
-    "slug": "krake",
-    "name": "Krake"
-  },
-  {
-    "slug": "krakslott",
-    "name": "Kråkslott"
-  },
-  {
-    "slug": "kudos-to-kosmos",
-    "name": "Kudos To Kosmos"
-  },
-  {
-    "slug": "kush-thulhu",
-    "name": "Kush Thulhu"
-  },
-  {
-    "slug": "kylesa",
-    "name": "Kylesa"
-  },
-  {
-    "slug": "la-briscola-bugiarda",
-    "name": "La Briscola Bugiarda"
-  },
-  {
-    "slug": "langfinger",
-    "name": "Långfinger"
-  },
-  {
-    "slug": "lara",
-    "name": "Lära"
-  },
-  {
-    "slug": "lazar",
-    "name": "Lazar"
-  },
-  {
-    "slug": "lazarvs",
-    "name": "Lazarvs"
-  },
-  {
-    "slug": "leif-de-leeuw-band",
-    "name": "Leif De Leeuw Band"
-  },
-  {
-    "slug": "lemon-rose",
-    "name": "Lemon Rose"
-  },
-  {
-    "slug": "life-of-agony",
-    "name": "Life Of Agony"
-  },
-  {
-    "slug": "linija-109",
-    "name": "Linija 109"
-  },
-  {
-    "slug": "litania",
-    "name": "Litania"
-  },
-  {
-    "slug": "liturgy",
-    "name": "Liturgy"
-  },
-  {
-    "slug": "living-gate",
-    "name": "Living Gate"
-  },
-  {
-    "slug": "llnn",
-    "name": "LLNN"
-  },
-  {
-    "slug": "long-distance-calling",
-    "name": "Long Distance Calling"
-  },
-  {
-    "slug": "longheads",
-    "name": "Longheads"
-  },
-  {
-    "slug": "lord-buffalo",
-    "name": "Lord Buffalo"
-  },
-  {
-    "slug": "lord-of-confusion",
-    "name": "Lord Of Confusion"
-  },
-  {
-    "slug": "love-gang",
-    "name": "Love Gang"
-  },
-  {
-    "slug": "lowen",
-    "name": "Lowen"
-  },
-  {
-    "slug": "lowrider",
-    "name": "Lowrider"
-  },
-  {
-    "slug": "lucid-void",
-    "name": "Lucid Void"
-  },
-  {
-    "slug": "luna-sol",
-    "name": "Luna Sol"
-  },
-  {
-    "slug": "lurch",
-    "name": "Lurch"
-  },
-  {
-    "slug": "lust-ritual",
-    "name": "Lust Ritual"
-  },
-  {
-    "slug": "machukha",
-    "name": "Machukha"
-  },
-  {
-    "slug": "mad-foxes",
-    "name": "Mad Foxes"
-  },
-  {
-    "slug": "madmess",
-    "name": "Madmess"
-  },
-  {
-    "slug": "magma",
-    "name": "Magma"
-  },
-  {
-    "slug": "magmakammer",
-    "name": "Magmakammer"
-  },
-  {
-    "slug": "maha-sohona",
-    "name": "Maha Sohona"
-  },
-  {
-    "slug": "maidavale",
-    "name": "MaidaVale"
-  },
-  {
-    "slug": "mantar",
-    "name": "Mantar"
-  },
-  {
-    "slug": "maragda",
-    "name": "Maragda"
-  },
-  {
-    "slug": "marcel-gidotes-holy-crab",
-    "name": "Marcel Gidote's Holy Crab"
-  },
-  {
-    "slug": "margarita-witch-cult",
-    "name": "Margarita Witch Cult"
-  },
-  {
-    "slug": "margaritas-podridas",
-    "name": "Margaritas Podridas"
-  },
-  {
-    "slug": "marleys-ghost",
-    "name": "Marley's Ghost & Friends Feat. Delle"
-  },
-  {
-    "slug": "mars-red-sky",
-    "name": "Mars Red Sky"
-  },
-  {
-    "slug": "mary-janes-soundgarden",
-    "name": "Mary Janes Soundgarden"
-  },
-  {
-    "slug": "masters-of-reality",
-    "name": "Masters Of Reality"
-  },
-  {
-    "slug": "me-and-that-man",
-    "name": "Me And That Man"
-  },
-  {
-    "slug": "melvins",
-    "name": "Melvins"
-  },
-  {
-    "slug": "mephistofeles",
-    "name": "Mephistofeles"
-  },
-  {
-    "slug": "messa",
-    "name": "Messa"
-  },
-  {
-    "slug": "methadone-skies",
-    "name": "Methadone Skies"
-  },
-  {
-    "slug": "methuselian",
-    "name": "Methuselian"
-  },
-  {
-    "slug": "mil-homes",
-    "name": "Mil Homes"
-  },
-  {
-    "slug": "milo-dragovic",
-    "name": "Milo Dragovic"
-  },
-  {
-    "slug": "modder",
-    "name": "Modder"
-  },
-  {
-    "slug": "mojo-jazz-mob",
-    "name": "Mojo Jazz Mob"
-  },
-  {
-    "slug": "mondo-generator",
-    "name": "Mondo Generator"
-  },
-  {
-    "slug": "monica",
-    "name": "Monica"
-  },
-  {
-    "slug": "monkey3",
-    "name": "Monkey3"
-  },
-  {
-    "slug": "monkeys-on-mars",
-    "name": "Monkeys On Mars"
-  },
-  {
-    "slug": "monolord",
-    "name": "Monolord"
-  },
-  {
-    "slug": "moon-coven",
-    "name": "Moon Coven"
-  },
-  {
-    "slug": "moonstone",
-    "name": "Moonstone"
-  },
-  {
-    "slug": "morpholith",
-    "name": "Morpholith"
-  },
-  {
-    "slug": "mothers-cake",
-    "name": "Mother's Cake"
-  },
-  {
-    "slug": "motorik",
-    "name": "Motor!k"
-  },
-  {
-    "slug": "motorowl",
-    "name": "Motorowl"
-  },
-  {
-    "slug": "motorpsycho",
-    "name": "Motorpsycho"
-  },
-  {
-    "slug": "mr-bison",
-    "name": "Mr Bison"
-  },
-  {
-    "slug": "mushroom-caravan-overdrive",
-    "name": "Mushroom Caravan Overdrive"
-  },
-  {
-    "slug": "my-sleeping-karma",
-    "name": "My Sleeping Karma"
-  },
-  {
-    "slug": "nadir",
-    "name": "Nadir"
-  },
-  {
-    "slug": "nagircalmmiid",
-    "name": "Nagircalmmiid"
-  },
-  {
-    "slug": "nalar",
-    "name": "Nalar"
-  },
-  {
-    "slug": "negative-blast",
-    "name": "Negative Blast"
-  },
-  {
-    "slug": "neptunian-maximalism",
-    "name": "Neptunian Maximalism"
-  },
-  {
-    "slug": "new-age-doom-feat-tuvaband",
-    "name": "New Age Doom Feat. Tuvaband"
-  },
-  {
-    "slug": "new-candys",
-    "name": "New Candys"
-  },
-  {
-    "slug": "new-money",
-    "name": "New Money"
-  },
-  {
-    "slug": "nightstalker",
-    "name": "Nightstalker"
-  },
-  {
-    "slug": "novere",
-    "name": "Novere"
-  },
-  {
-    "slug": "nvage",
-    "name": "Nvage"
-  },
-  {
-    "slug": "oakfarm",
-    "name": "Oakfarm"
-  },
-  {
-    "slug": "ol",
-    "name": "ØL"
-  },
-  {
-    "slug": "one-leg-one-eye",
-    "name": "One Leg One Eye"
-  },
-  {
-    "slug": "ora-cogan",
-    "name": "Ora Cogan"
-  },
-  {
-    "slug": "orange-goblin",
-    "name": "Orange Goblin"
-  },
-  {
-    "slug": "oranssi-pazuzu",
-    "name": "Oranssi Pazuzu"
-  },
-  {
-    "slug": "orbitron",
-    "name": "Orbitron"
-  },
-  {
-    "slug": "oreyeon",
-    "name": "Oreyeon"
-  },
-  {
-    "slug": "orsak-oslo",
-    "name": "Orsak:Oslo"
-  },
-  {
-    "slug": "orum",
-    "name": "Orum"
-  },
-  {
-    "slug": "osees",
-    "name": "Osees"
-  },
-  {
-    "slug": "otrovna-kristina",
-    "name": "Otrovna Kristina"
-  },
-  {
-    "slug": "outback",
-    "name": "Outback"
-  },
-  {
-    "slug": "oxn",
-    "name": "ØXN"
-  },
-  {
-    "slug": "pageninetynine",
-    "name": "pageninetynine"
-  },
-  {
-    "slug": "pallbearer",
-    "name": "Pallbearer"
-  },
-  {
-    "slug": "patriarchy",
-    "name": "Patriarchy"
-  },
-  {
-    "slug": "peglica-i-komandos",
-    "name": "Peglica i Komandos"
-  },
-  {
-    "slug": "pelagic-zone",
-    "name": "Pelagic Zone"
-  },
-  {
-    "slug": "pelican",
-    "name": "Pelican"
-  },
-  {
-    "slug": "peter-pan-speedrock",
-    "name": "Peter Pan Speedrock"
-  },
-  {
-    "slug": "phantom-elite",
-    "name": "Phantom Elite"
-  },
-  {
-    "slug": "piece",
-    "name": "Piece"
-  },
-  {
-    "slug": "planet-of-zeus",
-    "name": "Planet of Zeus"
-  },
-  {
-    "slug": "ponte-del-diavolo",
-    "name": "Ponte Del Diavolo"
-  },
-  {
-    "slug": "portman",
-    "name": "Portman"
-  },
-  {
-    "slug": "praise-the-plague",
-    "name": "Praise The Plague"
-  },
-  {
-    "slug": "pray",
-    "name": "Praÿ"
-  },
-  {
-    "slug": "psychic-graveyard",
-    "name": "Psychic Graveyard"
-  },
-  {
-    "slug": "psychlona",
-    "name": "Psychlona"
-  },
-  {
-    "slug": "psychogarden",
-    "name": "Psychogarden"
-  },
-  {
-    "slug": "psychonaut",
-    "name": "Psychonaut"
-  },
-  {
-    "slug": "pult",
-    "name": "Pult"
-  },
-  {
-    "slug": "puta-volcano",
-    "name": "Puta Volcano"
-  },
-  {
-    "slug": "quiet-confusion",
-    "name": "Quiet Confusion"
-  },
-  {
-    "slug": "rats-and-daggers",
-    "name": "Rats and Daggers"
-  },
-  {
-    "slug": "reach",
-    "name": "Reach"
-  },
-  {
-    "slug": "red-sun-atacama",
-    "name": "Red Sun Atacama"
-  },
-  {
-    "slug": "redstone",
-    "name": "Redstone"
-  },
-  {
-    "slug": "redwood-temple",
-    "name": "Redwood Temple"
-  },
-  {
-    "slug": "rezn",
-    "name": "REZN"
-  },
-  {
-    "slug": "rickshaw-billies-burger-patrol",
-    "name": "Rickshaw Billie's Burger Patrol"
-  },
-  {
-    "slug": "rifftree",
-    "name": "Rifftree"
-  },
-  {
-    "slug": "ritual-king",
-    "name": "Ritual King"
-  },
-  {
-    "slug": "ronker",
-    "name": "Ronker"
-  },
-  {
-    "slug": "rotor",
-    "name": "Rotor"
-  },
-  {
-    "slug": "rovar",
-    "name": "Rovar"
-  },
-  {
-    "slug": "rpwl",
-    "name": "RPWL"
-  },
-  {
-    "slug": "russian-circles",
-    "name": "Russian Circles"
-  },
-  {
-    "slug": "ruun",
-    "name": "RUUN"
-  },
-  {
-    "slug": "s-t-erik",
-    "name": "S:T Erik"
-  },
-  {
-    "slug": "sacri-monti",
-    "name": "Sacri Monti"
-  },
-  {
-    "slug": "sadhus",
-    "name": "Sadhus"
-  },
-  {
-    "slug": "saint-karloff",
-    "name": "Saint Karloff"
-  },
-  {
-    "slug": "samstation",
-    "name": "Samstation"
-  },
-  {
-    "slug": "sarkh",
-    "name": "Sarkh"
-  },
-  {
-    "slug": "sator",
-    "name": "Sator"
-  },
-  {
-    "slug": "sautrus",
-    "name": "Sautrus"
-  },
-  {
-    "slug": "savanah",
-    "name": "Savanah"
-  },
-  {
-    "slug": "scott-hepple-and-the-sun-band",
-    "name": "Scott Hepple and the Sun Band"
-  },
-  {
-    "slug": "scrotem",
-    "name": "Scrotem"
-  },
-  {
-    "slug": "sea-bastard",
-    "name": "Sea Bastard"
-  },
-  {
-    "slug": "servo",
-    "name": "SERVO"
-  },
-  {
-    "slug": "seven-spires",
-    "name": "Seven Spires"
-  },
-  {
-    "slug": "seven-that-spells",
-    "name": "Seven That Spells"
-  },
-  {
-    "slug": "shiveringfit",
-    "name": "ShiveringFit"
-  },
-  {
-    "slug": "sienna-root",
-    "name": "Sienna Root"
-  },
-  {
-    "slug": "skyjoggers",
-    "name": "Skyjoggers"
-  },
-  {
-    "slug": "sleeping-mountain",
-    "name": "Sleeping Mountain"
-  },
-  {
-    "slug": "sleepytime-gorilla-museum",
-    "name": "Sleepytime Gorilla Museum"
-  },
-  {
-    "slug": "slift",
-    "name": "SLIFT"
-  },
-  {
-    "slug": "slobber",
-    "name": "Slobber"
-  },
-  {
-    "slug": "slodder",
-    "name": "Slôdder"
-  },
-  {
-    "slug": "slomatics",
-    "name": "Slomatics"
-  },
-  {
-    "slug": "slomosa",
-    "name": "Slomosa"
-  },
-  {
-    "slug": "slor",
-    "name": "Slor"
-  },
-  {
-    "slug": "slug",
-    "name": "slug"
-  },
-  {
-    "slug": "slump",
-    "name": "Slump"
-  },
-  {
-    "slug": "smooth-motion",
-    "name": "Smooth Motion"
-  },
-  {
-    "slug": "snakes-snakes-snakes",
-    "name": "Snakes Snakes Snakes"
-  },
-  {
-    "slug": "sons-of-alpha-centauri",
-    "name": "Sons of Alpha Centauri"
-  },
-  {
-    "slug": "sons-of-arrakis",
-    "name": "Sons Of Arrakis"
-  },
-  {
-    "slug": "spaced",
-    "name": "Spaced"
-  },
-  {
-    "slug": "spaceslug",
-    "name": "Spaceslug"
-  },
-  {
-    "slug": "spiralpark",
-    "name": "Spiralpark"
-  },
-  {
-    "slug": "spirit-mother",
-    "name": "Spirit Mother"
-  },
-  {
-    "slug": "splinter",
-    "name": "Splinter"
-  },
-  {
-    "slug": "spoon-benders",
-    "name": "Spoon Benders"
-  },
-  {
-    "slug": "star-rider",
-    "name": "Star Rider"
-  },
-  {
-    "slug": "steinsopp",
-    "name": "Steinsopp"
-  },
-  {
-    "slug": "stinking-lizaveta",
-    "name": "Stinking Lizaveta"
-  },
-  {
-    "slug": "stone-from-the-sky",
-    "name": "Stone From The Sky"
-  },
-  {
-    "slug": "stoned-jesus",
-    "name": "Stoned Jesus"
-  },
-  {
-    "slug": "stonerhead",
-    "name": "Stonerhead"
-  },
-  {
-    "slug": "stones-of-babylon",
-    "name": "Stones Of Babylon"
-  },
-  {
-    "slug": "stonus",
-    "name": "Stonus"
-  },
-  {
-    "slug": "stress-positions",
-    "name": "Stress Positions"
-  },
-  {
-    "slug": "subterraen",
-    "name": "Subterraen"
-  },
-  {
-    "slug": "sugar-horse",
-    "name": "Sugar Horse"
-  },
-  {
-    "slug": "sumac",
-    "name": "Sumac"
-  },
-  {
-    "slug": "sunnata",
-    "name": "Sunnata"
-  },
-  {
-    "slug": "suntan-club",
-    "name": "Suntan Club"
-  },
-  {
-    "slug": "supermunk",
-    "name": "Supermunk"
-  },
-  {
-    "slug": "susy",
-    "name": "Susy"
-  },
-  {
-    "slug": "swan-valley-heights",
-    "name": "Swan Valley Heights"
-  },
-  {
-    "slug": "tangled-horns",
-    "name": "Tangled Horns"
-  },
-  {
-    "slug": "tankzilla",
-    "name": "Tankzilla"
-  },
-  {
-    "slug": "taraban",
-    "name": "Taraban"
-  },
-  {
-    "slug": "tarmac",
-    "name": "Tarmac"
-  },
-  {
-    "slug": "temple-fang",
-    "name": "Temple Fang"
-  },
-  {
-    "slug": "terra-black",
-    "name": "Terra Black"
-  },
-  {
-    "slug": "tet",
-    "name": "Tet"
-  },
-  {
-    "slug": "the-atomic-bitchwax",
-    "name": "The Atomic Bitchwax"
-  },
-  {
-    "slug": "the-bevis-frond",
-    "name": "The Bevis Frond"
-  },
-  {
-    "slug": "the-big-rip",
-    "name": "The Big Rip"
-  },
-  {
-    "slug": "the-cosmic-dead",
-    "name": "The Cosmic Dead"
-  },
-  {
-    "slug": "the-crazy-world-of-arthur-brown",
-    "name": "The Crazy World Of Arthur Brown"
-  },
-  {
-    "slug": "the-darts",
-    "name": "The Darts"
-  },
-  {
-    "slug": "the-delayed",
-    "name": "The Delayed"
-  },
-  {
-    "slug": "the-devil-and-the-almighty-blues",
-    "name": "The Devil & the Almighty Blues"
-  },
-  {
-    "slug": "the-flukes-of-sendington",
-    "name": "The Flukes Of Sendington"
-  },
-  {
-    "slug": "the-great-machine",
-    "name": "The Great Machine"
-  },
-  {
-    "slug": "the-hazytones",
-    "name": "The Hazytones"
-  },
-  {
-    "slug": "the-hellacopters",
-    "name": "The Hellacopters"
-  },
-  {
-    "slug": "the-hirs-collective",
-    "name": "The HIRS Collective"
-  },
-  {
-    "slug": "the-janitors",
-    "name": "The Janitors"
-  },
-  {
-    "slug": "the-lunar-effect",
-    "name": "The Lunar Effect"
-  },
-  {
-    "slug": "the-machine",
-    "name": "The Machine"
-  },
-  {
-    "slug": "the-magic-mumble-jumble",
-    "name": "The Magic Mumble Jumble"
-  },
-  {
-    "slug": "the-magogas",
-    "name": "The Magogas"
-  },
-  {
-    "slug": "the-midnight-ghost-train",
-    "name": "The Midnight Ghost Train"
-  },
-  {
-    "slug": "the-miffs",
-    "name": "The Miffs"
-  },
-  {
-    "slug": "the-myrrors",
-    "name": "The Myrrors"
-  },
-  {
-    "slug": "the-mystery-lights",
-    "name": "The Mystery Lights"
-  },
-  {
-    "slug": "the-obsessed",
-    "name": "The Obsessed"
-  },
-  {
-    "slug": "the-polvos",
-    "name": "The Polvos!"
-  },
-  {
-    "slug": "the-sonic-brewery",
-    "name": "The Sonic Brewery"
-  },
-  {
-    "slug": "the-summit-fever",
-    "name": "The Summit Fever"
-  },
-  {
-    "slug": "the-sword",
-    "name": "The Sword"
-  },
-  {
-    "slug": "the-thing",
-    "name": "The Thing"
-  },
-  {
-    "slug": "the-turbo-acs",
-    "name": "The Turbo A.C's"
-  },
-  {
-    "slug": "the-vintage-caravan",
-    "name": "The Vintage Caravan"
-  },
-  {
-    "slug": "the-warlocks",
-    "name": "The Warlocks"
-  },
-  {
-    "slug": "thou",
-    "name": "Thou"
-  },
-  {
-    "slug": "throne",
-    "name": "Throne"
-  },
-  {
-    "slug": "thy-catafalque",
-    "name": "Thy Catafalque"
-  },
-  {
-    "slug": "tisdass",
-    "name": "TisDass"
-  },
-  {
-    "slug": "to-yo",
-    "name": "Tō Yō"
-  },
-  {
-    "slug": "tons",
-    "name": "Tons"
-  },
-  {
-    "slug": "torus",
-    "name": "Torus"
-  },
-  {
-    "slug": "totengott",
-    "name": "Totengott"
-  },
-  {
-    "slug": "traum",
-    "name": "Traum"
-  },
-  {
-    "slug": "travo",
-    "name": "Travo"
-  },
-  {
-    "slug": "truckfighters",
-    "name": "Truckfighters"
-  },
-  {
-    "slug": "tuber",
-    "name": "Tuber"
-  },
-  {
-    "slug": "tulip",
-    "name": "Tulip"
-  },
-  {
-    "slug": "turbo-moses",
-    "name": "Turbo Moses"
-  },
-  {
-    "slug": "turbonegro",
-    "name": "Turbonegro"
-  },
-  {
-    "slug": "ufomammut",
-    "name": "Ufomammut"
-  },
-  {
-    "slug": "ultima-radio",
-    "name": "Ultima Radio"
-  },
-  {
-    "slug": "umor",
-    "name": "Umor"
-  },
-  {
-    "slug": "uncle-acid-and-the-deadbeats",
-    "name": "Uncle Acid & The Deadbeats"
-  },
-  {
-    "slug": "underdogs",
-    "name": "Underdogs"
-  },
-  {
-    "slug": "ungraven",
-    "name": "Ungraven"
-  },
-  {
-    "slug": "unida",
-    "name": "Unida"
-  },
-  {
-    "slug": "vagtazo-halottkemek",
-    "name": "Vágtázo Halottkémek"
-  },
-  {
-    "slug": "valley-of-the-sun",
-    "name": "Valley Of The Sun"
-  },
-  {
-    "slug": "vanr",
-    "name": "Vanr"
-  },
-  {
-    "slug": "velvet-two-stripes",
-    "name": "Velvet Two Stripes"
-  },
-  {
-    "slug": "verminthrone",
-    "name": "Verminthrone"
-  },
-  {
-    "slug": "vestjysk-orken",
-    "name": "Vestjysk Ørken"
-  },
-  {
-    "slug": "vesuve",
-    "name": "Vesuve"
-  },
-  {
-    "slug": "villenoire",
-    "name": "Villenoire"
-  },
-  {
-    "slug": "villjuvet",
-    "name": "Villjuvet"
-  },
-  {
-    "slug": "vinnum-sabbathi",
-    "name": "Vinnum Sabbathi"
-  },
-  {
-    "slug": "volcanova",
-    "name": "Volcanova"
-  },
-  {
-    "slug": "voodoograve",
-    "name": "Voodoograve"
-  },
-  {
-    "slug": "vug",
-    "name": "Vug"
-  },
-  {
-    "slug": "warlung",
-    "name": "Warlung"
-  },
-  {
-    "slug": "wayfarer",
-    "name": "Wayfarer"
-  },
-  {
-    "slug": "weather-systems",
-    "name": "Weather Systems"
-  },
-  {
-    "slug": "wedge",
-    "name": "Wedge"
-  },
-  {
-    "slug": "weedpecker",
-    "name": "Weedpecker"
-  },
-  {
-    "slug": "weite",
-    "name": "Weite"
-  },
-  {
-    "slug": "wheel-of-smoke",
-    "name": "Wheel Of Smoke"
-  },
-  {
-    "slug": "white-noise-generator",
-    "name": "White Noise Generator"
-  },
-  {
-    "slug": "white-ward",
-    "name": "White Ward"
-  },
-  {
-    "slug": "whores",
-    "name": "Whores."
-  },
-  {
-    "slug": "wiegedood",
-    "name": "Wiegedood"
-  },
-  {
-    "slug": "windhand",
-    "name": "Windhand"
-  },
-  {
-    "slug": "wine-lips",
-    "name": "Wine Lips"
-  },
-  {
-    "slug": "witchfinder",
-    "name": "Witchfinder"
-  },
-  {
-    "slug": "witchorious",
-    "name": "Witchorious"
-  },
-  {
-    "slug": "witchthroat-serpent",
-    "name": "Witchthroat Serpent"
-  },
-  {
-    "slug": "wizzerd",
-    "name": "Wizzerd"
-  },
-  {
-    "slug": "wolfnaut",
-    "name": "Wolfnaut"
-  },
-  {
-    "slug": "wolves-of-saturn",
-    "name": "Wolves Of Saturn"
-  },
-  {
-    "slug": "wormsand",
-    "name": "Wormsand"
-  },
-  {
-    "slug": "worshipper",
-    "name": "Worshipper"
-  },
-  {
-    "slug": "wrench",
-    "name": "Wrench"
-  },
-  {
-    "slug": "wucan",
-    "name": "Wucan"
-  },
-  {
-    "slug": "wyatt-e",
-    "name": "Wyatt E."
-  },
-  {
-    "slug": "wytch-hazel",
-    "name": "Wytch Hazel"
-  },
-  {
-    "slug": "xispa-and-the-wild-pigs",
-    "name": "Xispa And The Wild Pigs"
-  },
-  {
-    "slug": "yarostan",
-    "name": "Yarostan"
-  },
-  {
-    "slug": "yetii",
-    "name": "Yetii"
-  },
-  {
-    "slug": "yin-yin",
-    "name": "Yin Yin"
-  },
-  {
-    "slug": "yo-diablo",
-    "name": "Yo Diablo"
-  },
-  {
-    "slug": "yob",
-    "name": "YOB"
-  },
-  {
-    "slug": "yurodivy",
-    "name": "Yurodivy"
-  },
-  {
-    "slug": "yvris",
-    "name": "Yvris"
-  },
-  {
-    "slug": "zeal-and-ardor",
-    "name": "Zeal & Ardor"
-  },
-  {
-    "slug": "zen",
-    "name": "Žen"
-  },
-  {
-    "slug": "zerre",
-    "name": "Zerre"
-  },
-  {
-    "slug": "zhaat",
-    "name": "Zhaat"
-  },
-  {
-    "slug": "zig-zags",
-    "name": "Zig Zags"
-  },
-  {
-    "slug": "zolle",
-    "name": "Zolle"
-  }
-]
+{
+  "1782": "1782",
+  "10000-years": "10,000 Years",
+  "1000mods": "1000mods",
+  "24-7-diva-heaven": "24/7 Diva Heaven",
+  "a": "Å",
+  "a-forest-mighty-black": "A Forest Mighty Black",
+  "a-place-to-bury-strangers": "A Place To Bury Strangers",
+  "abramis-brama": "Abramis Brama",
+  "acid-king": "Acid King",
+  "acid-mammoth": "Acid Mammoth",
+  "acid-row": "Acid Row",
+  "acid-throne": "Acid Throne",
+  "acidsloth": "Acidsloth",
+  "ad-infinitum": "Ad Infinitum",
+  "agriculture": "Agriculture",
+  "ahab": "Ahab",
+  "ahmed-eid-and-ilyf": "Ahmed Eid And Ilyf",
+  "akersborg": "Akersborg",
+  "alber-jupiter": "Alber Jupiter",
+  "altin-gun": "Altın Gün",
+  "alunah": "Alunah",
+  "amenra": "Amenra",
+  "an-evening-with-knives": "An Evening With Knives",
+  "ananda-mida": "Ananda Mida",
+  "annie-taylor": "Annie Taylor",
+  "apex-ten": "Apex Ten",
+  "aptera": "Aptera",
+  "arabrot": "Årabrot",
+  "arv": "ARV",
+  "ashbury-heights": "Ashbury Heights",
+  "asphyx": "Asphyx",
+  "astodan": "Astodan",
+  "astral-nomad": "Astral Nomad",
+  "astroqueen": "Astroqueen",
+  "atomic-mold": "Atomic Mold",
+  "atomic-vulture": "Atomic Vulture",
+  "atonia": "Atonia",
+  "auszaat": "Auszaat",
+  "avon": "Avon",
+  "balate": "Baläte",
+  "barbarian-hermit": "Barbarian Hermit",
+  "barren-womb": "Barren Womb",
+  "battlesnake": "Battlesnake",
+  "bautastor": "Bautastor",
+  "bcuc": "Bantu Continua Uhuru Consciousness",
+  "beehoover": "Beehoover",
+  "belzebong": "Belzebong",
+  "bikini-beach": "Bikini Beach",
+  "bildtstar": "Bildtstar",
+  "birds-of-vale": "Birds Of Vale",
+  "birth-control": "Birth Control",
+  "bismut": "Bismut",
+  "bizon": "Bizon",
+  "black-curse": "Black Curse",
+  "black-elephant": "Black Elephant",
+  "black-groove": "Black Groove",
+  "black-pyramid": "Black Pyramid",
+  "black-rainbows": "Black Rainbows",
+  "black-willows": "Black Willows",
+  "blodkvalt": "Blodkvalt",
+  "blue-heron": "Blue Heron",
+  "bobbie-dazzle": "Bobbie Dazzle",
+  "bong-ra": "Bong-Ra",
+  "bongripper": "Bongripper",
+  "bongzilla": "Bongzilla",
+  "borehead": "Borehead",
+  "bosco-sacro": "Bosco Sacro",
+  "brant-bjork-trio": "Brant Björk Trio",
+  "brat": "Brat",
+  "caboose": "Caboose",
+  "capitan": "Capitan",
+  "caravan-of-whores": "Caravan Of Whores",
+  "carson": "Carson",
+  "castle-rat": "Castle Rat",
+  "causa-sui": "Causa Sui",
+  "cavern-deep": "Cavern Deep",
+  "cerbere": "Cerbère",
+  "chat-pile": "Chat Pile",
+  "chod": "Chöd",
+  "choke-chain": "Choke Chain",
+  "cinder-well": "Cinder Well",
+  "circle-jerks": "Circle Jerks",
+  "circus-cannon": "Circus Cannon",
+  "cisnienie": "Ciśnienie",
+  "coilguns": "Coilguns",
+  "colour-haze": "Colour Haze",
+  "coltaine": "Coltaine",
+  "conan": "Conan",
+  "concrete-winds": "Concrete Winds",
+  "cone": "Cone",
+  "congulus": "Congulus",
+  "convoy": "Convoy",
+  "coogans-bluff": "Coogan's Bluff",
+  "couch-slut": "Couch Slut",
+  "craneium": "Craneium",
+  "crippled-black-phoenix": "Crippled Black Phoenix",
+  "crouch": "Crouch",
+  "crowgod": "Crowgod",
+  "cult-member": "Cult Member",
+  "d": "D.",
+  "daevar": "Daevar",
+  "daily-thompson": "Daily Thompson",
+  "dame-area": "Dame Area",
+  "dark-tree-bark": "Dark Tree Bark",
+  "darsombra": "Darsombra",
+  "daufodt": "Daufødt",
+  "de-mannen-broeders": "De Mannen Broeders",
+  "dead-meadow": "Dead Meadow",
+  "dead-myrick": "Dead Myrick",
+  "death-wvrm": "Death Wvrm",
+  "deathchant": "Deathchant",
+  "decasia": "Decasia",
+  "delving": "Delving",
+  "den-der-hale": "Den Der Hale",
+  "denisa": "Denisa",
+  "desert-smoke": "Desert Smoke",
+  "desert-sun": "Desert Sun",
+  "deville": "Deville",
+  "devon-allmans-blues-summit": "Devon Allman's Blues Summit",
+  "dewolff": "DeWolff",
+  "diiv": "DIIV",
+  "dikke-dennis-en-de-rockers": "Dikke Dennis En De Røckers",
+  "dinosaur-jr": "Dinosaur Jr.",
+  "dirty-sound-magnet": "Dirty Sound Magnet",
+  "djiin": "DJIIN",
+  "domkraft": "Domkraft",
+  "dool": "Dool",
+  "dope-purple": "Dope Purple",
+  "dopelord": "Dopelord",
+  "dopethrone": "Dopethrone",
+  "dozer": "Dozer",
+  "dresden-wolves": "Dresden Wolves",
+  "drive-by-wire": "Drive By Wire",
+  "drone-hunter": "Drone Hunter",
+  "droop": "Droop",
+  "duel": "Duel",
+  "dunbarrow": "Dunbarrow",
+  "dunes": "Dunes",
+  "dvne": "Dvne",
+  "dyse": "DŸSE",
+  "eagle-twin": "Eagle Twin",
+  "early-moods": "Early Moods",
+  "earth": "Earth",
+  "earth-ship": "Earth Ship",
+  "earth-tongue": "Earth Tongue",
+  "earthbong": "Earthbong",
+  "earthless": "Earthless",
+  "eihwar": "Eihwar",
+  "einseinseins": "Einseinseins",
+  "el-moono": "El Moono",
+  "el-perro": "El Perro",
+  "elder": "Elder",
+  "elephant-tree": "Elephant Tree",
+  "ellende": "Ellende",
+  "emma-ruth-rundle": "Emma Ruth Rundle",
+  "enojado": "Enojado",
+  "eremit": "Eremit",
+  "ermete": "Ermete",
+  "erronaut": "Erronaut",
+  "evadne": "Evadne",
+  "eyehategod": "Eyehategod",
+  "eyze": "Eyze",
+  "faetooth": "Faetooth",
+  "falling-boy": "Falling Boy",
+  "false-reality": "False Reality",
+  "feedy": "Feedy",
+  "feral-nature": "Feral Nature",
+  "fights": "Fights",
+  "fincher": "Fincher",
+  "fire": "Fire!",
+  "flamebearer": "Flamebearer",
+  "flokati": "Flokati",
+  "flowers-must-die": "Flowers Must Die",
+  "focus": "Focus",
+  "frail-body": "Frail Body",
+  "frankie-and-the-witch-fingers": "Frankie and the Witch Fingers",
+  "free-ride": "Free Ride",
+  "froglord": "Froglord",
+  "from-another-mother": "From Another Mother",
+  "fu-manchu": "Fu Manchu",
+  "full-earth": "Full Earth",
+  "furia": "Furia",
+  "fuzzy-grass": "Fuzzy Grass",
+  "fvzz-popvli": "FVZZ POPVLI",
+  "gaupa": "Gaupa",
+  "gevaudan": "Gevaudan",
+  "ggu-ll": "Ggu:ll",
+  "ghostwoman": "Ghostwoman",
+  "giobia": "Giöbia",
+  "gjenferd": "Gjenferd",
+  "glabre": "Glabre",
+  "glasgow-coma-scale": "Glasgow Coma Scale",
+  "glitch": "G L I T C H",
+  "gnome": "Gnome",
+  "goat-major": "Goat Major",
+  "goblinsmoker": "Goblinsmoker",
+  "god-is-an-astronaut": "God is an Astronaut",
+  "godsleep": "Godsleep",
+  "godzilla-was-too-drunk-to-destroy-tokyo": "Godzilla Was Too Drunk To Destroy Tokyo",
+  "gong": "Gong",
+  "gosta-berglings-saga": "Gösta Berglings Saga",
+  "gott": "Gott",
+  "grand-atomic": "Grand Atomic",
+  "grandmas-ashes": "Grandma's Ashes",
+  "graveyard": "Graveyard",
+  "green-lung": "Green Lung",
+  "green-milk-from-the-planet-orange": "Green Milk from the Planet Orange",
+  "greenleaf": "Greenleaf",
+  "grey-czar": "Grey Czar",
+  "guiltless": "Guiltless",
+  "gyfth": "Gyfth",
+  "haeze": "Haeze",
+  "hah": "HAH",
+  "handgemeng": "Håndgemeng",
+  "harrowist": "Harrowist",
+  "haunted": "Haunted",
+  "have-a-nice-life": "Have A Nice Life",
+  "health": "Health",
+  "heartworms": "Heartworms",
+  "heath": "Heath",
+  "heckspoiler": "Heckspoiler",
+  "hedonist": "Hedonist",
+  "hedvig-mollestad-trio": "Hedvig Mollestad Trio",
+  "hellripper": "Hellripper",
+  "hellroom-projectors": "Hellroom Projectors",
+  "help": "Help",
+  "hemelbestormer": "Hemelbestormer",
+  "hermano": "Hermano",
+  "hexjakt": "Hexjakt",
+  "hidas": "Hidas",
+  "high": "High",
+  "high-desert-queen": "High Desert Queen",
+  "high-parasite": "High Parasite",
+  "hippie-death-cult": "Hippie Death Cult",
+  "hippotraktor": "Hippotraktor",
+  "homegrown": "Homegrown",
+  "hooveriii": "Hooveriii",
+  "hot-sauce-party": "Hot Sauce Party",
+  "hrmulja": "Hrmülja",
+  "huge-molasses-tank-explodes": "Huge Molasses Tank Explodes",
+  "human-impact": "Human Impact",
+  "humulus": "Humulus",
+  "iah": "IAH",
+  "iguana-death-cult": "Iguana Death Cult",
+  "il-civetto": "Il Civetto",
+  "indykush": "INDYKUSH",
+  "inter-arma": "Inter Arma",
+  "iron-jinn": "Iron Jinn",
+  "ixzhilion": "Ixzhilion",
+  "jantar": "Jantar",
+  "jjuujjuu": "Jjuujjuu",
+  "jo-quail": "Jo Quail",
+  "joe-la-truite": "Joe La Truite",
+  "john-cxnnor-x-witch-club-satan": "John Cxnnor x Witch Club Satan",
+  "josiah": "Josiah",
+  "kadavar": "Kadavar",
+  "kaiser": "Kaiser",
+  "kal-el": "Kal El",
+  "kalamata": "Kalamata",
+  "kaleidobolt": "Kaleidobolt",
+  "kalvaire": "Kalvaire",
+  "kambodsja": "Kambodsja",
+  "kanaan-and-aevestaden": "Kanaan And Ævestaden",
+  "kannabinoid": "Kannabinõid",
+  "kant": "Kant",
+  "karg": "Karg",
+  "karkara": "Karkara",
+  "kaskadeur": "Kaskadeur",
+  "katla": "Katla",
+  "kellermensch": "Kellermensch",
+  "khan": "Khan",
+  "killed-a-fox": "Killed a Fox",
+  "kind": "Kind",
+  "king-blotfly": "King Blotfly",
+  "king-buffalo": "King Buffalo",
+  "king-coyote": "King Coyote",
+  "kloster": "Kløster",
+  "komatsu": "Komatsu",
+  "kombynat-robotron": "Kombynat Robotron",
+  "krake": "Krake",
+  "krakslott": "Kråkslott",
+  "kudos-to-kosmos": "Kudos To Kosmos",
+  "kush-thulhu": "Kush Thulhu",
+  "kylesa": "Kylesa",
+  "la-briscola-bugiarda": "La Briscola Bugiarda",
+  "langfinger": "Långfinger",
+  "lara": "Lära",
+  "lazar": "Lazar",
+  "lazarvs": "Lazarvs",
+  "leif-de-leeuw-band": "Leif De Leeuw Band",
+  "lemon-rose": "Lemon Rose",
+  "life-of-agony": "Life Of Agony",
+  "linija-109": "Linija 109",
+  "litania": "Litania",
+  "liturgy": "Liturgy",
+  "living-gate": "Living Gate",
+  "llnn": "LLNN",
+  "long-distance-calling": "Long Distance Calling",
+  "longheads": "Longheads",
+  "lord-buffalo": "Lord Buffalo",
+  "lord-of-confusion": "Lord Of Confusion",
+  "love-gang": "Love Gang",
+  "lowen": "Lowen",
+  "lowrider": "Lowrider",
+  "lucid-void": "Lucid Void",
+  "luna-sol": "Luna Sol",
+  "lurch": "Lurch",
+  "lust-ritual": "Lust Ritual",
+  "machukha": "Machukha",
+  "mad-foxes": "Mad Foxes",
+  "madmess": "Madmess",
+  "magma": "Magma",
+  "magmakammer": "Magmakammer",
+  "maha-sohona": "Maha Sohona",
+  "maidavale": "MaidaVale",
+  "mantar": "Mantar",
+  "maragda": "Maragda",
+  "marcel-gidotes-holy-crab": "Marcel Gidote's Holy Crab",
+  "margarita-witch-cult": "Margarita Witch Cult",
+  "margaritas-podridas": "Margaritas Podridas",
+  "marleys-ghost": "Marley's Ghost & Friends Feat. Delle",
+  "mars-red-sky": "Mars Red Sky",
+  "mary-janes-soundgarden": "Mary Janes Soundgarden",
+  "masters-of-reality": "Masters Of Reality",
+  "me-and-that-man": "Me And That Man",
+  "melvins": "Melvins",
+  "mephistofeles": "Mephistofeles",
+  "messa": "Messa",
+  "methadone-skies": "Methadone Skies",
+  "methuselian": "Methuselian",
+  "mil-homes": "Mil Homes",
+  "milo-dragovic": "Milo Dragovic",
+  "modder": "Modder",
+  "mojo-jazz-mob": "Mojo Jazz Mob",
+  "mondo-generator": "Mondo Generator",
+  "monica": "Monica",
+  "monkey3": "Monkey3",
+  "monkeys-on-mars": "Monkeys On Mars",
+  "monolord": "Monolord",
+  "moon-coven": "Moon Coven",
+  "moonstone": "Moonstone",
+  "morpholith": "Morpholith",
+  "mothers-cake": "Mother's Cake",
+  "motorik": "Motor!k",
+  "motorowl": "Motorowl",
+  "motorpsycho": "Motorpsycho",
+  "mr-bison": "Mr Bison",
+  "mushroom-caravan-overdrive": "Mushroom Caravan Overdrive",
+  "my-sleeping-karma": "My Sleeping Karma",
+  "nadir": "Nadir",
+  "nagircalmmiid": "Nagircalmmiid",
+  "nalar": "Nalar",
+  "negative-blast": "Negative Blast",
+  "neptunian-maximalism": "Neptunian Maximalism",
+  "new-age-doom-feat-tuvaband": "New Age Doom Feat. Tuvaband",
+  "new-candys": "New Candys",
+  "new-money": "New Money",
+  "nightstalker": "Nightstalker",
+  "novere": "Novere",
+  "nvage": "Nvage",
+  "oakfarm": "Oakfarm",
+  "ol": "ØL",
+  "one-leg-one-eye": "One Leg One Eye",
+  "ora-cogan": "Ora Cogan",
+  "orange-goblin": "Orange Goblin",
+  "oranssi-pazuzu": "Oranssi Pazuzu",
+  "orbitron": "Orbitron",
+  "oreyeon": "Oreyeon",
+  "orsak-oslo": "Orsak:Oslo",
+  "orum": "Orum",
+  "osees": "Osees",
+  "otrovna-kristina": "Otrovna Kristina",
+  "outback": "Outback",
+  "oxn": "ØXN",
+  "pageninetynine": "pageninetynine",
+  "pallbearer": "Pallbearer",
+  "patriarchy": "Patriarchy",
+  "peglica-i-komandos": "Peglica i Komandos",
+  "pelagic-zone": "Pelagic Zone",
+  "pelican": "Pelican",
+  "pendejo": "¡PENDEJO!",
+  "peter-pan-speedrock": "Peter Pan Speedrock",
+  "phantom-elite": "Phantom Elite",
+  "piece": "Piece",
+  "planet-of-zeus": "Planet of Zeus",
+  "ponte-del-diavolo": "Ponte Del Diavolo",
+  "portman": "Portman",
+  "praise-the-plague": "Praise The Plague",
+  "pray": "Praÿ",
+  "psychic-graveyard": "Psychic Graveyard",
+  "psychlona": "Psychlona",
+  "psychogarden": "Psychogarden",
+  "psychonaut": "Psychonaut",
+  "pult": "Pult",
+  "puta-volcano": "Puta Volcano",
+  "quiet-confusion": "Quiet Confusion",
+  "rats-and-daggers": "Rats and Daggers",
+  "reach": "Reach",
+  "red-sun-atacama": "Red Sun Atacama",
+  "redstone": "Redstone",
+  "redwood-temple": "Redwood Temple",
+  "rezn": "REZN",
+  "rickshaw-billies-burger-patrol": "Rickshaw Billie's Burger Patrol",
+  "rifftree": "Rifftree",
+  "ritual-king": "Ritual King",
+  "ronker": "Ronker",
+  "rotor": "Rotor",
+  "rovar": "Rovar",
+  "rpwl": "RPWL",
+  "russian-circles": "Russian Circles",
+  "ruun": "RUUN",
+  "s-t-erik": "S:T Erik",
+  "sacri-monti": "Sacri Monti",
+  "sadhus": "Sadhus",
+  "saint-karloff": "Saint Karloff",
+  "samstation": "Samstation",
+  "sarkh": "Sarkh",
+  "sator": "Sator",
+  "sautrus": "Sautrus",
+  "savanah": "Savanah",
+  "scott-hepple-and-the-sun-band": "Scott Hepple and the Sun Band",
+  "scrotem": "Scrotem",
+  "sea-bastard": "Sea Bastard",
+  "servo": "SERVO",
+  "seven-spires": "Seven Spires",
+  "seven-that-spells": "Seven That Spells",
+  "shiveringfit": "ShiveringFit",
+  "sienna-root": "Sienna Root",
+  "skyjoggers": "Skyjoggers",
+  "sleeping-mountain": "Sleeping Mountain",
+  "sleepytime-gorilla-museum": "Sleepytime Gorilla Museum",
+  "slift": "SLIFT",
+  "slobber": "Slobber",
+  "slodder": "Slôdder",
+  "slomatics": "Slomatics",
+  "slomosa": "Slomosa",
+  "slor": "Slor",
+  "slug": "slug",
+  "slump": "Slump",
+  "smooth-motion": "Smooth Motion",
+  "smote": "Smote",
+  "snakes-snakes-snakes": "Snakes Snakes Snakes",
+  "sons-of-alpha-centauri": "Sons of Alpha Centauri",
+  "sons-of-arrakis": "Sons Of Arrakis",
+  "spaced": "Spaced",
+  "spaceslug": "Spaceslug",
+  "spiralpark": "Spiralpark",
+  "spirit-mother": "Spirit Mother",
+  "splinter": "Splinter",
+  "spoon-benders": "Spoon Benders",
+  "star-rider": "Star Rider",
+  "steinsopp": "Steinsopp",
+  "stinking-lizaveta": "Stinking Lizaveta",
+  "stone-from-the-sky": "Stone From The Sky",
+  "stoned-jesus": "Stoned Jesus",
+  "stonerhead": "Stonerhead",
+  "stones-of-babylon": "Stones Of Babylon",
+  "stonus": "Stonus",
+  "stress-positions": "Stress Positions",
+  "subterraen": "Subterraen",
+  "sugar-horse": "Sugar Horse",
+  "sumac": "Sumac",
+  "sunnata": "Sunnata",
+  "suntan-club": "Suntan Club",
+  "supermunk": "Supermunk",
+  "susy": "Susy",
+  "swan-valley-heights": "Swan Valley Heights",
+  "tangled-horns": "Tangled Horns",
+  "tankzilla": "Tankzilla",
+  "taraban": "Taraban",
+  "tarmac": "Tarmac",
+  "temple-fang": "Temple Fang",
+  "terra-black": "Terra Black",
+  "tet": "Tet",
+  "the-atomic-bitchwax": "The Atomic Bitchwax",
+  "the-bevis-frond": "The Bevis Frond",
+  "the-big-rip": "The Big Rip",
+  "the-cosmic-dead": "The Cosmic Dead",
+  "the-crazy-world-of-arthur-brown": "The Crazy World Of Arthur Brown",
+  "the-darts": "The Darts",
+  "the-delayed": "The Delayed",
+  "the-devil-and-the-almighty-blues": "The Devil & the Almighty Blues",
+  "the-flukes-of-sendington": "The Flukes Of Sendington",
+  "the-great-machine": "The Great Machine",
+  "the-hazytones": "The Hazytones",
+  "the-hellacopters": "The Hellacopters",
+  "the-hirs-collective": "The HIRS Collective",
+  "the-janitors": "The Janitors",
+  "the-lunar-effect": "The Lunar Effect",
+  "the-machine": "The Machine",
+  "the-magic-mumble-jumble": "The Magic Mumble Jumble",
+  "the-magogas": "The Magogas",
+  "the-midnight-ghost-train": "The Midnight Ghost Train",
+  "the-miffs": "The Miffs",
+  "the-myrrors": "The Myrrors",
+  "the-mystery-lights": "The Mystery Lights",
+  "the-obsessed": "The Obsessed",
+  "the-polvos": "The Polvos!",
+  "the-sonic-brewery": "The Sonic Brewery",
+  "the-summit-fever": "The Summit Fever",
+  "the-sword": "The Sword",
+  "the-thing": "The Thing",
+  "the-turbo-acs": "The Turbo A.C's",
+  "the-vintage-caravan": "The Vintage Caravan",
+  "the-warlocks": "The Warlocks",
+  "thou": "Thou",
+  "throne": "Throne",
+  "thy-catafalque": "Thy Catafalque",
+  "tisdass": "TisDass",
+  "to-yo": "Tō Yō",
+  "tons": "Tons",
+  "torus": "Torus",
+  "totengott": "Totengott",
+  "traum": "Traum",
+  "travo": "Travo",
+  "truckfighters": "Truckfighters",
+  "tuber": "Tuber",
+  "tulip": "Tulip",
+  "turbo-moses": "Turbo Moses",
+  "turbonegro": "Turbonegro",
+  "ufomammut": "Ufomammut",
+  "ultima-radio": "Ultima Radio",
+  "umor": "Umor",
+  "uncle-acid-and-the-deadbeats": "Uncle Acid & The Deadbeats",
+  "underdogs": "Underdogs",
+  "ungraven": "Ungraven",
+  "unida": "Unida",
+  "vagtazo-halottkemek": "Vágtázo Halottkémek",
+  "valley-of-the-sun": "Valley Of The Sun",
+  "vanr": "Vanr",
+  "velvet-two-stripes": "Velvet Two Stripes",
+  "verminthrone": "Verminthrone",
+  "vestjysk-orken": "Vestjysk Ørken",
+  "vesuve": "Vesuve",
+  "villenoire": "Villenoire",
+  "villjuvet": "Villjuvet",
+  "vinnum-sabbathi": "Vinnum Sabbathi",
+  "volcanova": "Volcanova",
+  "voodoograve": "Voodoograve",
+  "vug": "Vug",
+  "warlung": "Warlung",
+  "wayfarer": "Wayfarer",
+  "weather-systems": "Weather Systems",
+  "wedge": "Wedge",
+  "weedpecker": "Weedpecker",
+  "weite": "Weite",
+  "wheel-of-smoke": "Wheel Of Smoke",
+  "white-noise-generator": "White Noise Generator",
+  "white-ward": "White Ward",
+  "whores": "Whores.",
+  "wiegedood": "Wiegedood",
+  "windhand": "Windhand",
+  "wine-lips": "Wine Lips",
+  "witchfinder": "Witchfinder",
+  "witchorious": "Witchorious",
+  "witchthroat-serpent": "Witchthroat Serpent",
+  "wizzerd": "Wizzerd",
+  "wolfnaut": "Wolfnaut",
+  "wolves-of-saturn": "Wolves Of Saturn",
+  "wormsand": "Wormsand",
+  "worshipper": "Worshipper",
+  "wrench": "Wrench",
+  "wucan": "Wucan",
+  "wyatt-e": "Wyatt E.",
+  "wytch-hazel": "Wytch Hazel",
+  "xispa-and-the-wild-pigs": "Xispa And The Wild Pigs",
+  "yarostan": "Yarostan",
+  "yetii": "Yetii",
+  "yin-yin": "Yin Yin",
+  "yo-diablo": "Yo Diablo",
+  "yob": "YOB",
+  "yurodivy": "Yurodivy",
+  "yvris": "Yvris",
+  "zeal-and-ardor": "Zeal & Ardor",
+  "zen": "Žen",
+  "zerre": "Zerre",
+  "zhaat": "Zhaat",
+  "zig-zags": "Zig Zags",
+  "zolle": "Zolle"
+}

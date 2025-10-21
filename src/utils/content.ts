@@ -16,12 +16,3 @@ export async function getFestivalByYearAndKey(year: number, key: string): Promis
   return collection.find(({ data }) => key === data.key && year === new Date(data.startDate).getFullYear())!
     .data;
 }
-
-export async function getBandNamesFromSlugs(slugs: string[]): Promise<string[]> {
-  const bands = await getCollection("bands");
-
-  return slugs
-    .map((slug) => bands.find((b) => b.data.slug === slug)?.data.name)
-    .filter((name): name is string => Boolean(name))
-    .sort((a, b) => a.localeCompare(b));
-}

@@ -1,5 +1,6 @@
 import { Map as MapPane, Marker, Popup, useMap } from "@vis.gl/react-maplibre";
 import Pin from "../icons/pin-fill.svg?react";
+import Attribution from "./Attribution";
 
 import { useState, useEffect, useRef, useMemo, memo } from "react";
 import { findCoordsCenter } from "../utils/map";
@@ -112,7 +113,13 @@ export default function Map({ festivals, path }: { festivals: Festival[]; path: 
     <>
       <div className="pointer-events-none absolute z-[450] h-full w-full shadow-[inset_0_0_64px_rgba(0,0,0,0.9)]"></div>
       {festivals && (
-        <MapPane initialViewState={initialViewState} mapStyle={darkmatter as StyleSpecification} ref={mapRef}>
+        <MapPane
+          initialViewState={initialViewState}
+          mapStyle={darkmatter as StyleSpecification}
+          ref={mapRef}
+          attributionControl={false}
+        >
+          <Attribution />
           <MapNavigation target={flyTarget} />
           {markers}
         </MapPane>

@@ -1,25 +1,23 @@
 ---
 import { Image } from "astro:assets";
 import { Icon } from "astro-icon/components";
+import bandsFile from "../_content/bands.json";
 
-import { getBandNamesFromSlugs } from "../utils/content";
 import { formatFestivalDates, formatProvisionalDate } from "../utils/dates";
 
 import type { Festival } from "../content.config";
 import type { ImageMetadata } from "astro";
 
 const festival: Festival = Astro.props.festival;
+const bands = bandsFile as Record<string, string>;
 const { name, website, country, city, indoor, startDate, endDate, lineup, img, provisionalDate } = festival;
-const bands = lineup ? await getBandNamesFromSlugs(lineup) : null;
 const year = new Date(startDate).getFullYear();
 ---
 
-<section class="flex flex-col items-center text-center text-white">
-  <div class="absolute top-0 right-0 z-[1] p-2 pr-3 lg:p-4 lg:pr-5">
-    <a href={`/${year}`}
-      ><Icon name="close" class="text-3xl text-neutral-400 transition hover:text-white" /></a
-    >
-  </div>
+<section class="relative flex flex-col items-center text-center text-white">
+  <a class="absolute top-0 right-0 z-[1] p-1 lg:p-2" href={`/${year}`}
+    ><Icon name="close" class="text-3xl text-neutral-400 transition hover:text-white" /></a
+  >
   {
     img && (
       <Image
@@ -29,9 +27,9 @@ const year = new Date(startDate).getFullYear();
       />
     )
   }
-  <h2 class="mt-3 text-xl sm:text-2xl">{name}</h2>
+  <h2 class="mt-2 text-lg text-neutral-200">{name}</h2>
 
-  <div class="mt-4 flex items-center gap-1 text-center">
+  <div class="mt-1 flex items-center gap-1 text-center">
     <Icon name="pin" class="text-xl" />
     <h3 class="text-lg">{city}, {country}</h3>
   </div>
@@ -46,24 +44,31 @@ const year = new Date(startDate).getFullYear();
     <p>{indoor ? "Indoor" : "Open-air"}</p>
   </div>
 
-  <div class="mt-3 flex items-center gap-1 text-center">
+  <div class="mt-2 flex items-center gap-1 text-center">
     <Icon name="link" class="text-xl" />
     <a
       href={website}
       target="_blank"
-      class="cursor-pointer text-xl text-[salmon] underline transition hover:text-white"
+      class="cursor-pointer text-lg text-[salmon] underline transition hover:text-white"
     >
       homepage
     </a>
   </div>
 
-  <h3 class="mt-4 text-xl font-bold text-neutral-300">- Lineup -</h3>
+  <div class="mt-5 flex w-full items-center justify-center px-4 opacity-80">
+    <div class="flex-1 border-t border-[salmon]"></div>
+    <span class="mx-4 text-xl font-bold text-[salmon]">LINEUP</span>
+    <div class="flex-1 border-t border-[salmon]"></div>
+  </div>
+
   <ul class="flex w-full flex-col flex-wrap">
     {
-      bands
-        ? bands.map((band) => {
+      lineup
+        ? lineup.map((band) => {
             return (
-              <li class="text-md leading-snug font-black md:text-xl lg:text-2xl">{band.toUpperCase()}</li>
+              <li class="text-md leading-snug font-black md:text-xl lg:text-2xl">
+                {bands[band].toUpperCase()}
+              </li>
             );
           })
         : "To be announced"
