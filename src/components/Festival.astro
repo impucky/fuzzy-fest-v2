@@ -14,8 +14,8 @@ const { name, website, country, city, indoor, startDate, endDate, lineup, img, p
 const year = new Date(startDate).getFullYear();
 ---
 
-<section class="relative flex flex-col items-center text-center text-white">
-  <a class="absolute top-0 right-0 z-[1] p-1 lg:p-2" href={`/${year}`}
+<section class="flex flex-col items-center text-center text-white">
+  <a class="sticky top-1 left-0 z-[1] ml-auto p-1 lg:p-2" href={`/${year}`}
     ><Icon name="close" class="text-3xl text-neutral-400 transition hover:text-white" /></a
   >
   {
@@ -23,7 +23,7 @@ const year = new Date(startDate).getFullYear();
       <Image
         src={img}
         alt={name + " logo"}
-        class="mt-8 h-auto max-h-20 w-auto max-w-64 md:max-h-32 lg:max-w-80 xl:max-w-full"
+        class="h-auto max-h-20 w-auto max-w-64 md:max-h-32 lg:max-w-80 xl:max-w-full"
       />
     )
   }

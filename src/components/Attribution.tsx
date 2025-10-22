@@ -5,9 +5,9 @@ export default function Attribution() {
   const [show, setShow] = useState(false);
   return (
     <>
-      <div className="absolute right-2 bottom-2 z-[999] flex text-xs">
+      <div className="absolute right-2 bottom-2 z-[999] flex text-[0.65rem] text-nowrap sm:text-sm">
         {show && (
-          <div className="bgnoise mr-1 flex items-center gap-1 rounded-xl bg-neutral-900 px-3 py-1 text-neutral-300 shadow-[0_0_8px_rgba(0,0,0,0.7)]">
+          <div className="bgnoise mr-1 flex w-fit items-center gap-1 rounded-xl bg-neutral-900 px-3 py-1 text-ellipsis text-neutral-300 shadow-[0_0_8px_rgba(0,0,0,0.7)]">
             <a
               href="https://maplibre.org/"
               target="_blank"

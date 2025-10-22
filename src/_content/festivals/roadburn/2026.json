@@ -1,0 +1,26 @@
+{
+  "name": "Roadburn",
+  "key": "roadburn",
+  "img": "./roadburn.webp",
+  "website": "https://roadburn.com/",
+  "country": "Netherlands",
+  "city": "Tilburg",
+  "lat": 51.5579462421408,
+  "lng": 5.092826165263677,
+  "indoor": true,
+  "startDate": "2026-04-16",
+  "endDate": "2026-04-19",
+  "lineup": [
+    "krallice",
+    "oathbreaker",
+    "heaven-in-her-arms",
+    "agriculture",
+    "crippling-alcoholism",
+    "coalesce",
+    "krallice",
+    "kiss-the-anus-of-a-black-cat",
+    "habak",
+    "shearling",
+    "quest-master"
+  ]
+}
