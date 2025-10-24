@@ -1,0 +1,22 @@
+{
+  "name": "Freak Valley X-Mas Fest",
+  "key": "freak-valley-xmas-fest",
+  "img": "./freak-valley-festival.webp",
+  "website": "https://www.freakvalley.de/",
+  "country": "Germany",
+  "city": "Siegen",
+  "lat": 50.897991683263115,
+  "lng": 8.029036841164574,
+  "indoor": true,
+  "startDate": "2025-12-05",
+  "endDate": "2025-12-06",
+  "lineup": [
+    "minami-deutsch",
+    "elephant-tree",
+    "coogans-bluff",
+    "bikini-beach",
+    "weite",
+    "magic-machine",
+    "children-of-the-sun"
+  ]
+}

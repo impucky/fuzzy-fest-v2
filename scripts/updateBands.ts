@@ -1,8 +1,8 @@
 import fs from "fs";
 import path from "path";
 
-const festivalsDir = path.resolve("src/_content/festivals");
-const bandsPath = path.resolve("src/_content/bands.json");
+const festivalsDir = path.resolve("content/festivals");
+const bandsPath = path.resolve("content/bands.json");
 
 const bands: Record<string, string> = JSON.parse(fs.readFileSync(bandsPath, "utf-8"));
 const newBands = new Set<string>();
@@ -37,15 +37,13 @@ for (const file of festivalFiles) {
   }
 }
 
-// Sort alphabetically by slug
 const sorted = Object.fromEntries(Object.entries(bands).sort(([a], [b]) => a.localeCompare(b)));
 
-// Write back to file
-fs.writeFileSync(bandsPath, JSON.stringify(sorted, null, 2) + "\n", "utf-8");
+fs.writeFileSync(bandsPath, JSON.stringify(sorted, null, 2), "utf-8");
 
 if (newBands.size) {
-  console.log("Added new bands:");
-  console.log([...newBands].sort().join("\n"));
+  console.log("Added new bands :");
+  console.log([...newBands].sort().join("\n- "));
 } else {
-  console.log("No new bands found.");
+  console.log("No bands to add");
 }

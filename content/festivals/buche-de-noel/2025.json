@@ -1,0 +1,32 @@
+{
+  "name": "Bûche de Noël",
+  "key": "buche-de-noel",
+  "img": "./buche-de-noel.webp",
+  "website": "https://www.instagram.com/poutrasseau/",
+  "country": "France",
+  "city": "Nice",
+  "lat": 43.70255038461098,
+  "lng": 7.221587200051698,
+  "indoor": true,
+  "startDate": "2025-12-19",
+  "endDate": "2025-12-20",
+  "provisionalDate": false,
+  "lineup": [
+    "witchfinder",
+    "giobia",
+    "ladeulas",
+    "messalina",
+    "occult-hand-order",
+    "soul-splitter",
+    "carivari",
+    "coven",
+    "dullboy",
+    "vesuve",
+    "lorchidee-cosmique",
+    "zepah",
+    "imoseul",
+    "hemene-et-hel",
+    "clem",
+    "northnode"
+  ]
+}

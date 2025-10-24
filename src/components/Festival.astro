@@ -1,17 +1,21 @@
 ---
 import { Image } from "astro:assets";
 import { Icon } from "astro-icon/components";
-import bandsFile from "../_content/bands.json";
+import Spacer from "./Spacer.astro";
+import bandsFile from "../../content/bands.json";
 
 import { formatFestivalDates, formatProvisionalDate } from "../utils/dates";
+import { getPastEditions } from "../utils/content";
 
 import type { Festival } from "../content.config";
-import type { ImageMetadata } from "astro";
 
 const festival: Festival = Astro.props.festival;
 const bands = bandsFile as Record<string, string>;
-const { name, website, country, city, indoor, startDate, endDate, lineup, img, provisionalDate } = festival;
+const { name, key, website, country, city, indoor, startDate, endDate, lineup, img, provisionalDate } =
+  festival;
 const year = new Date(startDate).getFullYear();
+const sortedLineup = lineup ? lineup.sort((a, b) => bands[a].localeCompare(bands[b])) : null;
+const pastEditions = await getPastEditions(key, new Date(startDate));
 ---
 
 <section class="flex flex-col items-center text-center text-white">
@@ -55,16 +59,12 @@ const year = new Date(startDate).getFullYear();
     </a>
   </div>
 
-  <div class="mt-5 flex w-full items-center justify-center px-4 opacity-80">
-    <div class="flex-1 border-t border-[salmon]"></div>
-    <span class="mx-4 text-xl font-bold text-[salmon]">LINEUP</span>
-    <div class="flex-1 border-t border-[salmon]"></div>
-  </div>
+  <Spacer label="LINEUP" />
 
   <ul class="flex w-full flex-col flex-wrap pb-4">
     {
-      lineup
-        ? lineup.map((band) => {
+      sortedLineup
+        ? sortedLineup.map((band) => {
             return (
               <li class="text-md leading-snug font-black md:text-xl lg:text-2xl">
                 {bands[band].toUpperCase()}
@@ -74,4 +74,27 @@ const year = new Date(startDate).getFullYear();
         : "To be announced"
     }
   </ul>
+
+  {
+    pastEditions.length > 0 && (
+      <>
+        <Spacer label="PAST EDITIONS" />
+        <ul class="flex w-full flex-col flex-wrap pb-4">
+          {pastEditions.map((f) => {
+            const year = new Date(f.startDate).getFullYear();
+            return (
+              <li>
+                <a
+                  class="text-md leading-snug font-black text-white transition hover:text-[salmon] hover:underline md:text-lg"
+                  href={`/${year}/${f.key}`}
+                >
+                  {f.name} {new Date(f.startDate).getFullYear()}
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      </>
+    )
+  }
 </section>

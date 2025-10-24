@@ -1,0 +1,13 @@
+{
+  "name": "Keep It Low Festival",
+  "key": "keep-it-low-festival",
+  "img": "./keep-it-low-festival.webp",
+  "website": "https://www.keepitlow.de/",
+  "country": "Germany",
+  "city": "Munich",
+  "lat": 48.14516298288267,
+  "lng": 11.521611734201125,
+  "indoor": true,
+  "startDate": "2026-10-9",
+  "endDate": "2026-10-10"
+}

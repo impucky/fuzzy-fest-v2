@@ -87,6 +87,7 @@ export default function Map({ festivals, path }: { festivals: Festival[]; path: 
     return (
       <>
         <a
+          className="drop-shadow-[0_0_4px_rgba(0,0,0,0.4)] transition hover:drop-shadow-[0_0_4px_rgba(0,0,0,0.8)]"
           href={`/${new Date(festival.startDate).getFullYear()}/${festival.key}`}
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}

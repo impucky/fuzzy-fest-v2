@@ -1,0 +1,13 @@
+{
+  "name": "atMOERSphere",
+  "key": "atmoersphere",
+  "img": "./atmoersphere.webp",
+  "website": "https://www.instagram.com/atmoersphere/",
+  "country": "Germany",
+  "city": "Moers",
+  "lat": 51.45259887160213,
+  "lng": 6.640358571147072,
+  "indoor": true,
+  "startDate": "2026-04-18",
+  "endDate": "2026-04-18"
+}

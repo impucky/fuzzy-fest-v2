@@ -3,7 +3,7 @@ import type { InferEntrySchema } from "astro:content";
 import { glob } from "astro/loaders";
 
 const festivals = defineCollection({
-  loader: glob({ pattern: "src/_content/festivals/*/*.json" }),
+  loader: glob({ pattern: "content/festivals/*/*.json" }),
   schema: ({ image }) =>
     z.object({
       name: z.string(),
