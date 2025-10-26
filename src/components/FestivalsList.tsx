@@ -1,14 +1,20 @@
+import Spacer from "./Spacer";
+
 import { useStore } from "@nanostores/react";
-import { highlightAtom } from "../stores/highlightAtom";
+import { highlightAtom } from "../nano/highlightAtom";
+import { mapFiltersAtom } from "../nano/mapFiltersAtom";
+import { filterFestivals } from "../utils/map";
 import { useMemo } from "react";
 
 import type { Festival } from "../content.config";
 
 export default function FestivalsList({ festivals, year }: { festivals: Festival[]; year: number }) {
   const $highlight = useStore(highlightAtom);
+  const $filters = useStore(mapFiltersAtom);
 
   const festivalsByMonth = useMemo(() => {
-    const sorted = [...festivals].sort(
+    const filtered = filterFestivals(festivals, $filters, null);
+    const sorted = [...filtered].sort(
       (a, b) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime(),
     );
 
@@ -19,17 +25,13 @@ export default function FestivalsList({ festivals, year }: { festivals: Festival
       grouped.get(month)!.push(f);
     }
     return grouped;
-  }, [festivals]);
+  }, [festivals, $filters]);
 
   return (
     <div className="pb-8">
       {[...festivalsByMonth.entries()].map(([month, monthFestivals]) => (
         <div key={month}>
-          <div className="mt-5 flex items-center justify-center px-4 opacity-80">
-            <div className="flex-1 border-t border-[salmon]"></div>
-            <span className="mx-4 text-xl font-bold text-[salmon]">{month}</span>
-            <div className="flex-1 border-t border-[salmon]"></div>
-          </div>
+          <Spacer label={month} />
           <ul>
             {monthFestivals.map((f) => {
               const pastFestival = new Date(f.startDate) < new Date();

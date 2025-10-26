@@ -1,4 +1,4 @@
-function dateString(date: string) {
+export function dateString(date: string | Date) {
   return new Date(date).toLocaleDateString("en-US", {
     month: "long",
     day: "numeric",
@@ -24,4 +24,14 @@ export function formatProvisionalDate(date: string) {
     month: "long",
     year: "numeric",
   })} (TBA)`;
+}
+
+export function todayOutOf365(date: Date) {
+  return (
+    (Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) - Date.UTC(date.getFullYear(), 0, 0)) /
+    24 /
+    60 /
+    60 /
+    1000
+  );
 }

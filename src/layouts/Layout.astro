@@ -2,7 +2,7 @@
 import "../global.css";
 import { ClientRouter } from "astro:transitions";
 import { fade } from "astro:transitions";
-import Map from "../components/Map.jsx";
+import Map from "../components/Map";
 import Sidebar from "../components/Sidebar.astro";
 import LogoHeader from "../components/LogoHeader.astro";
 import { getFestivalsByYear } from "../utils/content.js";
@@ -33,7 +33,7 @@ const festivals = await getFestivalsByYear(currentYear);
     <main class="flex h-dvh w-full flex-col bg-gradient-to-t from-[#030405] to-[#15191d] lg:flex-row">
       {path !== "/" && <LogoHeader />}
       <div class="relative h-3/5 w-full flex-grow lg:h-full lg:w-4/6">
-        <Map festivals={festivals} path={path} client:only transition:persist />
+        <Map festivals={festivals} path={path} year={currentYear} client:only transition:persist />
       </div>
       <Sidebar transition:animate={fade({ duration: "0.6s" })} client:always>
         <slot />

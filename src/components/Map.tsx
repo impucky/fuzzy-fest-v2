@@ -1,12 +1,14 @@
 import { Map as MapPane, Marker, Popup, useMap } from "@vis.gl/react-maplibre";
 import Pin from "../icons/pin-fill.svg?react";
 import Attribution from "./Attribution";
+import MapFilters from "./MapFilters";
 
 import { useState, useEffect, useRef, useMemo, memo } from "react";
-import { findCoordsCenter } from "../utils/map";
+import { findCoordsCenter, filterFestivals } from "../utils/map";
 import { formatFestivalDates, formatProvisionalDate } from "../utils/dates";
 import { useStore } from "@nanostores/react";
-import { highlightAtom } from "../stores/highlightAtom";
+import { highlightAtom } from "../nano/highlightAtom";
+import { mapFiltersAtom } from "../nano/mapFiltersAtom";
 
 import type { Festival } from "../content.config";
 import type { StyleSpecification } from "maplibre-gl";
@@ -16,18 +18,15 @@ import darkmatter from "../darkmatter.json";
 import "maplibre-gl/dist/maplibre-gl.css";
 import "../global.css";
 
-function sortFestivalMarkers(festivals: Festival[]): Festival[] {
-  return [...festivals].sort((a, b) => {
-    const aPast = new Date(a.startDate) < new Date();
-    const bPast = new Date(b.startDate) < new Date();
-
-    if (aPast !== bPast) return aPast ? -1 : 1;
-
-    return a.lat - b.lat;
-  });
-}
-
-export default function Map({ festivals, path }: { festivals: Festival[]; path: string }) {
+export default function Map({
+  festivals,
+  path,
+  year,
+}: {
+  festivals: Festival[];
+  path: string;
+  year: number;
+}) {
   const [activeFestival, setActiveFestival] = useState<string | null>(null);
   const [flyTarget, setFlyTarget] = useState<{ lng: number; lat: number; zoom: number }>({
     lng: 0,
@@ -39,6 +38,7 @@ export default function Map({ festivals, path }: { festivals: Festival[]; path: 
   const centerForCurrentYear = findCoordsCenter(festivals.map((f) => [f.lng, f.lat]));
   const currentFestival: Festival | undefined = festivals.find((f) => path.includes(f.key));
   const $highlight = useStore(highlightAtom);
+  const $filters = useStore(mapFiltersAtom);
 
   const initialViewState: Partial<ViewState> = currentFestival
     ? { longitude: currentFestival.lng, latitude: currentFestival.lat, zoom: 5 }
@@ -103,16 +103,20 @@ export default function Map({ festivals, path }: { festivals: Festival[]; path: 
   });
 
   const markers = useMemo(() => {
-    return sortFestivalMarkers(festivals).map((f) => (
-      <Marker key={f.key} latitude={f.lat} longitude={f.lng} anchor="bottom" offset={[0, -2]}>
+    const filtered = filterFestivals(festivals, $filters, activeFestival);
+    const sorted = sortFestivalMarkers(filtered);
+
+    return sorted.map((f, i) => (
+      <Marker key={`${f.key}-${i}`} latitude={f.lat} longitude={f.lng} anchor="bottom" offset={[0, -2]}>
         <MarkerButton festival={f} isActive={activeFestival === f.key || $highlight === f.key} />
       </Marker>
     ));
-  }, [festivals, activeFestival, $highlight]);
+  }, [festivals, activeFestival, $highlight, $filters]);
 
   return (
     <>
       <div className="pointer-events-none absolute z-[450] h-full w-full shadow-[inset_0_0_64px_rgba(0,0,0,0.9)]"></div>
+      <MapFilters year={year} />
       {festivals && (
         <MapPane
           initialViewState={initialViewState}
@@ -165,4 +169,18 @@ function MapNavigation({ target }: { target: { lng: number; lat: number; zoom: n
   }, [target, map]);
 
   return null;
+}
+
+function sortFestivalMarkers(festivals: Festival[]): Festival[] {
+  const now = Date.now();
+  return [...festivals].sort((a, b) => {
+    const aPast = new Date(a.startDate).getTime() < now;
+    const bPast = new Date(b.startDate).getTime() < now;
+
+    if (aPast !== bPast) return aPast ? -1 : 1;
+
+    if (a.lat !== b.lat) return b.lat - a.lat;
+
+    return a.key.localeCompare(b.key);
+  });
 }
