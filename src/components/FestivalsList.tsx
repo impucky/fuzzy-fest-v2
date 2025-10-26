@@ -28,7 +28,7 @@ export default function FestivalsList({ festivals, year }: { festivals: Festival
   }, [festivals, $filters]);
 
   return (
-    <div className="pb-8">
+    <div className="overflow-auto pb-8">
       {[...festivalsByMonth.entries()].map(([month, monthFestivals]) => (
         <div key={month}>
           <Spacer label={month} />
