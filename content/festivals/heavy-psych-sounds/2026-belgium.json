@@ -1,0 +1,24 @@
+{
+  "name": "Heavy Psych Sounds Fest Belgium",
+  "key": "heavy-psych-sounds-fest-belgium",
+  "img": "./heavy-psych-sounds.webp",
+  "website": "https://www.heavypsychsounds.com/fests.htm",
+  "country": "Belgium",
+  "city": "Brussels",
+  "lat": 50.870555295624726,
+  "lng": 4.34808937761176,
+  "indoor": true,
+  "startDate": "2026-02-27",
+  "endDate": "2026-02-28",
+  "lineup": [
+    "conan",
+    "belzebong",
+    "nightstalker",
+    "weedpecker",
+    "electric-citizens",
+    "giobia",
+    "monsternaut",
+    "lord-elephant",
+    "oreyeon"
+  ]
+}

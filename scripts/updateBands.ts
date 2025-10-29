@@ -42,7 +42,7 @@ const sorted = Object.fromEntries(Object.entries(bands).sort(([a], [b]) => a.loc
 fs.writeFileSync(bandsPath, JSON.stringify(sorted, null, 2), "utf-8");
 
 if (newBands.size) {
-  console.log("Added new bands :");
+  console.log("Added new bands :\n- ");
   console.log([...newBands].sort().join("\n- "));
 } else {
   console.log("No bands to add");

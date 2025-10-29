@@ -1,0 +1,24 @@
+{
+  "name": "Heavy Psych Sounds Fest Netherlands",
+  "key": "heavy-psych-sounds-fest-netherlands",
+  "img": "./heavy-psych-sounds.webp",
+  "website": "https://www.heavypsychsounds.com/fests.htm",
+  "country": "Netherlands",
+  "city": "Deventer",
+  "lat": 52.25444240194367,
+  "lng": 6.155277036282526,
+  "indoor": true,
+  "startDate": "2026-02-27",
+  "endDate": "2026-02-28",
+  "lineup": [
+    "conan",
+    "belzebong",
+    "nightstalker",
+    "weedpecker",
+    "electric-citizens",
+    "giobia",
+    "monsternaut",
+    "lord-elephant",
+    "oreyeon"
+  ]
+}
