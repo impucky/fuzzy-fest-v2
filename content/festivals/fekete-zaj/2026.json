@@ -1,0 +1,13 @@
+{
+  "name": "Fekete Zaj",
+  "key": "fekete-zaj",
+  "img": "./fekete-zaj.webp",
+  "website": "https://www.feketezaj.hu/",
+  "country": "Hungary",
+  "city": "Gyöngyös",
+  "lat": 47.84284275690644,
+  "lng": 19.958582286478094,
+  "indoor": false,
+  "startDate": "2026-07-29",
+  "endDate": "2026-08-01"
+}

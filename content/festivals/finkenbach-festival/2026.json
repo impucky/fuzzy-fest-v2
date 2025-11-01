@@ -1,0 +1,25 @@
+{
+  "name": "Finkenbach Festival",
+  "key": "finkenbach-festival",
+  "img": "./finkenbach-festival.webp",
+  "website": "https://finkenbachfestival.de/",
+  "country": "Germany",
+  "city": "Oberzent",
+  "lat": 49.53517909310593,
+  "lng": 8.919577411275483,
+  "indoor": false,
+  "startDate": "2026-08-07",
+  "endDate": "2026-08-08",
+  "lineup": [
+    "peter-pankas-jane",
+    "agitation-free",
+    "rosalie-cunningham",
+    "dirty-sound-magnet",
+    "kant",
+    "dr-woggle-and-the-radio",
+    "guru-guru",
+    "kraan",
+    "colour-haze",
+    "alex-auer-y-banda"
+  ]
+}

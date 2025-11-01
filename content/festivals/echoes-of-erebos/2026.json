@@ -1,0 +1,27 @@
+{
+  "name": "Echoes of Erebos",
+  "key": "echoes-of-erebos",
+  "img": "./echoes-of-erebos.webp",
+  "website": "https://echoes-of-erebos.at/",
+  "country": "Austria",
+  "city": "Vienna",
+  "lat": 48.18780687704643,
+  "lng": 16.412610754049908,
+  "indoor": true,
+  "startDate": "2026-04-17",
+  "endDate": "2026-04-18",
+  "lineup": [
+    "colour-haze",
+    "my-sleeping-karma",
+    "mothers-cake",
+    "oh-hiroshima",
+    "lausch",
+    "zinn",
+    "johnny-and-the-rotten",
+    "savanah",
+    "the-jupiter-effect",
+    "for-eons",
+    "lazer",
+    "grandmas-ashes"
+  ]
+}

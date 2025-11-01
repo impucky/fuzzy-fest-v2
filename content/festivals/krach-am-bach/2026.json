@@ -1,0 +1,14 @@
+{
+  "name": "Krach am Bach",
+  "key": "krach-am-bach",
+  "img": "./krach-am-bach.webp",
+  "website": "https://krachambach.de/",
+  "country": "Germany",
+  "city": "Beelen",
+  "lat": 51.91839860165112,
+  "lng": 8.097309672737138,
+  "indoor": false,
+  "startDate": "2026-07-31",
+  "endDate": "2026-08-01",
+  "lineup": ["1000-mods", "sons-of-arrakis", "kombynat-robotron"]
+}

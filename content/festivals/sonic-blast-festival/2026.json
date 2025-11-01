@@ -1,0 +1,13 @@
+{
+  "name": "SonicBlast Festival",
+  "key": "sonic-blast-festival",
+  "img": "./sonic-blast-festival.webp",
+  "website": "https://sonicblastfestival.com/",
+  "country": "Portugal",
+  "city": "Âncora",
+  "lat": 41.807307302798684,
+  "lng": -8.861946138134142,
+  "indoor": false,
+  "startDate": "2026-08-06",
+  "endDate": "2026-08-08"
+}

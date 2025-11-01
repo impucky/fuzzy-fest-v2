@@ -1,0 +1,14 @@
+{
+  "name": "Herzberg Festival",
+  "key": "herzberg-festival",
+  "img": "./herzberg-festival.webp",
+  "website": "https://herzberg-festival.com/",
+  "country": "Germany",
+  "city": "Breitenbach am Herzberg",
+  "lat": 50.77515517573324,
+  "lng": 9.438569517949654,
+  "indoor": false,
+  "startDate": "2026-07-30",
+  "endDate": "2026-08-01",
+  "lineup": ["kadavar", "buntspecht", "elder", "wucan"]
+}

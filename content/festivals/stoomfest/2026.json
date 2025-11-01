@@ -1,0 +1,13 @@
+{
+  "name": "Stoomfest",
+  "key": "stoomfest",
+  "img": "./stoomfest.webp",
+  "website": "https://stoomfest.com/",
+  "country": "United Kingdom",
+  "city": "London",
+  "lat": 51.54680520786811,
+  "lng": -0.10391086141521237,
+  "indoor": true,
+  "startDate": "2025-09-25",
+  "endDate": "2025-09-27"
+}

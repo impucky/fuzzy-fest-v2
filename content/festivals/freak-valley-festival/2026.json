@@ -1,0 +1,32 @@
+{
+  "name": "Freak Valley Festival",
+  "key": "freak-valley-festival",
+  "img": "./freak-valley-festival.webp",
+  "website": "https://www.freakvalley.de/",
+  "country": "Germany",
+  "city": "Weiherdamm",
+  "lat": 50.89062731963505,
+  "lng": 8.12708699622017,
+  "indoor": false,
+  "startDate": "2026-06-04",
+  "endDate": "2026-06-06",
+  "lineup": [
+    "uncle-acid-and-the-deadbeats",
+    "goat",
+    "kylesa",
+    "stoned-jesus",
+    "long-distance-calling",
+    "messa",
+    "tranquonauts",
+    "the-neptune-power-federation",
+    "ratsalad",
+    "handgemeng",
+    "coltaine",
+    "bb-blackdog",
+    "upupayama",
+    "zerre",
+    "super-jet-kinoko",
+    "howling-giant",
+    "child"
+  ]
+}
