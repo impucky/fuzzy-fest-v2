@@ -9,5 +9,26 @@
   "lng": 10.750315773408534,
   "indoor": true,
   "startDate": "2026-05-08",
-  "endDate": "2026-05-09"
+  "endDate": "2026-05-09",
+  "lineup": [
+    "russian-circles",
+    "the-sword",
+    "earthless",
+    "king-buffalo",
+    "primitive-man",
+    "dozer",
+    "pelican",
+    "daevar",
+    "blackwater-holylight",
+    "wyatt-e",
+    "spelljammer",
+    "high-desert-queen",
+    "moonstone",
+    "howling-giant",
+    "handgemeng",
+    "kollaps",
+    "bottenhavet",
+    "undulathund",
+    "sunface"
+  ]
 }
