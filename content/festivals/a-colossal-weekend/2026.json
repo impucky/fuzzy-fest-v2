@@ -10,5 +10,15 @@
   "indoor": true,
   "startDate": "2026-05-07",
   "endDate": "2026-05-09",
-  "lineup": ["russian-circles", "pelican"]
+  "lineup": [
+    "russian-circles",
+    "pelican",
+    "cult-of-luna",
+    "blackwater-holylight",
+    "king-buffalo",
+    "svalbard",
+    "thot",
+    "heathe",
+    "hudsult"
+  ]
 }
