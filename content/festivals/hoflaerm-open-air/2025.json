@@ -1,7 +1,7 @@
 {
-  "name": "Hoflärm Open Air",
-  "key": "hoflaerm-open-air",
-  "img": "./hoflaerm-open-air.webp",
+  "name": "Hoflärm",
+  "key": "hoflaerm",
+  "img": "./hoflaerm.webp",
   "website": "https://www.hoflaerm.de/",
   "country": "Germany",
   "city": "Seelbach bei Hamm",

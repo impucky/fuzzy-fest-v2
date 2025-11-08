@@ -10,5 +10,16 @@
   "indoor": false,
   "startDate": "2026-07-31",
   "endDate": "2026-08-01",
-  "lineup": ["1000-mods", "sons-of-arrakis", "kombynat-robotron"]
+  "lineup": [
+    "fu-manchu",
+    "1000-mods",
+    "dead-meadows",
+    "meatbodies",
+    "upupayama",
+    "sons-of-arrakis",
+    "kombynat-robotron",
+    "skyjoggers",
+    "kanaan-and-aevestaden",
+    "weite"
+  ]
 }

@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Spacer from "../components/Spacer";
 const year = new Date().getFullYear();
 ---
 
@@ -12,15 +13,25 @@ const year = new Date().getFullYear();
     <p>
       Fuzzy Fest is a map of music festivals featuring heavy psych, desert rock, stoner, doom... and more.
     </p>
+    <Spacer label="Start browsing :" />
     <p>
-      Suggestions and feedback welcome: <a
+      There are still some festivals left in <a
+        class="text-xl text-[salmon] underline transition hover:text-white"
+        href={`/2025`}>2025</a
+      >
+      <br />
+      And many already announced for <a
+        class="text-xl text-[salmon] underline transition hover:text-white"
+        href={`/2026`}>2026</a
+      >
+    </p>
+    <Spacer />
+    <p>
+      Suggestions and feedback welcome : <a
         class="text-[salmon] transition hover:text-white"
         href="https://www.instagram.com/raphael.pucky/">@raphael.pucky</a
       >
     </p>
-    <a class="text-xl text-[salmon] underline transition hover:text-white" href={`/${year}`}
-      >Go to the {year} list</a
-    >
   </section>
 </Layout>
 

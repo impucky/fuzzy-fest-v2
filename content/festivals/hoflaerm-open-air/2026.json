@@ -1,0 +1,13 @@
+{
+  "name": "Hoflärm",
+  "key": "hoflaerm",
+  "img": "./hoflaerm.webp",
+  "website": "https://www.hoflaerm.de/",
+  "country": "Germany",
+  "city": "Seelbach bei Hamm",
+  "lat": 50.73718292189523,
+  "lng": 7.673405155188494,
+  "indoor": false,
+  "startDate": "2026-08-13",
+  "endDate": "2026-08-15"
+}
