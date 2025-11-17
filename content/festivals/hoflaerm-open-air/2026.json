@@ -9,5 +9,17 @@
   "lng": 7.673405155188494,
   "indoor": false,
   "startDate": "2026-08-13",
-  "endDate": "2026-08-15"
+  "endDate": "2026-08-15",
+  "lineup": [
+    "kadavar",
+    "kylesa",
+    "conan",
+    "dead-meadow",
+    "midnight",
+    "meatbodies",
+    "castle-rat",
+    "suck",
+    "cardiel",
+    "mother-bear"
+  ]
 }

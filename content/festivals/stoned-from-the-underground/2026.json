@@ -1,0 +1,13 @@
+{
+  "name": "Stoned from the Underground",
+  "key": "stoned-from-the-underground",
+  "img": "./stoned-from-the-underground.webp",
+  "website": "https://www.sftu.de/",
+  "country": "Germany",
+  "city": "Erfurt",
+  "lat": 51.06952796976761,
+  "lng": 11.037207334071617,
+  "indoor": false,
+  "startDate": "2026-07-09",
+  "endDate": "2026-07-11"
+}
