@@ -18,6 +18,6 @@ const { key, year } = Astro.params;
 const festival = await getFestivalByYearAndKey(+year, key);
 ---
 
-<Layout year={year} title={`Fuzzy Fest - ${festival.name}`}>
+<Layout year={year} title={`${festival.name} ${year} - Fuzzy Fest - Stoner, Doom & Psych Festival Info`}>
   <Festival festival={festival} />
 </Layout>

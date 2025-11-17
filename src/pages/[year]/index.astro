@@ -8,19 +8,19 @@ import { getFestivalsByYear } from "../../utils/content";
 export async function getStaticPaths() {
   const entries = await getCollection("festivals");
   const years = [...new Set(entries.map(({ data }) => new Date(data.startDate).getFullYear()))];
-  return years.map((year) => ({ params: { year } }));
+  return years.map(year => ({ params: { year } }));
 }
 
 const year = +Astro.params.year;
 
 const festivals = await getFestivalsByYear(year);
-const years = (await getCollection("festivals")).map((festival) =>
+const years = (await getCollection("festivals")).map(festival =>
   new Date(festival.data.startDate).getFullYear()
 );
 const uniqueYears = Array.from(new Set(years)).sort((a, b) => a - b);
 ---
 
-<Layout year={year} title={`Fuzzy Fest - ${year}`}>
+<Layout year={year} title={`Fuzzy Fest - ${year} Stoner, Doom & Psych Rock Festivals in Europe`}>
   <YearPicker year={year} uniqueYears={uniqueYears} />
   <FestivalsList festivals={festivals} year={year} client:only />
 </Layout>
