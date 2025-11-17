@@ -1,0 +1,29 @@
+{
+  "name": "Blackdoor Reflections Festival",
+  "key": "blackdoor-reflections-festival",
+  "img": "./blackdoor-festival.webp",
+  "website": "https://blackdoor-festival.com/",
+  "country": "Germany",
+  "city": "Thyrnau",
+  "lat": 48.585752907035385,
+  "lng": 13.556426640740348,
+  "indoor": false,
+  "startDate": "2026-01-09",
+  "endDate": "2026-01-10",
+  "lineup": [
+    "black-rainbows",
+    "dyse",
+    "godsleep",
+    "nightstalker",
+    "dirty-sound-magnet",
+    "temple-fang",
+    "acid-mammoth",
+    "skraeckoedlan",
+    "kant",
+    "ultima-radio",
+    "savanah",
+    "ozymandias",
+    "lazer",
+    "mad-mother"
+  ]
+}
