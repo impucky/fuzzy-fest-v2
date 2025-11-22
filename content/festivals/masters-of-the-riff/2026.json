@@ -1,0 +1,33 @@
+{
+  "name": "Masters of the Riff V",
+  "key": "masters-of-the-riff",
+  "img": "./masters-of-the-riff.webp",
+  "website": "https://www.instagram.com/london_doom_collective/",
+  "country": "United Kingdom",
+  "city": "London",
+  "lat": 51.547292416707315,
+  "lng": -0.05716211720520603,
+  "indoor": true,
+  "startDate": "2026-02-27",
+  "endDate": "2026-03-01",
+  "lineup": [
+    "domkraft",
+    "electric-citizen",
+    "witchsorrow",
+    "viking-skull",
+    "tons",
+    "the-lunar-effect",
+    "grin",
+    "the-grey",
+    "klps",
+    "druidess",
+    "longheads",
+    "commoner",
+    "calligram",
+    "bear-bones",
+    "sigiriya",
+    "believe-in-nothing",
+    "king-witch",
+    "a-horse-called-war"
+  ]
+}

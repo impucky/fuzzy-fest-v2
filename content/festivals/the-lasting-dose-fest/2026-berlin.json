@@ -1,0 +1,14 @@
+{
+  "name": "The Lasting Dose Fest Berlin",
+  "key": "the-lasting-dose-fest-berlin",
+  "img": "./the-lasting-dose-fest.webp",
+  "website": "https://www.facebook.com/thelastingdoserecords/",
+  "country": "Germany",
+  "city": "Berlin",
+  "lat": 52.49753016658895,
+  "lng": 13.46600150102163,
+  "indoor": true,
+  "startDate": "2026-01-17",
+  "endDate": "2026-01-17",
+  "lineup": ["grin", "ultrablut", "caffeine", "sarkh", "blacksmoker"]
+}

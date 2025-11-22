@@ -1,0 +1,14 @@
+{
+  "name": "Desert Rock Fest Münsterland",
+  "key": "desert-rock-fest-munsterland",
+  "img": "./desert-rock-fest-munsterland.webp",
+  "website": "https://bar.rareguitar.de/event/desert-rock-fest-muensterland/",
+  "country": "Germany",
+  "city": "Münster",
+  "lat": 51.949165023709575,
+  "lng": 7.633854904875317,
+  "indoor": true,
+  "startDate": "2026-01-30",
+  "endDate": "2026-01-31",
+  "lineup": ["komatsu", "the-unfuzzbarn", "koyote", "tankzilla", "desert-sun", "convoy"]
+}

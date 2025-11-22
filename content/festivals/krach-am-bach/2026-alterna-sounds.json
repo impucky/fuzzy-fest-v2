@@ -1,0 +1,22 @@
+{
+  "name": "Alterna Sounds Festival",
+  "key": "alterna-sounds-festival",
+  "img": "./alterna-sounds-festival.webp",
+  "website": "https://krachambach.de/asf/",
+  "country": "Germany",
+  "city": "Münster",
+  "lat": 51.944008328593874,
+  "lng": 7.638317089357251,
+  "indoor": false,
+  "startDate": "2026-04-11",
+  "endDate": "2026-04-11",
+  "lineup": [
+    "daily-thompson",
+    "skyjoggers",
+    "highest-primzahl-on-mars",
+    "maragda",
+    "thomas-greenwood-and-the-talismans",
+    "aptera",
+    "wedge"
+  ]
+}

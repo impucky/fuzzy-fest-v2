@@ -1,0 +1,14 @@
+{
+  "name": "The Lasting Dose Fest Hamburg",
+  "key": "the-lasting-dose-fest-hamburg",
+  "img": "./the-lasting-dose-fest.webp",
+  "website": "https://www.facebook.com/thelastingdoserecords/",
+  "country": "Germany",
+  "city": "Hamburg",
+  "lat": 53.53515418153484,
+  "lng": 10.01990314058891,
+  "indoor": true,
+  "startDate": "2026-01-16",
+  "endDate": "2026-01-16",
+  "lineup": ["daevar", "grin", "ultrablut", "caffeine"]
+}

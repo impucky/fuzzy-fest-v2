@@ -1,0 +1,22 @@
+{
+  "name": "SoundArt Festival",
+  "key": "soundart-festival",
+  "img": "./soundart-festival.webp",
+  "website": "https://www.facebook.com/events/1383013603829707",
+  "country": "Romania",
+  "city": "București",
+  "lat": 44.43811003666996,
+  "lng": 26.059523022855657,
+  "indoor": true,
+  "startDate": "2026-03-13",
+  "endDate": "2026-03-14",
+  "lineup": [
+    "weather-systems",
+    "planet-of-zeus",
+    "dolch",
+    "calyces",
+    "annapurna",
+    "a-broken-design",
+    "euthymia"
+  ]
+}

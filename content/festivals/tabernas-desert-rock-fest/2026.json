@@ -1,0 +1,28 @@
+{
+  "name": "Tabernas Desert Rock Fest",
+  "key": "tabernas-desert-rock-fest",
+  "img": "./tabernas-desert-rock-fest.webp",
+  "website": "https://www.facebook.com/profile.php?id=100057087564915",
+  "country": "Spain",
+  "city": "Tabernas",
+  "lat": 37.05273591245333,
+  "lng": -2.3902286328881943,
+  "indoor": false,
+  "startDate": "2026-10-01",
+  "endDate": "2026-10-03",
+  "lineup": [
+    "tito-and-tarantula",
+    "colour-haze",
+    "valley-of-the-sun",
+    "nick-oliveri",
+    "fatso-jetson",
+    "tschaika-21-16",
+    "daily-thompson",
+    "the-dry-mouths",
+    "saturna",
+    "the-ragtags",
+    "convoy",
+    "scrotem",
+    "kondensator"
+  ]
+}
