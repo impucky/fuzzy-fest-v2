@@ -43,6 +43,7 @@ function SearchBar() {
     <div className="relative flex h-8 w-52 items-center sm:h-10 sm:w-60 md:w-64">
       <input
         className="bgnoise absolute h-full w-full rounded-3xl bg-[#15191d] pl-3 text-sm shadow-[0_0_6px_rgba(0,0,0,0.6)] transition-all duration-200 outline-none hover:shadow-[0_0_0_2px_#555] focus:text-white focus:shadow-[0_0_0_2px_#f87171] sm:pl-4 sm:text-base"
+        style={$filters.query.length ? { outline: "2px solid #f87171", color: "#fff" } : {}}
         type="text"
         placeholder="Search festivals or bands"
         value={$filters.query}

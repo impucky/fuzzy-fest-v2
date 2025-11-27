@@ -1,0 +1,13 @@
+{
+  "name": "Up in Smoke Festival",
+  "key": "up-in-smoke-festival",
+  "img": "./up-in-smoke-festival.webp",
+  "website": "https://www.soundofliberation.com/festivals/up-in-smoke",
+  "country": "Switzerland",
+  "city": "Pratteln",
+  "lat": 47.52739764563815,
+  "lng": 7.694003097998303,
+  "indoor": true,
+  "startDate": "2026-10-02",
+  "endDate": "2026-10-04"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Fuzz Club",
+  "key": "fuzz-club",
+  "img": "./fuzz-club.webp",
+  "website": "https://www.effenaar.nl/nl/fuzzclub2026",
+  "country": "Netherlands",
+  "city": "Eindhoven",
+  "lat": 51.441692343905224,
+  "lng": 5.483297789580167,
+  "indoor": true,
+  "startDate": "2026-05-01",
+  "endDate": "2026-05-02",
+  "lineup": [
+    "witch",
+    "a-place-to-bury-strangers",
+    "causa-sui",
+    "minami-deutsch",
+    "lorelle-meets-the-obsolete",
+    "maidavale",
+    "glyders",
+    "firefriend",
+    "travo",
+    "mini-skirt",
+    "strange-lot",
+    "kombynat-robotron",
+    "gum-takes-tooth",
+    "servo",
+    "sunflowers"
+  ]
+}

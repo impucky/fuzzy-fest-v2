@@ -1,0 +1,13 @@
+{
+  "name": "Rock in Bourlon",
+  "key": "rock-in-bourlon",
+  "img": "./rock-in-bourlon.webp",
+  "website": "https://www.rockinbourlon.com/",
+  "country": "France",
+  "city": "Bourlon",
+  "lat": 50.179271456083306,
+  "lng": 3.120282178088326,
+  "indoor": false,
+  "startDate": "2026-06-26",
+  "endDate": "2026-06-28"
+}
