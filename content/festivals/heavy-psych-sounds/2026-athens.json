@@ -1,0 +1,13 @@
+{
+  "name": "Heavy Psych Sounds Fest Athens",
+  "key": "heavy-psych-sounds-fest-athens",
+  "img": "./heavy-psych-sounds.webp",
+  "website": "https://www.heavypsychsounds.com/fests.htm",
+  "country": "Greece",
+  "city": "Athens",
+  "lat": 37.98210776503,
+  "lng": 23.711932194015564,
+  "indoor": true,
+  "startDate": "2026-04-03",
+  "endDate": "2026-04-04"
+}

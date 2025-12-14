@@ -9,5 +9,29 @@
   "lng": -8.861946138134142,
   "indoor": false,
   "startDate": "2026-08-06",
-  "endDate": "2026-08-08"
+  "endDate": "2026-08-08",
+  "lineup": [
+    "turbonegro",
+    "high-on-fire",
+    "chat-pile",
+    "deafheaven",
+    "kylesa",
+    "the-casualties",
+    "midnight",
+    "frankie-and-the-witch-fingers",
+    "snapped-ankles",
+    "elder",
+    "levitation-room",
+    "dead-meadow",
+    "conan",
+    "n8noface",
+    "adult",
+    "necrot",
+    "margarita-witch-cult",
+    "early-moods",
+    "primitive-ring",
+    "goya",
+    "hog",
+    "ungraven"
+  ]
 }

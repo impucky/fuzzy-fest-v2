@@ -10,5 +10,24 @@
   "indoor": true,
   "startDate": "2026-05-15",
   "endDate": "2026-05-16",
-  "lineup": ["russian-circles", "king-buffalo", "the-sword", "pelican", "dope-purple", "smote", "ronker"]
+  "lineup": [
+    "russian-circles",
+    "hermano",
+    "the-sword",
+    "king-buffalo",
+    "earthless",
+    "acid-king",
+    "pelican",
+    "cardiel",
+    "dope-purple",
+    "fomies",
+    "gnod",
+    "klamp",
+    "maquina",
+    "pohl",
+    "ronker",
+    "skloss",
+    "smote",
+    "weite"
+  ]
 }

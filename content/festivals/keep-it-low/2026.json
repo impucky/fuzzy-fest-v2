@@ -9,5 +9,16 @@
   "lng": 11.521611734201125,
   "indoor": true,
   "startDate": "2026-10-9",
-  "endDate": "2026-10-10"
+  "endDate": "2026-10-10",
+  "lineup": [
+    "1000mods",
+    "the-devil-and-the-almighty-blues",
+    "deathchant",
+    "spirit-mother",
+    "fomies",
+    "suck",
+    "skyjoggers",
+    "kombynat-robotron",
+    "leber"
+  ]
 }

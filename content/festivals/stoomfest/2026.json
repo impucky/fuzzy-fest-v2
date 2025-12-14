@@ -9,5 +9,6 @@
   "lng": -0.10391086141521237,
   "indoor": true,
   "startDate": "2026-09-25",
-  "endDate": "2026-09-27"
+  "endDate": "2026-09-27",
+  "lineup": ["stoned-jesus", "black-willows", "khan", "slomatics", "froglord"]
 }

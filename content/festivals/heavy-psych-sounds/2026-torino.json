@@ -1,0 +1,13 @@
+{
+  "name": "Heavy Psych Sounds Fest Torino",
+  "key": "heavy-psych-sounds-fest-torino",
+  "img": "./heavy-psych-sounds.webp",
+  "website": "https://www.heavypsychsounds.com/fests.htm",
+  "country": "Italy",
+  "city": "Torino",
+  "lat": 45.12360583287918,
+  "lng": 7.703225362196008,
+  "indoor": true,
+  "startDate": "2026-05-02",
+  "endDate": "2026-05-03"
+}
