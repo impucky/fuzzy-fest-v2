@@ -1,0 +1,21 @@
+{
+  "name": "SoL Sonic Ride Wiesbaden",
+  "key": "sol-sonic-ride-wiesbaden",
+  "img": "./sound-of-liberation.webp",
+  "website": "https://www.soundofliberation.com/festivals/sol-sonic-ride-part-ii",
+  "country": "Germany",
+  "city": "Wiesbaden",
+  "lat": 50.06652919473892,
+  "lng": 8.2475461036917,
+  "indoor": true,
+  "startDate": "2026-06-27",
+  "endDate": "2026-06-27",
+  "lineup": [
+    "uncle-acid-and-the-deadbeats",
+    "truckfighters",
+    "elephant-tree",
+    "green-milk-from-the-planet-orange",
+    "the-heavy-eyes",
+    "os-solair"
+  ]
+}

@@ -24,3 +24,9 @@ export async function getPastEditions(key: string, before: Date): Promise<Festiv
 
   return collection.map(({ data }) => data);
 }
+
+export async function festivalsLeftThisYear(): Promise<any> {
+  const now = new Date();
+  const festivals = await getFestivalsByYear(now.getFullYear());
+  return festivals.filter((f) => new Date(f.startDate) > now).length;
+}

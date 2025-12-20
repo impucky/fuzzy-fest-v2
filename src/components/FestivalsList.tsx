@@ -38,7 +38,7 @@ export default function FestivalsList({ festivals, year }: { festivals: Festival
               return (
                 <li className="text-center" key={f.key}>
                   <a
-                    className={`text-lg leading-snug font-black transition hover:text-[salmon] hover:underline md:text-xl ${
+                    className={`text-md leading-snug font-black transition hover:text-[salmon] hover:underline md:text-lg ${
                       pastFestival ? "text-neutral-400 line-through" : "text-white"
                     }`}
                     href={`/${year}/${f.key}`}

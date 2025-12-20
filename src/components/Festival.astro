@@ -64,12 +64,8 @@ const pastEditions = await getPastEditions(key, new Date(startDate));
   <ul class="flex w-full flex-col flex-wrap pb-4">
     {
       sortedLineup
-        ? sortedLineup.map((band) => {
-            return (
-              <li class="text-md leading-snug font-black md:text-xl lg:text-2xl">
-                {bands[band].toUpperCase()}
-              </li>
-            );
+        ? sortedLineup.map(band => {
+            return <li class="text-md leading-snug font-black md:text-lg">{bands[band].toUpperCase()}</li>;
           })
         : "To be announced"
     }
@@ -80,7 +76,7 @@ const pastEditions = await getPastEditions(key, new Date(startDate));
       <>
         <Spacer label="PAST EDITIONS" />
         <ul class="flex w-full flex-col flex-wrap pb-4">
-          {pastEditions.map((f) => {
+          {pastEditions.map(f => {
             const year = new Date(f.startDate).getFullYear();
             return (
               <li>

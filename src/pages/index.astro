@@ -1,7 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Spacer from "../components/Spacer";
-const year = new Date().getFullYear();
 ---
 
 <Layout title="Fuzzy Fest - Stoner, Doom & Psych Rock Festivals in Europe">
@@ -15,17 +14,9 @@ const year = new Date().getFullYear();
       doom... in Europe.
     </p>
     <Spacer label="Start browsing :" />
-    <p>
-      There are still a couple of festivals happening in <a
-        class="text-xl text-[salmon] underline transition hover:text-white"
-        href={`/2025`}>2025</a
-      >
-      <br />
-      And many already announced for <a
-        class="text-xl text-[salmon] underline transition hover:text-white"
-        href={`/2026`}>2026</a
-      >
-    </p>
+    <a class="text-xl text-[salmon] underline transition hover:text-white" href={`/2026`}
+      >Full list of festivals for 2026</a
+    >
     <Spacer />
     <p>
       Suggestions and feedback welcome : <a

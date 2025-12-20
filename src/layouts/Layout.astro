@@ -6,12 +6,15 @@ import Map from "../components/Map";
 import Sidebar from "../components/Sidebar.astro";
 import LogoHeader from "../components/LogoHeader.astro";
 import { getFestivalsByYear } from "../utils/content.js";
+import { festivalsLeftThisYear } from "../utils/content.js";
 
 const path = Astro.url.pathname;
 const { year } = Astro.params;
 const { title } = Astro.props;
-const currentYear = year ? +year : new Date().getFullYear();
-const festivals = await getFestivalsByYear(currentYear);
+const festivalsLeft = await festivalsLeftThisYear();
+const yearNow = new Date().getFullYear();
+const activeYear = year ? +year : festivalsLeft > 0 ? yearNow : yearNow + 1;
+const festivals = await getFestivalsByYear(activeYear);
 ---
 
 <!doctype html>
@@ -32,10 +35,14 @@ const festivals = await getFestivalsByYear(currentYear);
     <title>{title}</title>
   </head>
   <body>
+    <p>
+      {yearNow}
+      {festivalsLeft}
+    </p>
     <main class="flex h-dvh w-full flex-col bg-gradient-to-t from-[#030405] to-[#15191d] lg:flex-row">
       {path !== "/" && <LogoHeader />}
       <div class="relative h-3/5 w-full flex-grow lg:h-full lg:w-4/6">
-        <Map festivals={festivals} path={path} year={currentYear} client:only transition:persist />
+        <Map festivals={festivals} path={path} year={activeYear} client:only transition:persist />
       </div>
       <Sidebar transition:animate={fade({ duration: "0.6s" })} client:always>
         <slot />
