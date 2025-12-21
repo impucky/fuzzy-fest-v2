@@ -1,0 +1,13 @@
+{
+  "name": "Helldorado",
+  "key": "helldorado",
+  "img": "./helldorado.webp",
+  "website": "https://helldorado.nl/",
+  "country": "Netherlands",
+  "city": "Eindhoven",
+  "lat": 51.448621302544055,
+  "lng": 5.456991029546806,
+  "indoor": true,
+  "startDate": "2026-11-14",
+  "endDate": "2026-11-14"
+}

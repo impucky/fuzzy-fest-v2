@@ -9,5 +9,6 @@
   "lng": 7.012098442308215,
   "indoor": true,
   "startDate": "2026-04-11",
-  "endDate": "2026-04-11"
+  "endDate": "2026-04-11",
+  "lineup": ["truckfighters", "lowrider", "elephant-tree", "cult-of-occult", "bongbongbeerwizards", "zerre"]
 }

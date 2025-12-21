@@ -1,0 +1,13 @@
+{
+  "name": "Into the Void",
+  "key": "into-the-void",
+  "img": "./into-the-void.webp",
+  "website": "https://intothevoid.nl/",
+  "country": "Netherlands",
+  "city": "Leeuwarden",
+  "lat": 53.20037408530867,
+  "lng": 5.790178831895955,
+  "indoor": true,
+  "startDate": "2026-09-26",
+  "endDate": "2026-09-26"
+}

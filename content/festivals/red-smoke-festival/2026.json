@@ -1,0 +1,13 @@
+{
+  "name": "Red Smoke Festival",
+  "key": "red-smoke-festival",
+  "img": "./red-smoke-festival.webp",
+  "website": "https://redsmokefestival.com/",
+  "country": "Poland",
+  "city": "Pleszew",
+  "lat": 51.88404406751484,
+  "lng": 17.793200089966014,
+  "indoor": false,
+  "startDate": "2026-07-10",
+  "endDate": "2026-07-12"
+}

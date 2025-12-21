@@ -10,5 +10,30 @@
   "indoor": false,
   "startDate": "2026-07-30",
   "endDate": "2026-08-01",
-  "lineup": ["kadavar", "buntspecht", "elder", "wucan"]
+  "lineup": [
+    "walter-trout",
+    "hilight-tribe",
+    "mo-kalamity",
+    "kadavar",
+    "buntspecht",
+    "mario-grosshardt",
+    "lara-hulo",
+    "the-magic-mumble-jumble",
+    "my-baby",
+    "elder",
+    "rockpommels-band",
+    "fortuna-ehrenfeld",
+    "wicked-dub-division-meets-north-east-ska-jazz-orchestra",
+    "laura-cox",
+    "spidergawd",
+    "naft",
+    "killabeatmaker",
+    "lina-bo",
+    "wucan",
+    "turfu",
+    "mina-richman",
+    "fulu-miziki",
+    "total-hip-replacement-and-anyankofo",
+    "temple-fang"
+  ]
 }

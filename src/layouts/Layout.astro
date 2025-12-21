@@ -35,10 +35,6 @@ const festivals = await getFestivalsByYear(activeYear);
     <title>{title}</title>
   </head>
   <body>
-    <p>
-      {yearNow}
-      {festivalsLeft}
-    </p>
     <main class="flex h-dvh w-full flex-col bg-gradient-to-t from-[#030405] to-[#15191d] lg:flex-row">
       {path !== "/" && <LogoHeader />}
       <div class="relative h-3/5 w-full flex-grow lg:h-full lg:w-4/6">

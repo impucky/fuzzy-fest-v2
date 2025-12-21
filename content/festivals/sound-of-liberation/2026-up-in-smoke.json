@@ -9,5 +9,17 @@
   "lng": 7.694003097998303,
   "indoor": true,
   "startDate": "2026-10-02",
-  "endDate": "2026-10-04"
+  "endDate": "2026-10-04",
+  "lineup": [
+    "zeal-and-ardor",
+    "1000mods",
+    "the-devil-and-the-almighty-blues",
+    "fomies",
+    "zatokrev",
+    "belzebong",
+    "coltaine",
+    "skyjoggers",
+    "spirit-mother",
+    "mothers-cake"
+  ]
 }

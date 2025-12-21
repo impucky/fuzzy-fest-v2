@@ -9,5 +9,6 @@
   "lng": 11.037207334071617,
   "indoor": false,
   "startDate": "2026-07-09",
-  "endDate": "2026-07-11"
+  "endDate": "2026-07-11",
+  "lineup": ["elder", "pendejo", "hollow-ship", "neander", "hastspark", "space-raptor"]
 }
