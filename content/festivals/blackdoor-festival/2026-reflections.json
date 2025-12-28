@@ -7,7 +7,7 @@
   "city": "Thyrnau",
   "lat": 48.585752907035385,
   "lng": 13.556426640740348,
-  "indoor": false,
+  "indoor": true,
   "startDate": "2026-01-09",
   "endDate": "2026-01-10",
   "lineup": [
