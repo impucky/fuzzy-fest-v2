@@ -9,7 +9,7 @@ export const defaultFilters = {
   dateRange: {
     from: new Date(year, 0, 1),
     to: new Date(year, 11, 31),
-    range: [0, 365],
+    range: [1, 365],
   },
   showIndoor: true,
   showOpenAir: true,

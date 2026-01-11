@@ -10,5 +10,19 @@
   "indoor": false,
   "startDate": "2026-07-09",
   "endDate": "2026-07-11",
-  "lineup": ["elder", "pendejo", "hollow-ship", "neander", "hastspark", "space-raptor"]
+  "lineup": [
+    "elder",
+    "pendejo",
+    "hollow-ship",
+    "neander",
+    "hastspark",
+    "space-raptor",
+    "year-of-the-goat",
+    "rotor",
+    "belzebong",
+    "datcha-mandala",
+    "sugar",
+    "melkus",
+    "daacht"
+  ]
 }

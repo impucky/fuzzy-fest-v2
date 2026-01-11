@@ -1,0 +1,23 @@
+{
+  "name": "Down the Hill",
+  "key": "down-the-hill",
+  "img": "./down-the-hill.webp",
+  "website": "https://www.downthehill.be/",
+  "country": "Belgium",
+  "city": "Aarschot",
+  "lat": 50.963219001562685,
+  "lng": 4.932501940729927,
+  "indoor": false,
+  "startDate": "2026-08-21",
+  "endDate": "2026-08-22",
+  "lineup": [
+    "pothamus",
+    "waste",
+    "aufhebung",
+    "the-moondig",
+    "atomic-rooster",
+    "maidavale",
+    "black-flower",
+    "gros-coeur"
+  ]
+}

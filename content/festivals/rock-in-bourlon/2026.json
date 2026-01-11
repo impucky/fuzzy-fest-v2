@@ -9,5 +9,6 @@
   "lng": 3.120282178088326,
   "indoor": false,
   "startDate": "2026-06-26",
-  "endDate": "2026-06-28"
+  "endDate": "2026-06-28",
+  "lineup": ["uncle-acid-and-the-deadbeats", "sylvaine", "nothing", "agriculture", "conan"]
 }
