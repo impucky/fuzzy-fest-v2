@@ -1,0 +1,13 @@
+{
+  "name": "Krökbacken Festival",
+  "key": "krokbacken-festival",
+  "img": "./krokbacken-festival.webp",
+  "website": "https://kroekbacken.com/",
+  "country": "Sweden",
+  "city": "Gagnef",
+  "lat": 60.58435785661078,
+  "lng": 15.081631637650242,
+  "indoor": false,
+  "startDate": "2026-07-23",
+  "endDate": "2026-07-25"
+}
