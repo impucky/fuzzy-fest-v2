@@ -29,7 +29,7 @@ export function filterFestivals(festivals: Festival[], filters: MapFilters, acti
       const bandMatch =
         f.lineup &&
         f.lineup.some((slug) => {
-          return slug.split("-").join(" ").toLowerCase().includes(query);
+          return slug.split("-").join(" ").includes(query);
         });
       return festivalMatch || bandMatch;
     }

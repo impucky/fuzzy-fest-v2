@@ -20,7 +20,7 @@ function filterLineups(query: string, festivals: Festival[]): Record<string, str
     .filter((festival) => festival.lineup && festival.lineup.length > 0)
     .forEach((festival) => {
       const lineup = festival.lineup!;
-      const matchingBands = lineup.filter((slug) => bands[slug].toLowerCase().includes(query.toLowerCase()));
+      const matchingBands = lineup.filter((slug) => slug.split("-").join(" ").includes(query.toLowerCase()));
       matchesByFest[festival.key] = matchingBands.map((slug) => bands[slug]);
     });
 
