@@ -1,5 +1,7 @@
 import Spacer from "./Spacer";
 
+import bandsFile from "../../content/bands.json";
+
 import { useStore } from "@nanostores/react";
 import { highlightAtom } from "../nano/highlightAtom";
 import { mapFiltersAtom } from "../nano/mapFiltersAtom";
@@ -8,13 +10,32 @@ import { useMemo } from "react";
 
 import type { Festival } from "../content.config";
 
+function filterLineups(query: string, festivals: Festival[]): Record<string, string[]> {
+  if (!query) return {};
+
+  const bands = bandsFile as Record<string, string>;
+  const matchesByFest: Record<string, string[]> = {};
+
+  festivals
+    .filter((festival) => festival.lineup && festival.lineup.length > 0)
+    .forEach((festival) => {
+      const lineup = festival.lineup!;
+      const matchingBands = lineup.filter((slug) => bands[slug].toLowerCase().includes(query.toLowerCase()));
+      matchesByFest[festival.key] = matchingBands.map((slug) => bands[slug]);
+    });
+
+  return matchesByFest;
+}
+
 export default function FestivalsList({ festivals, year }: { festivals: Festival[]; year: number }) {
-  const $highlight = useStore(highlightAtom);
   const $filters = useStore(mapFiltersAtom);
 
+  const filteredFestivals = useMemo(() => {
+    return filterFestivals(festivals, $filters, null);
+  }, [festivals, $filters]);
+
   const festivalsByMonth = useMemo(() => {
-    const filtered = filterFestivals(festivals, $filters, null);
-    const sorted = [...filtered].sort(
+    const sorted = [...filteredFestivals].sort(
       (a, b) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime(),
     );
 
@@ -25,7 +46,11 @@ export default function FestivalsList({ festivals, year }: { festivals: Festival
       grouped.get(month)!.push(f);
     }
     return grouped;
-  }, [festivals, $filters]);
+  }, [filteredFestivals]);
+
+  const matchingBands = useMemo(() => {
+    return filterLineups($filters.query, filteredFestivals);
+  }, [filteredFestivals]);
 
   return (
     <div className="overflow-auto pb-8">
@@ -35,6 +60,7 @@ export default function FestivalsList({ festivals, year }: { festivals: Festival
           <ul>
             {monthFestivals.map((f) => {
               const pastFestival = new Date(f.startDate) < new Date();
+              const bands = matchingBands[f.key] && matchingBands[f.key].join(", ");
               return (
                 <li className="text-center" key={f.key}>
                   <a
@@ -47,6 +73,7 @@ export default function FestivalsList({ festivals, year }: { festivals: Festival
                   >
                     {f.name.toUpperCase()}
                   </a>
+                  {bands && <p className="mb-2 text-sm text-neutral-500">{bands}</p>}
                 </li>
               );
             })}

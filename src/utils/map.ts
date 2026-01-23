@@ -28,8 +28,8 @@ export function filterFestivals(festivals: Festival[], filters: MapFilters, acti
       const festivalMatch = f.name.toLowerCase().includes(query);
       const bandMatch =
         f.lineup &&
-        f.lineup.some((name) => {
-          return name.split("-").join(" ").toLowerCase().includes(query);
+        f.lineup.some((slug) => {
+          return slug.split("-").join(" ").toLowerCase().includes(query);
         });
       return festivalMatch || bandMatch;
     }
