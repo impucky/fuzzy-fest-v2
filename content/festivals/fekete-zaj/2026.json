@@ -9,5 +9,29 @@
   "lng": 19.958582286478094,
   "indoor": false,
   "startDate": "2026-07-29",
-  "endDate": "2026-08-01"
+  "endDate": "2026-08-01",
+  "lineup": [
+    "alcest",
+    "immolation",
+    "this-will-destroy-you",
+    "green-carnation",
+    "agent-fresco",
+    "oaken-boru",
+    "oh-hiroshima",
+    "coltaine",
+    "potochkine",
+    "sydney-valette",
+    "lone-assembly",
+    "berlin-manson",
+    "ponte-del-diavolo",
+    "varkocs",
+    "barrens",
+    "n8noface",
+    "hang-linton",
+    "machukha",
+    "linnea-hjerten",
+    "hecatoncheir",
+    "the-allegorist",
+    "lucy-dreams"
+  ]
 }

@@ -1,0 +1,13 @@
+{
+  "name": "Desertfest Liège",
+  "key": "desertfest-liege",
+  "img": "./desertfest.webp",
+  "website": "https://www.desertfest.be/",
+  "country": "Belgium",
+  "city": "Liège",
+  "lat": 50.607676351203644,
+  "lng": 5.5364074936128524,
+  "indoor": true,
+  "startDate": "2026-10-16",
+  "endDate": "2026-10-18"
+}

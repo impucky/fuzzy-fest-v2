@@ -4,11 +4,10 @@
   "img": "./celebration-days.webp",
   "website": "https://www.instagram.com/CelebrationDaysRecords/",
   "country": "France",
-  "city": "Clermont",
-  "lat": 49.380553769049556,
-  "lng": 2.4194468854867415,
+  "city": "Cernoy",
+  "lat": 49.446012869855714,
+  "lng": 2.5365871959271584,
   "indoor": false,
-  "startDate": "2025-07-18",
-  "endDate": "2025-07-20",
-  "provisionalDate": true
+  "startDate": "2026-07-31",
+  "endDate": "2026-08-02"
 }
