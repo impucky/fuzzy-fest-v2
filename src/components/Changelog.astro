@@ -1,0 +1,23 @@
+---
+const changelog = [
+  { "date": "2026-01-27", "content": ["Updated Red Smoke Festival"] },
+  {
+    "date": "2026-01-23",
+    "content": [
+      "Updated Desertfest Liège, Celebration Days, Fekete Zaj",
+      "Now showing matching bands from the search bar directly on the festival list",
+    ],
+  },
+];
+---
+
+<div class="text-left text-sm">
+  {changelog.map((log) => (
+      <p class="text-neutral-300 mt-2">{log.date}</p>
+      <ul class="text-neutral-400">
+        {log.content.map((item) => (
+          <li>※ {item}</li>
+        ))}
+      </ul>
+  ))}
+</div>

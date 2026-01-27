@@ -9,5 +9,19 @@
   "lng": 17.793200089966014,
   "indoor": false,
   "startDate": "2026-07-10",
-  "endDate": "2026-07-12"
+  "endDate": "2026-07-12",
+  "lineup": [
+    "elder",
+    "red-scalp",
+    "margarita-witch-cult",
+    "madmess",
+    "cv-vision",
+    "arcane-allies",
+    "warning",
+    "sienna-root",
+    "acid-mammoth",
+    "kombynat-robotron",
+    "travo",
+    "doom-gong"
+  ]
 }

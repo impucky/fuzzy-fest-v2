@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Spacer from "../components/Spacer";
+import Changelog from "../components/Changelog.astro";
 ---
 
 <Layout title="Fuzzy Fest - Stoner, Doom & Psych Rock Festivals in Europe">
@@ -18,19 +19,21 @@ import Spacer from "../components/Spacer";
       >Full list of festivals in 2026</a
     >
     <Spacer />
-    <div>
-      <p>Last updated on January 23rd</p>
-      <ul class="text-sm text-neutral-400">
-        <li>※ Updated Desertfest Liège, Celebration Days, Fekete Zaj</li>
-        <li>※ Now showing matching bands from the search bar directly on the festival list</li>
-      </ul>
-    </div>
     <p>
       Suggestions and feedback welcome : <a
-        class="text-[salmon] transition hover:text-white"
+        class="text-[salmon] underline transition hover:text-white"
         href="https://www.instagram.com/raphael.pucky/">@raphael.pucky</a
       >
     </p>
+    <p>
+      <a
+        class="text-[salmon] underline transition hover:text-white"
+        href="https://github.com/impucky/fuzzy-fest-v2">Project source on Github</a
+      >
+    </p>
+
+    <Spacer />
+    <Changelog />
   </section>
 </Layout>
 
