@@ -1,6 +1,7 @@
 ---
 import "../global.css";
 import { ClientRouter } from "astro:transitions";
+import LoadingIndicator from "astro-loading-indicator/component";
 import { fade } from "astro:transitions";
 import Map from "../components/Map";
 import Sidebar from "../components/Sidebar.astro";
@@ -32,6 +33,7 @@ const festivals = await getFestivalsByYear(activeYear);
       content="Heavy, stoner, doom and psychedelic rock festivals mapped across Europe. Explore 2026 festival dates and locations with an interactive map."
     />
     <ClientRouter />
+    <LoadingIndicator color="#fa8072" />
     <title>{title}</title>
   </head>
   <body>

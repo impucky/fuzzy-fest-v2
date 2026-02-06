@@ -13,4 +13,5 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss(), svgr()],
   },
+  prefetch: true,
 });

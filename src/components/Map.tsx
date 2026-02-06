@@ -92,6 +92,7 @@ export default function Map({
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
           onClick={() => highlightAtom.set(festival.key)}
+          data-astro-prefetch
         >
           <Pin
             className={`relative size-8 cursor-pointer text-[salmon] transition hover:opacity-100! hover:brightness-200 ${pastFestival ? "text-neutral-500 opacity-60" : ""}`}

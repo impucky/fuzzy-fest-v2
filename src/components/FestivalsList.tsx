@@ -70,6 +70,7 @@ export default function FestivalsList({ festivals, year }: { festivals: Festival
                     href={`/${year}/${f.key}`}
                     onMouseEnter={() => highlightAtom.set(f.key)}
                     onMouseLeave={() => highlightAtom.set(null)}
+                    data-astro-prefetch
                   >
                     {f.name.toUpperCase()}
                   </a>
