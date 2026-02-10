@@ -9,5 +9,19 @@
   "lng": 6.3691443832065655,
   "indoor": false,
   "startDate": "2026-06-26",
-  "endDate": "2026-06-28"
+  "endDate": "2026-06-28",
+  "lineup": [
+    "acid-mammoth",
+    "rezn",
+    "electric-citizen",
+    "psychlona",
+    "inhuman-nature",
+    "capsula",
+    "child",
+    "the-black-wizards",
+    "imarhan-timbuktu",
+    "congo-cowboys",
+    "occult-hand-order",
+    "el-saguaro"
+  ]
 }
