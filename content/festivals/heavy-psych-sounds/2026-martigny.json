@@ -1,0 +1,14 @@
+{
+  "name": "Heavy Psych Sounds Fest Martigny",
+  "key": "heavy-psych-sounds-fest-martigny",
+  "img": "./heavy-psych-sounds.webp",
+  "website": "https://www.heavypsychsounds.com/fests.htm",
+  "country": "Switzerland",
+  "city": "Martigny",
+  "lat": 46.1023673078017,
+  "lng": 7.072186049087836,
+  "indoor": true,
+  "startDate": "2026-05-15",
+  "endDate": "2026-05-16",
+  "lineup": ["weedpecker", "desert-storm", "fvzz-popvli", "oreyeon", "monsternaut", "lord-elephant"]
+}

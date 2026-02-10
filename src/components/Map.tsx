@@ -145,7 +145,7 @@ function FestivalTooltip({ festival }: { festival: Festival }) {
       anchor="bottom"
       className="pointer-events-none text-center text-white text-shadow-lg"
     >
-      <span className="text-[1rem] font-black">{festival.name.toUpperCase()}</span>
+      <span className="text-[0.8rem] font-black">{festival.name.toUpperCase()}</span>
       <br />
       {festival.provisionalDate ? (
         <span>{formatProvisionalDate(festival.startDate)}</span>

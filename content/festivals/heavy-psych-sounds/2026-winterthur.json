@@ -8,18 +8,16 @@
   "lat": 47.494502141933445,
   "lng": 8.709174215521251,
   "indoor": true,
-  "startDate": "2025-06-13",
-  "endDate": "2025-06-14",
+  "startDate": "2026-05-15",
+  "endDate": "2026-05-16",
   "lineup": [
-    "dead-meadow",
-    "brant-bjork-trio",
-    "acid-mammoth",
-    "duel",
-    "wyatt-e",
-    "the-cosmic-dead",
-    "alunah",
-    "love-gang",
-    "ananda-mida",
-    "castle-rat"
+    "weedpecker",
+    "desert-storm",
+    "fvzz-popvli",
+    "oreyeon",
+    "monsternaut",
+    "lord-elephant",
+    "16",
+    "giobia"
   ]
 }

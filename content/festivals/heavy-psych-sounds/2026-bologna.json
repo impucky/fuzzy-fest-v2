@@ -9,5 +9,6 @@
   "lng": 11.32797808656109,
   "indoor": true,
   "startDate": "2026-05-02",
-  "endDate": "2026-05-03"
+  "endDate": "2026-05-03",
+  "lineup": ["naxatras", "belzebong", "the-lords-of-altamont-16", "litania-monsternaut"]
 }

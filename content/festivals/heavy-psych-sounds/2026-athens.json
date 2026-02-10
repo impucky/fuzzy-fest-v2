@@ -9,5 +9,19 @@
   "lng": 23.711932194015564,
   "indoor": true,
   "startDate": "2026-04-03",
-  "endDate": "2026-04-04"
+  "endDate": "2026-04-04",
+  "lineup": [
+    "planet-of-zeus",
+    "greenleaf",
+    "colour-haze",
+    "godsleep",
+    "weedpecker",
+    "tons",
+    "witchthroat-serpent",
+    "1782",
+    "oreyeon",
+    "kidney-black",
+    "dismiss",
+    "fuzzrider"
+  ]
 }

@@ -5,14 +5,24 @@ import CloseIcon from "../icons/close.svg?react";
 import TentIcon from "../icons/tent.svg?react";
 import BuildingIcon from "../icons/building.svg?react";
 import CalendarIcon from "../icons/calendar.svg?react";
+import FilterIcon from "../icons/filter.svg?react";
 
 import { useStore } from "@nanostores/react";
 import { defaultFilters, mapFiltersAtom, nowToEndOfYearRange } from "../nano/mapFiltersAtom";
 import { dateString } from "../utils/dates";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export default function MapFilters({ year }: { year: number }) {
   const $filters = useStore(mapFiltersAtom);
+
+  const [showFilters, setShowFilters] = useState(false);
+
+  function onFiltersToggle() {
+    if (showFilters) {
+      mapFiltersAtom.set(defaultFilters);
+    }
+    setShowFilters(!showFilters);
+  }
 
   useEffect(() => {
     mapFiltersAtom.set({
@@ -27,11 +37,16 @@ export default function MapFilters({ year }: { year: number }) {
 
   return (
     <div className="absolute top-0 right-0 z-[500] m-1 flex flex-col items-end gap-0.5 text-neutral-400 sm:m-2 sm:gap-1">
-      <SearchBar />
-      <div className="flex w-min flex-col items-end gap-0.5 transition duration-300 sm:gap-1">
-        <DateRange year={year} />
-        <Toggles year={year} />
+      <div className="flex gap-1">
+        <SearchBar />
+        <ToggleItem icon={FilterIcon} active={showFilters} onToggle={onFiltersToggle} />
       </div>
+      {showFilters && (
+        <div className="flex w-min flex-col items-end gap-0.5 transition duration-300 sm:gap-1">
+          <DateRange year={year} />
+          <Toggles year={year} />
+        </div>
+      )}
     </div>
   );
 }
@@ -155,18 +170,18 @@ function ToggleItem({
   onToggle,
 }: {
   icon: React.ElementType;
-  label: string;
+  label?: string;
   active: boolean;
   onToggle: () => void;
 }) {
   return (
     <Checkbox.Root
-      className="bgnoise flex w-fit cursor-pointer items-center justify-center gap-1 rounded-xl bg-[#15191d] p-1 transition hover:bg-neutral-700 sm:p-2"
+      className={`bgnoise flex w-fit cursor-pointer items-center justify-center gap-1 bg-[#15191d] p-1 transition hover:bg-neutral-700 sm:p-2 ${label ? "rounded-xl" : "rounded-full"}`}
       checked={active}
       onCheckedChange={onToggle}
     >
       <Icon className={`w-6 transition ${active ? "text-red-400" : "text-neutral-500"}`} />
-      <span className={`transition ${active ? "text-neutral-200" : "line-through"}`}>{label}</span>
+      {label && <span className={`transition ${active ? "text-neutral-200" : "line-through"}`}>{label}</span>}
     </Checkbox.Root>
   );
 }
