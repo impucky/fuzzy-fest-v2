@@ -7,10 +7,10 @@ Map of heavy music festivals using Astro + React + Maplibre
 - Run the dev server with `pnpm dev`
 
 #### Contributing :
-- I might add some basic CMS in the future, but for now the content is managed manually.
+- I might add some basic CMS in the future, but for now the content is managed manually
 - Festivals each have a folder in `content/festivals`, with a JSON file for each edition
 - Some related festivals are kept in the same folder (Desertfest, Heavy Psych Sounds...)
-- The edition files should have the year and an optional discriminator for related festivals
+- The edition filename should contain the year and an optional discriminator for related festivals
 - The content should follow the schema found in `src/content.config.ts`:
 ```javascript
 {
