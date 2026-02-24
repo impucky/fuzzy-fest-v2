@@ -5,7 +5,7 @@ export interface Props {
 }
 
 const { year, uniqueYears } = Astro.props;
-const nextYear = uniqueYears.find((y) => y > year);
+const nextYear = uniqueYears.find((y: number) => y > year);
 const prevYear = [...uniqueYears].reverse().find((y) => y < year);
 ---
 
@@ -13,19 +13,19 @@ const prevYear = [...uniqueYears].reverse().find((y) => y < year);
   <div class="w-[4ch]">
     {
       prevYear && (
-        <a class="text-neutral-500 transition hover:text-[salmon] hover:underline" href={`/${prevYear}`}>
+        <a class="text-neutral-500 transition hover:text-[lightcoral] hover:underline" href={`/${prevYear}`}>
           {prevYear}
         </a>
       )
     }
   </div>
   <div class="w-[4ch]">
-    <h2 class="text-[salmon] underline">{year}</h2>
+    <h2 class="text-[lightcoral] underline">{year}</h2>
   </div>
   <div class="w-[4ch]">
     {
       nextYear && (
-        <a class="text-neutral-500 transition hover:text-[salmon] hover:underline" href={`/${nextYear}`}>
+        <a class="text-neutral-500 transition hover:text-[lightcoral] hover:underline" href={`/${nextYear}`}>
           {nextYear}
         </a>
       )

@@ -3,8 +3,8 @@ import Pin from "../icons/pin-fill.svg?react";
 import Attribution from "./Attribution";
 import MapFilters from "./MapFilters";
 
-import { useState, useEffect, useRef, useMemo, memo } from "react";
-import { findCoordsCenter, filterFestivals } from "../utils/map";
+import { useState, useEffect, useRef } from "react";
+import { findCoordsCenter, filterFestivals, sortFestivalMarkers } from "../utils/map";
 import { formatFestivalDates, formatProvisionalDate } from "../utils/dates";
 import { useStore } from "@nanostores/react";
 import { highlightAtom } from "../nano/highlightAtom";
@@ -73,50 +73,11 @@ export default function Map({
     }
   }, [festivals]);
 
-  const MarkerButton = memo(function MarkerButton({
-    festival,
-    isActive,
-  }: {
-    festival: Festival;
-    isActive: boolean;
-  }) {
-    const [hovered, setHovered] = useState(false);
-    const showPopup = hovered || isActive;
-    const pastFestival = new Date(festival.startDate) < new Date();
-
-    return (
-      <>
-        <a
-          className="drop-shadow-[0_0_4px_rgba(0,0,0,0.4)] transition hover:drop-shadow-[0_0_4px_rgba(0,0,0,0.8)]"
-          href={`/${new Date(festival.startDate).getFullYear()}/${festival.key}`}
-          onMouseEnter={() => setHovered(true)}
-          onMouseLeave={() => setHovered(false)}
-          onClick={() => highlightAtom.set(festival.key)}
-          data-astro-prefetch
-        >
-          <Pin
-            className={`relative size-8 cursor-pointer text-[salmon] transition hover:opacity-100! hover:brightness-200 ${pastFestival ? "text-neutral-500 opacity-60" : ""}`}
-          />
-        </a>
-        {showPopup && <FestivalTooltip festival={festival} />}
-      </>
-    );
-  });
-
-  const markers = useMemo(() => {
-    const filtered = filterFestivals(festivals, $filters, activeFestival);
-    const sorted = sortFestivalMarkers(filtered);
-
-    return sorted.map((f, i) => (
-      <Marker key={`${f.key}-${i}`} latitude={f.lat} longitude={f.lng} anchor="bottom" offset={[0, -2]}>
-        <MarkerButton festival={f} isActive={activeFestival === f.key || $highlight === f.key} />
-      </Marker>
-    ));
-  }, [festivals, activeFestival, $highlight, $filters]);
+  const filteredFestivals = filterFestivals(festivals, $filters, activeFestival);
 
   return (
     <>
-      <div className="pointer-events-none absolute z-[450] h-full w-full shadow-[inset_0_0_64px_rgba(0,0,0,0.9)]"></div>
+      <div className="pointer-events-none absolute z-450 h-full w-full shadow-[inset_0_0_64px_rgba(0,0,0,0.9)]"></div>
       {path !== "/" && <MapFilters year={year} />}
       {festivals && (
         <MapPane
@@ -127,7 +88,20 @@ export default function Map({
         >
           <Attribution />
           <MapNavigation target={flyTarget} />
-          {markers}
+          {sortFestivalMarkers(filteredFestivals).map((festival, index) => (
+            <Marker
+              key={`${festival.key}-${index}`}
+              latitude={festival.lat}
+              longitude={festival.lng}
+              anchor="bottom"
+              offset={[0, -2]}
+            >
+              <MarkerButton
+                festival={festival}
+                isActive={activeFestival === festival.key || $highlight === festival.key}
+              />
+            </Marker>
+          ))}
         </MapPane>
       )}
     </>
@@ -172,16 +146,44 @@ function MapNavigation({ target }: { target: { lng: number; lat: number; zoom: n
   return null;
 }
 
-function sortFestivalMarkers(festivals: Festival[]): Festival[] {
-  const now = Date.now();
-  return [...festivals].sort((a, b) => {
-    const aPast = new Date(a.startDate).getTime() < now;
-    const bPast = new Date(b.startDate).getTime() < now;
+function MarkerButton({ festival, isActive }: { festival: Festival; isActive: boolean }) {
+  const $highlight = useStore(highlightAtom);
+  const [hovered, setHovered] = useState(false);
+  const showPopup = hovered || isActive;
+  const pastFestival = new Date(festival.startDate) < new Date();
 
-    if (aPast !== bPast) return aPast ? -1 : 1;
+  const color =
+    $highlight === festival.key || showPopup
+      ? "text-white"
+      : pastFestival
+        ? "text-neutral-500"
+        : "text-[lightcoral]";
 
-    if (a.lat !== b.lat) return b.lat - a.lat;
+  function onMouseEnter() {
+    setHovered(true);
+    highlightAtom.set(festival.key);
+  }
 
-    return a.key.localeCompare(b.key);
-  });
+  function onMouseLeave() {
+    setHovered(false);
+    highlightAtom.set(null);
+  }
+
+  return (
+    <>
+      <a
+        className="drop-shadow-[0_0_4px_rgba(0,0,0,0.4)] transition hover:drop-shadow-[0_0_4px_rgba(0,0,0,0.8)]"
+        href={`/${new Date(festival.startDate).getFullYear()}/${festival.key}`}
+        onMouseEnter={onMouseEnter}
+        onMouseLeave={onMouseLeave}
+        onClick={() => highlightAtom.set(festival.key)}
+        data-astro-prefetch
+      >
+        <Pin
+          className={`relative size-8 cursor-pointer transition hover:opacity-100! hover:brightness-200 ${pastFestival ? "opacity-60" : ""} ${color}`}
+        />
+      </a>
+      {showPopup && <FestivalTooltip festival={festival} />}
+    </>
+  );
 }

@@ -8,7 +8,17 @@ import svgr from "vite-plugin-svgr";
 import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
-  integrations: [react(), icon(), sitemap()],
+  integrations: [
+    react({
+      babel: {
+        plugins: [
+          ["babel-plugin-react-compiler"],
+        ],
+      },
+    }),
+    icon(),
+    sitemap(),
+  ],
   site: "https://fuzzyfest.live",
   vite: {
     plugins: [tailwindcss(), svgr()],

@@ -10,29 +10,57 @@ export function findCoordsCenter(coords: [number, number][]): [number, number] {
 }
 
 export function filterFestivals(festivals: Festival[], filters: MapFilters, activeFestival: string | null) {
-  return festivals.filter((f) => {
+  return festivals.filter((festival) => {
     const query = filters.query.toLowerCase().trim();
-    const startDate = new Date(f.startDate);
+    const startDate = new Date(festival.startDate);
     const startFilter = new Date(filters.dateRange.from);
     const endFilter = new Date(filters.dateRange.to);
     // Always show if currently viewing and there's no query
-    if (activeFestival && activeFestival === f.key && !query) return true;
+    if (activeFestival && activeFestival === festival.key && !query) {
+      return true;
+    }
     // Locale
-    if (f.indoor && !filters.showIndoor) return false;
-    if (!f.indoor && !filters.showOpenAir) return false;
-    if (!filters.showIndoor && !filters.showOpenAir) return false;
+    if (festival.indoor && !filters.showIndoor) {
+      return false;
+    }
+    if (!festival.indoor && !filters.showOpenAir) {
+      return false;
+    }
+    if (!filters.showIndoor && !filters.showOpenAir) {
+      return false;
+    }
     // Date range
-    if (startDate < startFilter || startDate > endFilter) return false;
+    if (startDate < startFilter || startDate > endFilter) {
+      return false;
+    }
     // Search
     if (filters.query) {
-      const festivalMatch = f.name.toLowerCase().includes(query);
+      const festivalMatch = festival.name.toLowerCase().includes(query);
       const bandMatch =
-        f.lineup &&
-        f.lineup.some((slug) => {
+        festival.lineup &&
+        festival.lineup.some((slug: string) => {
           return slug.split("-").join(" ").includes(query);
         });
       return festivalMatch || bandMatch;
     }
     return true;
+  });
+}
+
+export function sortFestivalMarkers(festivals: Festival[]): Festival[] {
+  const now = Date.now();
+  return [...festivals].sort((a, b) => {
+    const aPast = new Date(a.startDate).getTime() < now;
+    const bPast = new Date(b.startDate).getTime() < now;
+
+    if (aPast !== bPast) {
+      return aPast ? -1 : 1;
+    }
+
+    if (a.lat !== b.lat) {
+      return b.lat - a.lat;
+    }
+
+    return a.key.localeCompare(b.key);
   });
 }

@@ -19,7 +19,7 @@ const pastEditions = await getPastEditions(key, new Date(startDate));
 ---
 
 <section class="flex flex-col items-center text-center text-white">
-  <a class="sticky top-1 left-0 z-[1] ml-auto p-1 lg:p-2" href={`/${year}`}
+  <a class="sticky top-1 left-0 z-1 ml-auto p-1 lg:p-2" href={`/${year}`}
     ><Icon name="close" class="text-3xl text-neutral-400 transition hover:text-white" /></a
   >
   {
@@ -53,7 +53,7 @@ const pastEditions = await getPastEditions(key, new Date(startDate));
     <a
       href={website}
       target="_blank"
-      class="cursor-pointer text-lg text-[salmon] underline transition hover:text-white"
+      class="cursor-pointer text-lg text-[lightcoral] underline transition hover:text-white"
     >
       homepage
     </a>
@@ -64,8 +64,12 @@ const pastEditions = await getPastEditions(key, new Date(startDate));
   <ul class="flex w-full flex-col flex-wrap pb-4">
     {
       sortedLineup
-        ? sortedLineup.map(band => {
-            return <li class="text-md leading-snug font-black md:text-lg">{bands[band].toUpperCase()}</li>;
+        ? sortedLineup.map((band: string) => {
+            return (
+              <li class="text-md leading-snug font-semibold tracking-wide text-neutral-50 md:text-lg">
+                {bands[band].toUpperCase()}
+              </li>
+            );
           })
         : "To be announced"
     }
@@ -76,12 +80,12 @@ const pastEditions = await getPastEditions(key, new Date(startDate));
       <>
         <Spacer label="PAST EDITIONS" />
         <ul class="flex w-full flex-col flex-wrap pb-4">
-          {pastEditions.map(f => {
+          {pastEditions.map((f) => {
             const year = new Date(f.startDate).getFullYear();
             return (
               <li>
                 <a
-                  class="text-md leading-snug font-black text-white transition hover:text-[salmon] hover:underline md:text-lg"
+                  class="text-md leading-snug font-black text-white transition hover:text-[lightcoral] hover:underline md:text-lg"
                   href={`/${year}/${f.key}`}
                 >
                   {f.name} {new Date(f.startDate).getFullYear()}

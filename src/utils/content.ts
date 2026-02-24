@@ -2,9 +2,6 @@ import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import type { Festival } from "../content.config";
 
-import bandsFile from "../../content/bands.json";
-const bands = bandsFile as Record<string, string>;
-
 export async function getFestivalsByYear(year: number): Promise<Festival[]> {
   const collection: CollectionEntry<"festivals">[] = await getCollection("festivals", ({ data }) => {
     return new Date(data.startDate).getFullYear() === year;

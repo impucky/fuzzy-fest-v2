@@ -36,7 +36,7 @@ export default function MapFilters({ year }: { year: number }) {
   }, [year]);
 
   return (
-    <div className="absolute top-0 right-0 z-[500] m-1 flex flex-col items-end gap-0.5 text-neutral-400 sm:m-2 sm:gap-1">
+    <div className="absolute top-0 right-0 z-500 m-1 flex flex-col items-end gap-0.5 text-neutral-400 sm:m-2 sm:gap-1">
       <div className="flex gap-1">
         <SearchBar />
         <ToggleItem icon={FilterIcon} active={showFilters} onToggle={onFiltersToggle} />
@@ -57,7 +57,7 @@ function SearchBar() {
   return (
     <div className="relative flex h-8 w-52 items-center sm:h-10 sm:w-60 md:w-64">
       <input
-        className="bgnoise absolute h-full w-full rounded-3xl bg-[#15191d] pl-3 text-sm shadow-[0_0_6px_rgba(0,0,0,0.6)] transition-all duration-200 outline-none hover:shadow-[0_0_0_2px_#555] focus:text-white focus:shadow-[0_0_0_2px_#f87171] sm:pl-4 sm:text-base"
+        className="bgnoise absolute h-full w-full rounded-3xl bg-[#191d22] pl-3 text-sm shadow-[0_0_8px_rgba(0,0,0,0.6)] transition-all duration-200 outline-none hover:shadow-[0_0_0_2px_#555] focus:text-white focus:shadow-[0_0_0_2px_#f87171] sm:pl-4 sm:text-base"
         style={$filters.query.length ? { outline: "2px solid #f87171", color: "#fff" } : {}}
         type="text"
         placeholder="Search festivals or bands"
@@ -103,7 +103,7 @@ function DateRange({ year }: { year: number }) {
   }
 
   return (
-    <div className="bgnoise w-52 rounded-xl bg-[#15191d] px-2 py-1 shadow-[0_0_6px_rgba(0,0,0,0.6)] sm:w-64 sm:py-2">
+    <div className="bgnoise w-52 rounded-xl bg-[#191d22] px-2 py-1 shadow-[0_0_8px_rgba(0,0,0,0.6)] sm:w-64 sm:py-2">
       <div className="flex w-full justify-between px-0 text-xs font-bold text-neutral-300 sm:px-2 sm:text-sm">
         <span className="w-1/2 text-left">{dateString(from365($filters.dateRange.range[0]))}</span>
         <span className="text-neutral-400">|</span>
@@ -118,7 +118,7 @@ function DateRange({ year }: { year: number }) {
         onValueChange={(range: number[]) => onDateChange(range)}
       >
         <Slider.Track className="relative h-full grow rounded-lg bg-[#182129] shadow-[inset_0_0_6px_rgba(0,0,0,0.6)]">
-          <Slider.Range className="absolute h-full bg-red-400 shadow-[inset_0_0_8px_rgba(0,0,0,0.8)]" />
+          <Slider.Range className="absolute h-full bg-[lightcoral] shadow-[inset_0_0_8px_rgba(0,0,0,0.8)]" />
         </Slider.Track>
         <Slider.Thumb className="block h-6 w-6 cursor-pointer rounded-full bg-[url('/favicon.png')] bg-cover shadow-[2px_2px_3px_rgba(0,0,0,0.6)] hover:shadow-[2px_2px_6px_rgba(0,0,0,0.5)]" />
         <Slider.Thumb className="block h-6 w-6 cursor-pointer rounded-full bg-[url('/favicon.png')] bg-cover shadow-[2px_2px_3px_rgba(0,0,0,0.6)] hover:shadow-[2px_2px_6px_rgba(0,0,0,0.5)]" />
@@ -176,11 +176,11 @@ function ToggleItem({
 }) {
   return (
     <Checkbox.Root
-      className={`bgnoise flex w-fit cursor-pointer items-center justify-center gap-1 bg-[#15191d] p-1 transition hover:bg-neutral-700 sm:p-2 ${label ? "rounded-xl" : "rounded-full"}`}
+      className={`bgnoise flex w-fit cursor-pointer items-center justify-center gap-1 bg-[#191d22] p-1 shadow-[0_0_8px_rgba(0,0,0,0.6)] transition hover:bg-neutral-700 sm:p-2 ${label ? "rounded-xl" : "rounded-full"}`}
       checked={active}
       onCheckedChange={onToggle}
     >
-      <Icon className={`w-6 transition ${active ? "text-red-400" : "text-neutral-500"}`} />
+      <Icon className={`w-6 transition ${active ? "text-[lightcoral]" : "text-neutral-500"}`} />
       {label && <span className={`transition ${active ? "text-neutral-200" : "line-through"}`}>{label}</span>}
     </Checkbox.Root>
   );
