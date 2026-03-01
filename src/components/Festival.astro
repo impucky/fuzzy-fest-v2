@@ -11,8 +11,20 @@ import type { Festival } from "../content.config";
 
 const festival: Festival = Astro.props.festival;
 const bands = bandsFile as Record<string, string>;
-const { name, key, website, country, city, indoor, startDate, endDate, lineup, img, provisionalDate } =
-  festival;
+const {
+  name,
+  key,
+  website,
+  country,
+  city,
+  indoor,
+  startDate,
+  endDate,
+  lineup,
+  img,
+  provisionalDate,
+  partialLineup,
+} = festival;
 const year = new Date(startDate).getFullYear();
 const sortedLineup = lineup ? lineup.sort((a, b) => bands[a].localeCompare(bands[b])) : null;
 const pastEditions = await getPastEditions(key, new Date(startDate));
@@ -74,6 +86,8 @@ const pastEditions = await getPastEditions(key, new Date(startDate));
         : "To be announced"
     }
   </ul>
+
+  {partialLineup && <p>+ MANY MORE...</p>}
 
   {
     pastEditions.length > 0 && (

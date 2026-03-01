@@ -10,5 +10,23 @@
   "indoor": false,
   "startDate": "2026-08-08",
   "endDate": "2026-08-16",
-  "lineup": ["chat-pile", "corrosion-of-conformity", "elder", "kadavar", "las-robertas"]
+  "lineup": [
+    "cardiel",
+    "causa-sui",
+    "chat-pile",
+    "corrosion-of-conformity",
+    "daevar",
+    "dead-meadow",
+    "elder",
+    "kadavar",
+    "las-robertas",
+    "meatdripper",
+    "melodys-echo-chamber",
+    "moonpools",
+    "planet-of-zeus",
+    "temple-fang",
+    "travo",
+    "witchcraft",
+    "getdown-services"
+  ]
 }

@@ -29,6 +29,7 @@ Map of heavy music festivals using Astro + React + Maplibre
     playlistId?: string; // currently unused
     note?: string; // currently unused, freeform text
     lineup?: string[]; // array of band slugs
+    partialLineup?: boolean; // shows a "+ many more..." note for very large lineups (too much work) 
 }
 ```
 - Every band on a lineup should also be listed in `content/bands.json` with the appropriate slug

@@ -21,6 +21,7 @@ const festivals = defineCollection({
       playlistId: z.string().optional(),
       note: z.string().optional(),
       lineup: z.array(z.string()).optional(),
+      partialLineup: z.boolean().optional(),
     }),
 });
 

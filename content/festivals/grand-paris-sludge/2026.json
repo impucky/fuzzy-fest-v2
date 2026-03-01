@@ -1,0 +1,25 @@
+{
+  "name": "Grand Paris Sludge",
+  "key": "grand-paris-sludge",
+  "img": "./grand-paris-sludge.webp",
+  "website": "https://www.instagram.com/grandparissludge/",
+  "country": "France",
+  "city": "Savigny-le-Temple",
+  "lat": 48.59530463520367,
+  "lng": 2.5848737423180768,
+  "indoor": true,
+  "startDate": "2026-05-23",
+  "endDate": "2026-05-24",
+  "lineup": [
+    "coven",
+    "hemelbestormer",
+    "fuzz-sagrado",
+    "high-desert-queen",
+    "salace",
+    "truckfighters",
+    "alta-rossa",
+    "verdun",
+    "conviction",
+    "midhaven"
+  ]
+}

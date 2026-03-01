@@ -1,0 +1,14 @@
+{
+  "name": "JunkYard Open Air",
+  "key": "junkyard-open-air",
+  "img": "./junkyard-open-air.webp",
+  "website": "https://www.instagram.com/junkyard_dortmund/",
+  "country": "Germany",
+  "city": "Dortmund",
+  "lat": 51.53305713409595,
+  "lng": 7.472535564069972,
+  "indoor": true,
+  "startDate": "2026-06-20",
+  "endDate": "2026-06-20",
+  "lineup": ["kadavar", "elder", "dirty-sound-magnet", "daily-thompson", "love-machine"]
+}

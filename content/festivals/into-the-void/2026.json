@@ -9,5 +9,21 @@
   "lng": 5.790178831895955,
   "indoor": true,
   "startDate": "2026-09-26",
-  "endDate": "2026-09-26"
+  "endDate": "2026-09-26",
+  "lineup": [
+    "1000mods",
+    "the-devil-and-the-almighty-blues",
+    "belzebong",
+    "anciients",
+    "tankzilla",
+    "iron-jinn",
+    "el-altar-del-holocausto",
+    "kryptograf",
+    "ponte-del-diavolo",
+    "komatsu",
+    "coltaine",
+    "daevar",
+    "spirit-mother",
+    "alber-jupiter"
+  ]
 }

@@ -1,0 +1,14 @@
+{
+  "name": "Dunajam",
+  "key": "dunajam",
+  "img": "./dunajam.webp",
+  "website": "http://www.quadorb.com/dunajam/",
+  "country": "Italy",
+  "city": "???, Sardinia",
+  "lat": 40.133,
+  "lng": 9.099,
+  "indoor": false,
+  "startDate": "2026-06-20",
+  "endDate": "2026-06-22",
+  "provisionalDate": true
+}

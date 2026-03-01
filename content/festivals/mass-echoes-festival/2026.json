@@ -1,0 +1,14 @@
+{
+  "name": "Mass Echoes Festival",
+  "key": "mass-echoes-festival",
+  "img": "./mass-echoes-festival.webp",
+  "website": "https://www.instagram.com/poutrasseau/",
+  "country": "France",
+  "city": "Castillon",
+  "lat": 43.83774403981404,
+  "lng": 7.460961279914499,
+  "indoor": false,
+  "startDate": "2026-08-28",
+  "endDate": "2026-08-29",
+  "lineup": []
+}

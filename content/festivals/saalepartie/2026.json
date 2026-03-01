@@ -1,0 +1,14 @@
+{
+  "name": "Saalepartie",
+  "key": "saalepartie",
+  "img": "./saalepartie.webp",
+  "website": "https://www.saalepartie.de/",
+  "country": "Germany",
+  "city": "Auerstedt",
+  "lat": 51.100098469627575,
+  "lng": 11.58288871161322,
+  "indoor": true,
+  "startDate": "2026-09-04",
+  "endDate": "2026-09-06",
+  "lineup": []
+}

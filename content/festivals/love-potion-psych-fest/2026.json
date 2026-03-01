@@ -1,0 +1,23 @@
+{
+  "name": "Love Potion Psych Fest",
+  "key": "love-potion-psych-fest",
+  "img": "./love-potion-psych-fest.webp",
+  "website": "https://www.instagram.com/helsinkipsychfest/",
+  "country": "Finland",
+  "city": "Helsinki",
+  "lat": 60.210546190205704,
+  "lng": 24.950270232968098,
+  "indoor": true,
+  "startDate": "2026-04-24",
+  "endDate": "2026-04-25",
+  "lineup": [
+    "karaboudjan",
+    "gangland-gangland",
+    "aqua-wreck",
+    "astral-bazaar",
+    "dum-and-brass",
+    "indigo-dream",
+    "dose-of-nature-ltd",
+    "hippiefication"
+  ]
+}
