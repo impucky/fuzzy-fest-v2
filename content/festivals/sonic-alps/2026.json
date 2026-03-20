@@ -1,0 +1,25 @@
+{
+  "name": "Sonic Alps",
+  "key": "sonic-alps",
+  "img": "./sonic-alps.webp",
+  "website": "https://www.instagram.com/sonicalpsfest/",
+  "country": "Italy",
+  "city": "Minucciano",
+  "lat": 44.13818582279772,
+  "lng": 10.194175062337461,
+  "indoor": false,
+  "startDate": "2026-05-30",
+  "endDate": "2026-05-31",
+  "lineup": [
+    "fear-the-beards",
+    "gwtdtdt",
+    "dune-aurora",
+    "zolle",
+    "gotho",
+    "litania",
+    "repetita-iuvant",
+    "da-captain-trips",
+    "bosco-sacro",
+    "sothiac"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Truckfighters' Fuzz Festival",
+  "key": "truckfighters-fuzz-festival",
+  "img": "./truckfighters-fuzz-festival.webp",
+  "website": "https://www.truckfighters.com/festival/",
+  "country": "Sweden",
+  "city": "Stockholm",
+  "lat": 59.314527512626405,
+  "lng": 18.032458290319482,
+  "indoor": true,
+  "startDate": "2026-11-14",
+  "endDate": "2026-11-15",
+  "lineup": ["truckfighters", "valley-of-the-sun", "greenleaf", "congulus", "guenna", "crash-and-burn"]
+}

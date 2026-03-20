@@ -1,0 +1,14 @@
+{
+  "name": "Stonerkras",
+  "key": "stonerkras",
+  "img": "./stonerkras.webp",
+  "website": "https://stonerkras.it/",
+  "country": "Italy",
+  "city": "Prosecco",
+  "lat": 45.70872421971028,
+  "lng": 13.7316565334378,
+  "indoor": false,
+  "startDate": "2026-07-11",
+  "endDate": "2026-07-11",
+  "lineup": ["stoned-jesus"]
+}

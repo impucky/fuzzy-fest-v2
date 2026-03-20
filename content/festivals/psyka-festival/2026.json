@@ -1,0 +1,14 @@
+{
+  "name": "PsyKA Festival",
+  "key": "psyka-festival",
+  "img": "./psyka-festival.webp",
+  "website": "https://psyka.org/",
+  "country": "Germany",
+  "city": "Karlsruhe",
+  "lat": 49.005693897282455,
+  "lng": 8.43025210215226,
+  "indoor": true,
+  "startDate": "2026-10-01",
+  "endDate": "2026-10-03",
+  "lineup": ["the-devil-and-the-almighty-blues", "skyjoggers", "the-black-wizards", "the-delayed"]
+}

@@ -9,5 +9,17 @@
   "lng": 15.081631637650242,
   "indoor": false,
   "startDate": "2026-07-23",
-  "endDate": "2026-07-25"
+  "endDate": "2026-07-25",
+  "lineup": [
+    "dozer",
+    "10000-years",
+    "s-t-erik",
+    "agusa",
+    "old-horn-tooth",
+    "grass-eating-man",
+    "malgomaj",
+    "bottenhavet",
+    "hamnd",
+    "tungsinnet"
+  ]
 }

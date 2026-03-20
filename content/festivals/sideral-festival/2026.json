@@ -1,0 +1,14 @@
+{
+  "name": "Sidéral Festival",
+  "key": "sideral-festival",
+  "img": "./sideral-festival.webp",
+  "website": "https://sideral-festival.com/",
+  "country": "France",
+  "city": "Capbreton",
+  "lat": 43.64929846508991,
+  "lng": -1.4107866378983887,
+  "indoor": true,
+  "startDate": "2026-04-17",
+  "endDate": "2026-04-18",
+  "lineup": ["frustration", "fomies", "clarence", "glyders", "hollow-ship", "oog-bogo", "the-twin-stoners"]
+}

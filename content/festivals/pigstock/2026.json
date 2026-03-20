@@ -1,0 +1,26 @@
+{
+  "name": "Pigstock",
+  "key": "pigstock",
+  "img": "./pigstock.webp",
+  "website": "https://www.pigstock.nl/",
+  "country": "Netherlands",
+  "city": "Lemele",
+  "lat": 52.45098992871936,
+  "lng": 6.420615923964015,
+  "indoor": false,
+  "startDate": "2026-07-03",
+  "endDate": "2026-07-04",
+  "lineup": [
+    "dawn-brothers",
+    "pauw",
+    "the-schizophonics",
+    "gates-of-kiev",
+    "weird-omen",
+    "the-bird-experience",
+    "salland-sound-collective",
+    "plastic-family",
+    "hollow-ship",
+    "suzanne-kochner-suprafon",
+    "the-sunset-society"
+  ]
+}

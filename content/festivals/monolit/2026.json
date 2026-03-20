@@ -1,0 +1,24 @@
+{
+  "name": "Monolit",
+  "key": "monolit",
+  "img": "./monolit.webp",
+  "website": "https://www.instagram.com/monolit_festival/",
+  "country": "Hungary",
+  "city": "Budapest",
+  "lat": 47.4599178458146,
+  "lng": 19.057275287037278,
+  "indoor": true,
+  "startDate": "2026-07-23",
+  "endDate": "2026-07-24",
+  "lineup": [
+    "house-of-protection",
+    "shell-beach",
+    "orion-dawn",
+    "splitleaf",
+    "elder",
+    "1000mods",
+    "naxatras",
+    "red-swamp",
+    "warchief"
+  ]
+}

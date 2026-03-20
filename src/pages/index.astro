@@ -2,6 +2,9 @@
 import Layout from "../layouts/Layout.astro";
 import Spacer from "../components/Spacer";
 import Changelog from "../components/Changelog.astro";
+import { getFestivalsThisYear } from "../utils/content";
+
+const { total, remaining } = await getFestivalsThisYear();
 ---
 
 <Layout title="Fuzzy Fest - Stoner, Doom & Psych Rock Festivals in Europe">
@@ -13,8 +16,11 @@ import Changelog from "../components/Changelog.astro";
     </h1>
     <p class="text-xl">Welcome !</p>
     <p>
-      Fuzzy Fest is an interactive map of music festivals featuring heavy psych, desert rock, stoner, prog,
-      doom... in Europe.
+      Fuzzy Fest is an interactive map of music festivals featuring heavy psych, stoner, doom, prog, desert
+      rock... in Europe.
+    </p>
+    <p>
+      There are currently <b class="text-[lightcoral]">{total}</b> festivals listed for 2026.
     </p>
     <Spacer label="Start browsing :" />
     <a class="text-xl text-[lightcoral] underline transition hover:text-white" href={`/2026`}
@@ -22,7 +28,7 @@ import Changelog from "../components/Changelog.astro";
     >
     <Spacer />
     <p>
-      Suggestions and feedback welcome : <a
+      Suggestions and feedback welcome: <a
         class="text-[lightcoral] underline transition hover:text-white"
         href="https://www.instagram.com/raphael.pucky/">@raphael.pucky</a
       >

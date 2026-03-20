@@ -10,5 +10,22 @@
   "indoor": true,
   "startDate": "2026-09-25",
   "endDate": "2026-09-27",
-  "lineup": ["stoned-jesus", "black-willows", "khan", "slomatics", "froglord"]
+  "lineup": [
+    "colour-haze",
+    "stoned-jesus",
+    "black-willows",
+    "khan",
+    "savanah",
+    "red-sun-atacama",
+    "slomatics",
+    "kaiser",
+    "froglord",
+    "the-lunar-effect",
+    "holystone",
+    "sleeping-mountain",
+    "thunder-horse",
+    "earl-of-hell",
+    "mehiga",
+    "dunes"
+  ]
 }

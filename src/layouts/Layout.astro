@@ -7,14 +7,14 @@ import Map from "../components/Map";
 import Sidebar from "../components/Sidebar.astro";
 import LogoHeader from "../components/LogoHeader.astro";
 import { getFestivalsByYear } from "../utils/content.js";
-import { festivalsLeftThisYear } from "../utils/content.js";
+import { getFestivalsThisYear } from "../utils/content.js";
 
 const path = Astro.url.pathname;
 const { year } = Astro.params;
 const { title } = Astro.props;
-const festivalsLeft = await festivalsLeftThisYear();
+const festivalsCounts = await getFestivalsThisYear();
 const yearNow = new Date().getFullYear();
-const activeYear = year ? +year : festivalsLeft > 0 ? yearNow : yearNow + 1;
+const activeYear = year ? +year : festivalsCounts.remaining > 0 ? yearNow : yearNow + 1;
 const festivals = await getFestivalsByYear(activeYear);
 ---
 
