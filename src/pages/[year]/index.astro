@@ -7,15 +7,15 @@ import { getFestivalsByYear } from "../../utils/content";
 
 export async function getStaticPaths() {
   const entries = await getCollection("festivals");
-  const years = [...new Set(entries.map(({ data }) => new Date(data.startDate).getFullYear()))];
-  return years.map(year => ({ params: { year } }));
+  const years = [...new Set(entries.map(({ data }) => new Date(data.startDate).getFullYear().toString()))];
+  return years.map((year) => ({ params: { year } }));
 }
 
 const year = +Astro.params.year;
 
 const festivals = await getFestivalsByYear(year);
-const years = (await getCollection("festivals")).map(festival =>
-  new Date(festival.data.startDate).getFullYear()
+const years = (await getCollection("festivals")).map((festival) =>
+  new Date(festival.data.startDate).getFullYear(),
 );
 const uniqueYears = Array.from(new Set(years)).sort((a, b) => a - b);
 ---

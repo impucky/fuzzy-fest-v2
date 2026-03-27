@@ -8,7 +8,7 @@ export async function getStaticPaths() {
   const festivals = await getCollection("festivals");
   return festivals.map(({ data }) => ({
     params: {
-      year: new Date(data.startDate).getFullYear(),
+      year: new Date(data.startDate).getFullYear().toString(),
       key: data.key,
     },
   }));
