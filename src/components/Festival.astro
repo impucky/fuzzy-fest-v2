@@ -39,13 +39,13 @@ const pastEditions = await getPastEditions(key, new Date(startDate));
       <Image
         src={img}
         alt={name + " logo"}
-        class="h-auto max-h-20 w-auto max-w-64 md:max-h-32 lg:max-w-80 xl:max-w-full"
+        class="h-auto max-h-20 w-auto max-w-64 md:max-h-40 lg:max-w-80 xl:max-w-full"
       />
     )
   }
-  <h2 class="mt-2 text-lg text-neutral-200">{name}</h2>
+  <h2 class="mt-2 text-lg">{name}</h2>
 
-  <div class="mt-1 flex items-center gap-1 text-center">
+  <div class="flex items-center gap-1 text-center">
     <Icon name="pin" class="text-xl" />
     <h3 class="text-lg">{city}, {country}</h3>
   </div>

@@ -52,7 +52,7 @@ function ListEntry({ festival, route, bands }: { festival: Festival; route: stri
     $highlight === festival.key ? "text-[lightcoral]" : pastFestival ? "text-neutral-400" : "text-neutral-50";
 
   return (
-    <li className="text-center">
+    <li className="mt-1 text-center">
       <a
         className={`text-md leading-snug font-black tracking-wide transition hover:text-[lightcoral] hover:underline md:text-lg ${pastFestival ? "line-through" : ""} ${color}`}
         href={route}

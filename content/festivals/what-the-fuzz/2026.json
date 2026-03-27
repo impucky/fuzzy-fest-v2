@@ -1,0 +1,14 @@
+{
+  "name": "What the Fuzz",
+  "key": "what-the-fuzz",
+  "img": "./what-the-fuzz.webp",
+  "website": "https://stonusband.com/what-the-fuzz-festival-2026",
+  "country": "Cyprus",
+  "city": "Larnaca",
+  "lat": 34.911986807836584,
+  "lng": 33.637369371771605,
+  "indoor": true,
+  "startDate": "2026-05-29",
+  "endDate": "2026-05-30",
+  "lineup": ["slift", "temple-fang", "stonus", "abettor", "musha", "leave-the-wave"]
+}
