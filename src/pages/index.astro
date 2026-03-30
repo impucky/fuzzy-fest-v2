@@ -16,11 +16,13 @@ const { total, remaining } = await getFestivalsThisYear();
     </h1>
     <p class="text-xl">Welcome !</p>
     <p>
-      Fuzzy Fest is an interactive map of music festivals featuring heavy psych, stoner, doom, prog, desert
-      rock... in Europe.
+      Fuzzy Fest is an interactive map of music festivals in Europe featuring heavy psych, stoner, doom, prog,
+      desert rock...
     </p>
     <p>
-      There are currently <b class="text-[lightcoral]">{total}</b> festivals listed for 2026.
+      There are <b class="text-[lightcoral]">{total}</b> festivals listed for 2026 (<b
+        class="text-[lightcoral]">{remaining}</b
+      > remaining).
     </p>
     <Spacer label="Start browsing :" />
     <a class="text-xl text-[lightcoral] underline transition hover:text-white" href={`/2026`}
@@ -28,10 +30,10 @@ const { total, remaining } = await getFestivalsThisYear();
     >
     <Spacer />
     <p>
-      Suggestions and feedback welcome: <a
+      Suggestions and feedback welcome: IG <a
         class="text-[lightcoral] underline transition hover:text-white"
         href="https://www.instagram.com/raphael.pucky/">@raphael.pucky</a
-      >
+      > / Discord <span class="text-[lightcoral] underline transition hover:text-white">@pucky</span>
     </p>
     <p>
       <a

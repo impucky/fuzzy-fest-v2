@@ -1,0 +1,13 @@
+{
+  "name": "Cosmic Sessions",
+  "key": "cosmic-sessions",
+  "img": "./cosmic-sessions.webp",
+  "website": "https://www.instagram.com/cosmic.sessions/",
+  "country": "France",
+  "city": "TBA (Auvergne)",
+  "lat": 45.47172449288895,
+  "lng": 3.9140821686883487,
+  "indoor": false,
+  "startDate": "2026-08-14",
+  "endDate": "2026-08-15"
+}

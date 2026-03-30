@@ -1,0 +1,38 @@
+[
+  {
+    "date": "2026-03-30",
+    "content": ["Added Magnolia Stone (IT), Cosmic Sessions (FR)"]
+  },
+  {
+    "date": "2026-03-27",
+    "content": ["Added What the Fuzz (CY), Sonic Rites (FI)", "Updated HPS Athens"]
+  },
+  {
+    "date": "2026-03-20",
+    "content": [
+      "Added dunk!festival (BE), Monolit (HU), Pigstock (NL), PsyKA (DE), Sidéral Festival (FR), Stonerkras (IT)",
+      "Updated Krökbacken Festival, Mass Echoes Fest, Rock Im Wald, Sonic Alps, Stoomfest, Truckfighters' Fuzz Festival"
+    ]
+  },
+  {
+    "date": "2026-03-01",
+    "content": [
+      "Added JunkYard Open Air (DE), Love Potion Psych Fest (FI)",
+      "Updated Down the Hill, Esbjerg Fuzztival, For Doom the Bell Tolls, Fuzz Club, Grand Paris Sludge, Hoflärm, Into the Void, Krach Am Bach, Mass Echoes Fest, Masters of the Riff, Obsidian Dust, PALP Rocklette, Roadburn, Saalepartie, Up in Smoke"
+    ]
+  },
+  {
+    "date": "2026-02-10",
+    "content": [
+      "Updated Heavy Psych Sounds Fest (Greece, Italy, Switzerland, Belgium, Netherlands), Bluemoon Festival, Bearstone Festival, Stoned from the Underground, Namass Pamouss"
+    ]
+  },
+  { "date": "2026-01-27", "content": ["Updated Red Smoke Festival"] },
+  {
+    "date": "2026-01-23",
+    "content": [
+      "Updated Desertfest Liège, Celebration Days, Fekete Zaj",
+      "Now showing matching bands from the search bar directly on the festival list"
+    ]
+  }
+]

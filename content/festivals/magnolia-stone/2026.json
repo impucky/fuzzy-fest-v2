@@ -1,0 +1,14 @@
+{
+  "name": "Magnolia Stone",
+  "key": "magnolia-stone",
+  "img": "./magnolia-stone.webp",
+  "website": "https://www.facebook.com/events/3801828070121616/",
+  "country": "Italy",
+  "city": "Milano",
+  "lat": 45.46362410354957,
+  "lng": 9.286068671128369,
+  "indoor": true,
+  "startDate": "2026-07-26",
+  "endDate": "2026-07-26",
+  "lineup": ["elder", "graveyard", "kadavar", "truckfighters", "giobia"]
+}
