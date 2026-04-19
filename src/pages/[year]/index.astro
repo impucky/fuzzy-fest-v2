@@ -20,7 +20,7 @@ const years = (await getCollection("festivals")).map((festival) =>
 const uniqueYears = Array.from(new Set(years)).sort((a, b) => a - b);
 ---
 
-<Layout year={year} title={`Fuzzy Fest - ${year} Stoner, Doom & Psych Rock Festivals in Europe`}>
+<Layout year={year} title={`Fuzzy Fest - ${year} Stoner, Doom & Heavy Psych Festivals in Europe`}>
   <YearPicker year={year} uniqueYears={uniqueYears} />
   <FestivalsList festivals={festivals} year={year} client:only />
 </Layout>

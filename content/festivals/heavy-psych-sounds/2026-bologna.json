@@ -2,7 +2,7 @@
   "name": "Heavy Psych Sounds Fest Bologna",
   "key": "heavy-psych-sounds-fest-bologna",
   "img": "./heavy-psych-sounds.webp",
-  "website": "https://www.freakoutbologna.com/hps",
+  "website": "https://www.hpsbooking.com/fest/hps-fest-italy-2026/",
   "country": "Italy",
   "city": "Bologna",
   "lat": 44.50493834639429,
@@ -10,5 +10,20 @@
   "indoor": true,
   "startDate": "2026-05-02",
   "endDate": "2026-05-03",
-  "lineup": ["naxatras", "belzebong", "the-lords-of-altamont-16", "litania-monsternaut"]
+  "lineup": [
+    "naxatras",
+    "nightstalker",
+    "the-lords-of-altamont",
+    "giobia",
+    "avon",
+    "oreyeon",
+    "hollow-ship",
+    "belzebong",
+    "weedpecker",
+    "16",
+    "desert-storm",
+    "monsternaut",
+    "litania",
+    "lord-elephant"
+  ]
 }

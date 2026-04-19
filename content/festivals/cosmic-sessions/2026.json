@@ -9,5 +9,6 @@
   "lng": 3.9140821686883487,
   "indoor": false,
   "startDate": "2026-08-14",
-  "endDate": "2026-08-15"
+  "endDate": "2026-08-15",
+  "lineup": ["karkara", "witchorious"]
 }

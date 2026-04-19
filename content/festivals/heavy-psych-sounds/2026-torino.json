@@ -2,7 +2,7 @@
   "name": "Heavy Psych Sounds Fest Torino",
   "key": "heavy-psych-sounds-fest-torino",
   "img": "./heavy-psych-sounds.webp",
-  "website": "https://www.hpsbooking.com/fests/",
+  "website": "https://www.hpsbooking.com/fest/hps-fest-italy-2026/",
   "country": "Italy",
   "city": "Torino",
   "lat": 45.12360583287918,
@@ -10,5 +10,18 @@
   "indoor": true,
   "startDate": "2026-05-02",
   "endDate": "2026-05-03",
-  "lineup": ["naxatras", "belzebong", "the-lords-of-altamont-16", "litania-monsternaut"]
+  "lineup": [
+    "belzebong",
+    "weedpecker",
+    "16",
+    "litania",
+    "desert-storm",
+    "lord-elephant",
+    "monsternaut",
+    "naxatras",
+    "nightstalker",
+    "tons",
+    "the-lords-of-altamont",
+    "oreyeon"
+  ]
 }

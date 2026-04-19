@@ -1,0 +1,21 @@
+{
+  "name": "Westill Fest",
+  "key": "westill-fest",
+  "img": "./westill-fest.webp",
+  "website": "https://www.facebook.com/westillevenementiel/",
+  "country": "France",
+  "city": "Vallet",
+  "lat": 47.166668265973826,
+  "lng": -1.2656138237193584,
+  "indoor": true,
+  "startDate": "2026-10-30",
+  "endDate": "2026-10-31",
+  "lineup": [
+    "messa",
+    "my-sleeping-karma",
+    "el-altar-del-holocausto",
+    "acid-mammoth",
+    "skraeckoedlan",
+    "birdstone"
+  ]
+}

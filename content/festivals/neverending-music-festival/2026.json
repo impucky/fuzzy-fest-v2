@@ -1,0 +1,14 @@
+{
+  "name": "Neverending Music Festival",
+  "key": "neverending-music-festival",
+  "img": "./neverending-music-festival.webp",
+  "website": "https://www.instagram.com/neverendingmusicfestival/",
+  "country": "Italy",
+  "city": "Portoferraio",
+  "lat": 42.81748515260318,
+  "lng": 10.324014272071363,
+  "indoor": false,
+  "startDate": "2026-06-26",
+  "endDate": "2026-06-27",
+  "lineup": ["weedpecker", "child", "saturna", "humulus", "da-captain-trips", "holy-giant", "desert-collider"]
+}

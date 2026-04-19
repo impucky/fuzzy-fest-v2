@@ -10,5 +10,15 @@
   "indoor": true,
   "startDate": "2026-10-01",
   "endDate": "2026-10-03",
-  "lineup": ["the-devil-and-the-almighty-blues", "skyjoggers", "the-black-wizards", "the-delayed"]
+  "lineup": [
+    "the-devil-and-the-almighty-blues",
+    "skyjoggers",
+    "the-black-wizards",
+    "spirit-mother",
+    "asteroid-no-4",
+    "acid-rooster",
+    "the-delayed",
+    "highest-primzahl-on-mars",
+    "hazeshuttle"
+  ]
 }
