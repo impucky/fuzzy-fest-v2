@@ -7,7 +7,7 @@
   "city": "Auerstedt",
   "lat": 51.100098469627575,
   "lng": 11.58288871161322,
-  "indoor": true,
+  "indoor": false,
   "startDate": "2025-09-05",
   "endDate": "2025-09-07",
   "lineup": [
