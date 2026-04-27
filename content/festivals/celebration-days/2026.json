@@ -9,5 +9,26 @@
   "lng": 2.5365871959271584,
   "indoor": false,
   "startDate": "2026-07-31",
-  "endDate": "2026-08-02"
+  "endDate": "2026-08-02",
+  "lineup": [
+    "nusantara-beat",
+    "dame-area",
+    "elephant-tree",
+    "las-robertas",
+    "green-milk-from-the-planet-orange",
+    "avalanche-kaito",
+    "blind-yeo",
+    "apnea-ansambl",
+    "mansions-cellar",
+    "karkara",
+    "shezlong",
+    "opinion",
+    "tago-mago",
+    "harpa",
+    "flying-blanket-mystery",
+    "dandelion-string-band",
+    "rizzotto",
+    "steph-doe",
+    "rives"
+  ]
 }

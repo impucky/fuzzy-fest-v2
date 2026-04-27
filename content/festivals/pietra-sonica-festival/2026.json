@@ -1,0 +1,14 @@
+{
+  "name": "Pietra Sonica Festival",
+  "key": "pietra-sonica-festival",
+  "img": "./pietra-sonica-festival.webp",
+  "website": "http://www.pietrasonica.com/",
+  "country": "Italy",
+  "city": "Osoppo",
+  "lat": 46.26196748226936,
+  "lng": 13.076819963958808,
+  "indoor": false,
+  "startDate": "2026-08-06",
+  "endDate": "2026-08-09",
+  "lineup": []
+}

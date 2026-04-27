@@ -26,7 +26,7 @@ const {
   partialLineup,
 } = festival;
 const year = new Date(startDate).getFullYear();
-const sortedLineup = lineup ? lineup.sort((a, b) => bands[a].localeCompare(bands[b])) : null;
+const sortedLineup = lineup?.length ? lineup.sort((a, b) => bands[a].localeCompare(bands[b])) : null;
 const pastEditions = await getPastEditions(key, new Date(startDate));
 ---
 
