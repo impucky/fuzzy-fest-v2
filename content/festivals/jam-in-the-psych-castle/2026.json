@@ -1,0 +1,32 @@
+{
+  "name": "Jam in the Psych Castle",
+  "key": "jam-in-the-psych-castle",
+  "img": "./jam-in-the-psych-castle.webp",
+  "website": "https://www.instagram.com/jaminthepsychcastle/",
+  "country": "Hungary",
+  "city": "Pusztazámor",
+  "lat": 47.40467612290683,
+  "lng": 18.787597800001812,
+  "indoor": false,
+  "startDate": "2026-09-04",
+  "endDate": "2026-09-05",
+  "lineup": [
+    "weedpecker",
+    "spaceslug",
+    "daliborovo-granje",
+    "speck",
+    "obsidian-sea",
+    "deley-sound-system",
+    "szutmaga",
+    "alas",
+    "yuri-gagarin",
+    "karkara",
+    "roadkillsoda",
+    "mr-bison",
+    "giobia",
+    "da-captain-trips",
+    "supernaughty",
+    "band-in-the-pit",
+    "endre"
+  ]
+}

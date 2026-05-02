@@ -10,5 +10,15 @@
   "indoor": true,
   "startDate": "2026-10-16",
   "endDate": "2026-10-18",
-  "lineup": ["uncle-acid-and-the-deadbeats"]
+  "lineup": [
+    "uncle-acid-and-the-deadbeats",
+    "1000mods",
+    "khemmis",
+    "ahab",
+    "greenleaf",
+    "krallice",
+    "daily-thompson",
+    "eyes",
+    "deathchant"
+  ]
 }

@@ -1,0 +1,23 @@
+{
+  "name": "Ball to the Wall (Riffolution)",
+  "key": "riffolution-festival",
+  "img": "./riffolution-festival.webp",
+  "website": "https://www.instagram.com/riffolutionpromotions/",
+  "country": "United Kingdom",
+  "city": "Manchester",
+  "lat": 53.474183192716396,
+  "lng": -2.250481847011977,
+  "indoor": true,
+  "startDate": "2026-10-31",
+  "endDate": "2026-10-31",
+  "lineup": [
+    "elephant-tree",
+    "slabdragger",
+    "ritual-king",
+    "hundred-year-old-man",
+    "sea-bastard",
+    "under",
+    "ironrat",
+    "vassal"
+  ]
+}

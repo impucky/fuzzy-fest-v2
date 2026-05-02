@@ -1,0 +1,33 @@
+{
+  "name": "Stone Smoker Festival",
+  "key": "stone-smoker-festival",
+  "img": "./stone-smoker-festival.webp",
+  "website": "https://festival.stonesmoker.cz/",
+  "country": "Czechia",
+  "city": "Horní Řasnice",
+  "lat": 50.95757724196032,
+  "lng": 15.187673128826843,
+  "indoor": false,
+  "startDate": "2026-07-03",
+  "endDate": "2026-07-07",
+  "lineup": [
+    "acid-row",
+    "blue-chesterfield",
+    "china-soup",
+    "das-neue-leben",
+    "dd-rey",
+    "mad-velvet",
+    "madhouse-express",
+    "mlhovina",
+    "oakfarm",
+    "purplefox-village",
+    "river-house",
+    "salvor-hardin",
+    "soterpenteen",
+    "stepni-bezec",
+    "the-sonic-dawn",
+    "urban-fungus",
+    "valentin-contestin",
+    "vampyres"
+  ]
+}
