@@ -10,5 +10,15 @@
   "indoor": false,
   "startDate": "2026-08-28",
   "endDate": "2026-08-29",
-  "lineup": ["tons", "red-sun-atacama", "in-other-climes"]
+  "lineup": [
+    "tons",
+    "red-sun-atacama",
+    "in-other-climes",
+    "spleen",
+    "untitled-with-drums",
+    "the-spitters",
+    "montanita",
+    "messalina",
+    "djiin"
+  ]
 }
