@@ -1,0 +1,14 @@
+{
+  "name": "Up in Space",
+  "key": "up-in-space",
+  "img": "./up-in-space.webp",
+  "website": "https://linktr.ee/up.in.space.ms",
+  "country": "Germany",
+  "city": "Münster",
+  "lat": 51.95373390828162,
+  "lng": 7.652895019751582,
+  "indoor": true,
+  "startDate": "2026-06-27",
+  "endDate": "2026-06-27",
+  "lineup": ["structure-moderne", "orbitron", "peach-melba", "kojote", "room-3327"]
+}

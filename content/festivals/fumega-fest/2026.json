@@ -1,0 +1,25 @@
+{
+  "name": "Fumega Fest",
+  "key": "fumega-fest",
+  "img": "./fumega-fest.webp",
+  "website": "https://fumegafest.com/",
+  "country": "Spain",
+  "city": "Betanzos",
+  "lat": 43.27764068831075,
+  "lng": -8.220156978280267,
+  "indoor": false,
+  "startDate": "2026-06-26",
+  "endDate": "2026-06-27",
+  "lineup": [
+    "burst",
+    "conan",
+    "men-eater",
+    "lucifernaga",
+    "travo",
+    "wet-cactus",
+    "stoned-jesus",
+    "volcanova",
+    "moura",
+    "causa-sui"
+  ]
+}
