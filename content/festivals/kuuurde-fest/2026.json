@@ -1,0 +1,14 @@
+{
+  "name": "Küüürde Fest",
+  "key": "kuuurde-fest",
+  "img": "./kuuurde-fest.webp",
+  "website": "https://www.facebook.com/events/s/kurde-fest-kadyny-2026/2013720459497396/",
+  "country": "Poland",
+  "city": "Kadyny",
+  "lat": 54.307069376471134,
+  "lng": 19.47760288640782,
+  "indoor": false,
+  "startDate": "2026-08-15",
+  "endDate": "2026-08-15",
+  "lineup": ["pimape", "elbong", "atom-juice", "the-howling-eye", "hermopolis"]
+}

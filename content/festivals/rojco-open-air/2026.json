@@ -1,0 +1,23 @@
+{
+  "name": "Rojco Open Air",
+  "key": "rojco-open-air",
+  "img": "./rojco-open-air.webp",
+  "website": "https://rojcopenair.com/",
+  "country": "Croatia",
+  "city": "Pula",
+  "lat": 44.86320375876665,
+  "lng": 13.844449554869419,
+  "indoor": false,
+  "startDate": "2026-07-10",
+  "endDate": "2026-07-11",
+  "lineup": [
+    "vitamin-x",
+    "abop",
+    "analena",
+    "horror-vacui",
+    "coltaine",
+    "green-milk-from-the-planet-orange",
+    "djiin",
+    "submeet"
+  ]
+}
