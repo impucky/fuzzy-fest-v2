@@ -1,0 +1,14 @@
+{
+  "name": "Doomstone Open Air",
+  "key": "doomstone-open-air",
+  "img": "./doomstone-open-air.webp",
+  "website": "https://kulturkombinat-bunker.de/projekte/doomstone/",
+  "country": "Germany",
+  "city": "Schwaan",
+  "lat": 53.94811378057203,
+  "lng": 12.038710356049327,
+  "indoor": false,
+  "startDate": "2026-07-25",
+  "endDate": "2026-07-25",
+  "lineup": ["bees-made-honey-in-the-vein-tree", "oakfarm", "kalamata", "yeast-machine", "antenna"]
+}

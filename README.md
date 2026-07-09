@@ -33,4 +33,4 @@ Map of heavy music festivals using Astro + React + Maplibre
 }
 ```
 - Every band on a lineup should also be listed in `content/bands.json` with the appropriate slug
-- Missing bands can be added by running `pnpm update:bands` (optionally edit the file for casing or accents)
+- Missing bands can be added by running `pnpm bands` (optionally edit the file for casing or accents)

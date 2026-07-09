@@ -1,0 +1,14 @@
+{
+  "name": "Roma Stone Fest",
+  "key": "roma-stone-fest",
+  "img": "./roma-stone-fest.webp",
+  "website": "https://www.facebook.com/events/1574433513609597",
+  "country": "Italy",
+  "city": "Roma",
+  "lat": 41.92514305220157,
+  "lng": 12.504024460931092,
+  "indoor": true,
+  "startDate": "2026-08-08",
+  "endDate": "2026-08-08",
+  "lineup": ["fu-manchu", "stoned-jesus", "aganoor", "l-ira-del-baccano", "gorilla-pulp", "fvzz-popvli"]
+}

@@ -7,7 +7,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "update:bands": "tsx scripts/updateBands.ts"
+    "bands": "tsx scripts/updateBands.ts"
   },
   "dependencies": {
     "@astrojs/react": "^5.0.5",
