@@ -10,7 +10,7 @@ import FilterIcon from "../icons/filter.svg?react";
 import { useStore } from "@nanostores/react";
 import { defaultFilters, mapFiltersAtom, nowToEndOfYearRange } from "../nano/mapFiltersAtom";
 import { dateString } from "../utils/dates";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 export default function MapFilters({ year }: { year: number }) {
   const $filters = useStore(mapFiltersAtom);
@@ -53,6 +53,14 @@ export default function MapFilters({ year }: { year: number }) {
 
 function SearchBar() {
   const $filters = useStore(mapFiltersAtom);
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  // Hide mobile keyboard
+  const onKeyUp = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    if (event.key === "Enter") {
+      inputRef.current?.blur();
+    }
+  };
 
   return (
     <div className="relative flex h-8 w-52 items-center sm:h-10 sm:w-60 md:w-64">
@@ -63,6 +71,8 @@ function SearchBar() {
         placeholder="Search festivals or bands"
         value={$filters.query}
         onChange={(e) => mapFiltersAtom.set({ ...$filters, query: e.target.value })}
+        ref={inputRef}
+        onKeyUp={onKeyUp}
       />
       {!$filters.query.length ? (
         <SearchIcon className="pointer-events-none absolute right-3 size-5 sm:size-6" />
