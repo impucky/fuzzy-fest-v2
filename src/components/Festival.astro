@@ -31,9 +31,9 @@ const pastEditions = await getPastEditions(key, new Date(startDate));
 ---
 
 <section class="flex flex-col items-center text-center text-white">
-  <a class="sticky top-1 left-0 z-1 ml-auto p-1 lg:p-2" href={`/${year}`}
-    ><Icon name="close" class="text-3xl text-neutral-400 transition hover:text-white" /></a
-  >
+  <a class="sticky top-2 left-0 z-1 ml-auto p-1 lg:p-2" href={`/${year}`}>
+    <Icon name="close" class="text-3xl text-neutral-400 transition hover:text-white" />
+  </a>
   {
     img && (
       <Image

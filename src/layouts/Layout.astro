@@ -38,9 +38,7 @@ const festivals = await getFestivalsByYear(activeYear);
     <title>{title}</title>
   </head>
   <body>
-    <main
-      class="flex h-[calc(100dvh+1px)] w-full flex-col bg-linear-to-t from-[#0f1318] to-[#191d22] lg:flex-row"
-    >
+    <main class="flex h-dvh w-full flex-col bg-linear-to-t from-[#0f1318] to-[#191d22] lg:flex-row">
       {path !== "/" && <LogoHeader />}
       <div class="relative h-3/5 w-full grow lg:h-full lg:w-4/6">
         <Map festivals={festivals} path={path} year={activeYear} client:only transition:persist />
