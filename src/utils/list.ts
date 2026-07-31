@@ -11,7 +11,9 @@ export function filterLineups(query: string, festivals: Festival[]): Record<stri
     .filter((festival) => festival.lineup && festival.lineup.length > 0)
     .forEach((festival) => {
       const lineup = festival.lineup!;
-      const matchingBands = lineup.filter((slug) => slug.split("-").join(" ").includes(query.toLowerCase()));
+      const matchingBands = lineup.filter((slug) =>
+        slug.split("-").join(" ").includes(query.toLowerCase().trim()),
+      );
       matchesByFest[festival.key] = matchingBands.map((slug) => bands[slug]);
     });
 
