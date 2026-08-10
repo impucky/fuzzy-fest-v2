@@ -1,0 +1,14 @@
+{
+  "name": "Pink Tank Open Air",
+  "key": "pink-tank-open-air",
+  "img": "./pink-tank-open-air.webp",
+  "website": "https://www.pink-tank-records.de/pink-tank-festivals/pink-tank-open-air/",
+  "country": "Germany",
+  "city": "Osterrönfeld",
+  "lat": 54.285671790355806,
+  "lng": 9.697631819162511,
+  "indoor": false,
+  "startDate": "2026-09-19",
+  "endDate": "2026-09-19",
+  "lineup": ["low-orbit", "camel-driver", "terranoid", "oakfarm", "mass-rift", "submarine-on-mars"]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "SoL Sommerbühne",
+  "key": "sol-sommerbuhne",
+  "img": "./sol-sommerbuhne.webp",
+  "website": "https://www.soundofliberation.com/festivals/sommerbuhne-campus-th-aschaffenburg",
+  "country": "Germany",
+  "city": "Aschaffenburg",
+  "lat": 49.971195866882304,
+  "lng": 9.160538684981722,
+  "indoor": false,
+  "startDate": "2026-09-09",
+  "endDate": "2026-09-09",
+  "lineup": ["my-sleeping-karma", "rotor", "daily-thompson", "lucid-void", "abzug", "noisy-valet"]
+}

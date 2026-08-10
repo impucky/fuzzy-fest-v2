@@ -1,0 +1,26 @@
+{
+  "name": "Rifffields Festival",
+  "key": "rifffields-festival",
+  "img": "./rifffields-festival.webp",
+  "website": "https://www.facebook.com/events/2604427806643029/",
+  "country": "Poland",
+  "city": "Gałązki",
+  "lat": 51.83293926628338,
+  "lng": 17.383081055874566,
+  "indoor": false,
+  "startDate": "2026-08-28",
+  "endDate": "2026-08-30",
+  "lineup": [
+    "astral-fungus-cult",
+    "morze",
+    "atom-juice",
+    "acid-rooster",
+    "lovecraft",
+    "tet",
+    "kochlea",
+    "acid-sitter",
+    "jarzmo",
+    "cowboys-and-aliens",
+    "smokes-of-krakatau"
+  ]
+}
