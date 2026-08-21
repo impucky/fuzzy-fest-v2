@@ -2,6 +2,7 @@ import { Map as MapPane, Marker, Popup, useMap } from "@vis.gl/react-maplibre";
 import Pin from "../icons/pin-fill.svg?react";
 import Attribution from "./Attribution";
 import MapFilters from "./MapFilters";
+import SchemeToggle from "./SchemeToggle";
 
 import { useState, useEffect, useRef } from "react";
 import { findCoordsCenter, filterFestivals, sortFestivalMarkers } from "../utils/map";
@@ -9,12 +10,14 @@ import { formatFestivalDates, formatProvisionalDate } from "../utils/dates";
 import { useStore } from "@nanostores/react";
 import { highlightAtom } from "../nano/highlightAtom";
 import { mapFiltersAtom } from "../nano/mapFiltersAtom";
+import { schemeAtom } from "../nano/schemeAtom";
 
 import type { Festival } from "../content.config";
 import type { StyleSpecification } from "maplibre-gl";
 import type { ViewState, MapRef } from "@vis.gl/react-maplibre";
 
 import darkmatter from "../darkmatter.json";
+import bright from "../bright.json";
 import "maplibre-gl/dist/maplibre-gl.css";
 import "../global.css";
 
@@ -39,6 +42,7 @@ export default function Map({
   const currentFestival: Festival | undefined = festivals.find((f) => path.includes(f.key));
   const $highlight = useStore(highlightAtom);
   const $filters = useStore(mapFiltersAtom);
+  const $scheme = useStore(schemeAtom);
 
   const initialViewState: Partial<ViewState> = currentFestival
     ? { longitude: currentFestival.lng, latitude: currentFestival.lat, zoom: 5 }
@@ -74,6 +78,7 @@ export default function Map({
   }, [festivals]);
 
   const filteredFestivals = filterFestivals(festivals, $filters, activeFestival);
+  const mapStyle = ($scheme === "light" ? bright : darkmatter) as StyleSpecification;
 
   return (
     <>
@@ -82,11 +87,12 @@ export default function Map({
       {festivals && (
         <MapPane
           initialViewState={initialViewState}
-          mapStyle={darkmatter as StyleSpecification}
+          mapStyle={mapStyle}
           ref={mapRef}
           attributionControl={false}
         >
           <Attribution />
+          <SchemeToggle />
           <MapNavigation target={flyTarget} />
           {sortFestivalMarkers(filteredFestivals).map((festival, index) => (
             <Marker

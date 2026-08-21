@@ -22,13 +22,9 @@ const uniqueYears = Array.from(new Set(years)).sort((a, b) => a - b);
 ---
 
 <Layout year={year} title={`Fuzzy Fest - ${year} Stoner, Doom & Heavy Psych Festivals in Europe`}>
-  {
-    Astro.url.pathname !== "/" && (
-      <a class="absolute top-2 left-2 z-1 mr-auto p-1 lg:p-2" href={`/`}>
-        <Icon name="home" class="text-3xl text-neutral-400 transition hover:text-white" />
-      </a>
-    )
-  }
+  <a class="absolute top-2 left-2 z-1 mr-auto p-1 lg:p-2" href={`/`}>
+    <Icon name="home" class="text-3xl text-neutral-400 transition hover:text-white" />
+  </a>
   <YearPicker year={year} uniqueYears={uniqueYears} />
   <FestivalsList festivals={festivals} year={year} client:only />
 </Layout>
