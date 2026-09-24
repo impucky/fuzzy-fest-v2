@@ -10,5 +10,21 @@
   "indoor": true,
   "startDate": "2026-11-14",
   "endDate": "2026-11-15",
-  "lineup": ["truckfighters", "valley-of-the-sun", "greenleaf", "congulus", "guenna", "crash-and-burn"]
+  "lineup": [
+    "truckfighters",
+    "greenleaf",
+    "valley-of-the-sun",
+    "my-sleeping-karma",
+    "horndal",
+    "savanah",
+    "congulus",
+    "stone-of-duna",
+    "bottenhavet",
+    "troubled-horse",
+    "monsternaut",
+    "suncraft",
+    "guenna",
+    "the-gristle",
+    "crash-n-burn"
+  ]
 }

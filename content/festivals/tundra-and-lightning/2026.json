@@ -1,0 +1,33 @@
+{
+  "name": "Tundra and Lightning",
+  "key": "tundra-and-lightning",
+  "img": "./tundra-and-lightning.webp",
+  "website": "https://tundraandlightning.no/",
+  "country": "Norway",
+  "city": "Bergen",
+  "lat": 60.39580955571172,
+  "lng": 5.309364576914402,
+  "indoor": true,
+  "startDate": "2026-10-02",
+  "endDate": "2026-10-03",
+  "lineup": [
+    "gluecifer",
+    "the-dogs",
+    "aktiv-dodshjelp",
+    "nix-and-the-nothings",
+    "handgemeng",
+    "meryl-streek",
+    "grandmas-house",
+    "slug-boys",
+    "kosmodome",
+    "goat",
+    "green-lung",
+    "death-by-unga-bunga",
+    "sraeckoedlan",
+    "emmerhoff-and-the-melancholy-babies",
+    "ungdomskulen",
+    "you-know-who",
+    "tears-of-the-fatman",
+    "siste-sort"
+  ]
+}

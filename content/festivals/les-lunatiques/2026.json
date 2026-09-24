@@ -1,0 +1,31 @@
+{
+  "name": "Les Lunatiques",
+  "key": "les-lunatiques",
+  "img": "./les-lunatiques.webp",
+  "website": "https://lunatiques-festival.fr/",
+  "country": "France",
+  "city": "Pacé",
+  "lat": 48.14897840827965,
+  "lng": -1.7745475742188448,
+  "indoor": true,
+  "startDate": "2026-10-02",
+  "endDate": "2026-10-03",
+  "lineup": [
+    "daevar",
+    "doodseskader",
+    "oh-hiroshima",
+    "wyatt-e",
+    "impure-wilhelmina",
+    "l-idylle",
+    "no-vale-nada",
+    "stone-from-the-sky",
+    "sure",
+    "urge",
+    "ana-iesu",
+    "caduta-massi",
+    "nueit",
+    "xannax",
+    "nemode",
+    "verythingitsstillyou"
+  ]
+}

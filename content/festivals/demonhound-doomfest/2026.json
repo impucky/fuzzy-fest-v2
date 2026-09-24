@@ -1,0 +1,26 @@
+{
+  "name": "Demonhound Doomfest",
+  "key": "demonhound-doomfest",
+  "img": "./demonhound-doomfest.webp",
+  "website": "https://www.voodoodaddysshowroom.co.uk/event/demonhound-doomfest-gurt-sleeping-giant-famyne-more-2/",
+  "country": "United Kingdom",
+  "city": "Norwich",
+  "lat": 52.629860865099936,
+  "lng": 1.2969459031609576,
+  "indoor": true,
+  "startDate": "2026-10-16",
+  "endDate": "2026-10-17",
+  "lineup": [
+    "famyne",
+    "gurt",
+    "trippy-wicked",
+    "sleeping-giant",
+    "commoner",
+    "red-eyed-cult",
+    "lust-ritual",
+    "a-horse-called-war",
+    "pilot-the-dune",
+    "iron-slug",
+    "oi-nahh"
+  ]
+}
