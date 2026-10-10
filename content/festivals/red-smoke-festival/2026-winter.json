@@ -1,0 +1,14 @@
+{
+  "name": "Red Smoke Festival (Winter Edition)",
+  "key": "red-smoke-festival-winter",
+  "img": "./red-smoke-festival.webp",
+  "website": "https://redsmokefestival.com/",
+  "country": "Poland",
+  "city": "Poznań",
+  "lat": 52.40783895116034,
+  "lng": 16.9403909239383,
+  "indoor": true,
+  "startDate": "2026-11-20",
+  "endDate": "2026-11-20",
+  "lineup": ["belzebong", "wyatt-e", "neander", "five-the-hierophant", "astral-nomad"]
+}

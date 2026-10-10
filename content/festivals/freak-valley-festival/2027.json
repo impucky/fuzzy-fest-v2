@@ -1,0 +1,23 @@
+{
+  "name": "Freak Valley Festival",
+  "key": "freak-valley-festival",
+  "img": "./freak-valley-festival.webp",
+  "website": "https://www.freakvalley.de/",
+  "country": "Germany",
+  "city": "Weiherdamm",
+  "lat": 50.89062731963505,
+  "lng": 8.12708699622017,
+  "indoor": false,
+  "startDate": "2027-05-27",
+  "endDate": "2027-05-29",
+  "lineup": [
+    "castle-rat",
+    "mantar",
+    "lowrider",
+    "causa-sui",
+    "naxatras",
+    "maria-iskariot",
+    "primitive-ring",
+    "green-milk-from-the-planet-orange"
+  ]
+}

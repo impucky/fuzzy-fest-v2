@@ -1,0 +1,29 @@
+{
+  "name": "Desertfest Berlin",
+  "key": "desertfest-berlin",
+  "img": "./desertfest.webp",
+  "website": "https://www.desertfest.de/",
+  "country": "Germany",
+  "city": "Berlin",
+  "lat": 52.484589854749174,
+  "lng": 13.39243011744567,
+  "indoor": true,
+  "startDate": "2027-05-14",
+  "endDate": "2027-05-16",
+  "lineup": [
+    "melvins",
+    "hallas",
+    "a-place-to-bury-strangers",
+    "bongripper",
+    "smoke-blow",
+    "villagers-of-ioannina-city",
+    "gnome",
+    "inter-arma",
+    "primitive-ring",
+    "cardiel",
+    "spooky-eyes",
+    "pink-fuzz",
+    "speck",
+    "vinnum-sabbathi"
+  ]
+}

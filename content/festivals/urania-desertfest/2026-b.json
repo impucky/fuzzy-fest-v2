@@ -1,0 +1,14 @@
+{
+  "name": "Urania Desertfest (part two)",
+  "key": "urania-desertfest-b",
+  "img": "./urania-desertfest.webp",
+  "website": "https://www.instagram.com/urania_desertfest/",
+  "country": "Spain",
+  "city": "Ferrol",
+  "lat": 43.481693626824196,
+  "lng": -8.238473825809441,
+  "indoor": true,
+  "startDate": "2026-11-07",
+  "endDate": "2026-11-07",
+  "lineup": ["ocean-gates", "summer-of-hate", "cruzeiro"]
+}

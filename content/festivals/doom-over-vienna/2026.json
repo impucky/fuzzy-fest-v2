@@ -1,0 +1,25 @@
+{
+  "name": "Doom Over Vienna",
+  "key": "doom-over-vienna",
+  "img": "./doom-over-vienna.webp",
+  "website": "https://www.facebook.com/doomoverwien/",
+  "country": "Austria",
+  "city": "Wien",
+  "lat": 48.20626050045147,
+  "lng": 16.338601521408513,
+  "indoor": true,
+  "startDate": "2026-11-13",
+  "endDate": "2026-11-14",
+  "lineup": [
+    "arctic-sea-survivors",
+    "black-revelation",
+    "grave-dance-company",
+    "in-aevum-agere",
+    "mortajas",
+    "oblique-visions",
+    "officium-triste",
+    "spiral-echoes",
+    "the-answer-lies-in-the-black-void",
+    "the-devastation"
+  ]
+}

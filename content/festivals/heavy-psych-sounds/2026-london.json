@@ -1,0 +1,26 @@
+{
+  "name": "Heavy Psych Sounds Fest London",
+  "key": "heavy-psych-sounds-fest-london",
+  "img": "./heavy-psych-sounds.webp",
+  "website": "https://www.hpsbooking.com/fests/",
+  "country": "United Kingdom",
+  "city": "London",
+  "lat": 51.591534764756446,
+  "lng": -0.04287342560201576,
+  "indoor": true,
+  "startDate": "2026-11-13",
+  "endDate": "2026-11-14",
+  "lineup": [
+    "leaf-hound",
+    "black-raindows",
+    "acid-mammoth",
+    "weedpecker",
+    "witchthroat-serpent",
+    "firebreather",
+    "mr-bison",
+    "the-cosmic-dead",
+    "psychlona",
+    "desert-storm",
+    "monsternaut"
+  ]
+}

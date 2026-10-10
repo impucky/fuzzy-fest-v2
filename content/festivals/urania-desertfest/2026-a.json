@@ -1,0 +1,14 @@
+{
+  "name": "Urania Desertfest (part one)",
+  "key": "urania-desertfest-a",
+  "img": "./urania-desertfest.webp",
+  "website": "https://www.instagram.com/urania_desertfest/",
+  "country": "Spain",
+  "city": "Ferrol",
+  "lat": 43.48167562735716,
+  "lng": -8.238579125206554,
+  "indoor": true,
+  "startDate": "2026-10-03",
+  "endDate": "2026-10-03",
+  "lineup": ["al-final-solo-habra-cenizas", "maha-sohona", "stonus"]
+}

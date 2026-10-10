@@ -1,0 +1,25 @@
+{
+  "name": "Heavy Psych Sounds Fest Berlin",
+  "key": "heavy-psych-sounds-fest-berlin",
+  "img": "./heavy-psych-sounds.webp",
+  "website": "https://www.hpsbooking.com/fests/",
+  "country": "Germany",
+  "city": "Berlin",
+  "lat": 52.49750859131614,
+  "lng": 13.466063874804222,
+  "indoor": true,
+  "startDate": "2026-10-16",
+  "endDate": "2026-10-17",
+  "lineup": [
+    "belzebong",
+    "hippie-death-cult",
+    "kanaan",
+    "firebreather",
+    "monsternaut",
+    "valley-of-the-sun",
+    "duel",
+    "mr-bison",
+    "lord-elephant",
+    "hijss"
+  ]
+}

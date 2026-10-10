@@ -1,0 +1,25 @@
+{
+  "name": "Heavy Psych Sounds Fest Dresden",
+  "key": "heavy-psych-sounds-fest-dresden",
+  "img": "./heavy-psych-sounds.webp",
+  "website": "https://www.hpsbooking.com/fests/",
+  "country": "Germany",
+  "city": "Dresden",
+  "lat": 51.072670170647065,
+  "lng": 13.737674486513058,
+  "indoor": true,
+  "startDate": "2026-10-16",
+  "endDate": "2026-10-17",
+  "lineup": [
+    "belzebong",
+    "hippie-death-cult",
+    "kanaan",
+    "firebreather",
+    "monsternaut",
+    "valley-of-the-sun",
+    "duel",
+    "mr-bison",
+    "lord-elephant",
+    "hijss"
+  ]
+}

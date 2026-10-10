@@ -1,0 +1,23 @@
+{
+  "name": "Desertfest London",
+  "key": "desertfest-london",
+  "img": "./desertfest.webp",
+  "website": "https://www.desertfest.co.uk/",
+  "country": "United Kingdom",
+  "city": "London",
+  "lat": 51.51,
+  "lng": -0.12,
+  "indoor": true,
+  "startDate": "2027-05-21",
+  "endDate": "2027-05-23",
+  "lineup": [
+    "desert-storm",
+    "dopethrone",
+    "inter-arma",
+    "mantar",
+    "melvins",
+    "modder",
+    "monolord",
+    "year-of-the-cobra"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Stoned from the Underground",
+  "key": "stoned-from-the-underground",
+  "img": "./stoned-from-the-underground.webp",
+  "website": "https://www.sftu.de/",
+  "country": "Germany",
+  "city": "Erfurt",
+  "lat": 51.069430704038815,
+  "lng": 11.037210476699984,
+  "indoor": false,
+  "startDate": "2027-07-08",
+  "endDate": "2027-07-10",
+  "lineup": [
+    "dopelord",
+    "greenleaf",
+    "hippie-death-cult",
+    "maha-sohona",
+    "gravekvlt",
+    "ritual-king",
+    "weedcraft",
+    "the-hebridean-sheep",
+    "kuyper",
+    "meth-n-weapons"
+  ]
+}

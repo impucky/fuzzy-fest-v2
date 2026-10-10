@@ -1,0 +1,22 @@
+{
+  "name": "Psychedelic Network Festival",
+  "key": "psychedelic-network-festival",
+  "img": "./psychedelic-network-festival.webp",
+  "website": "http://sunhair-music.de/psychedelicnetwork/",
+  "country": "Germany",
+  "city": "Würzburg",
+  "lat": 49.789668593854294,
+  "lng": 9.924733408653791,
+  "indoor": true,
+  "startDate": "2026-11-27",
+  "endDate": "2026-11-29",
+  "lineup": [
+    "the-citadel",
+    "giant-dwarfs-and-black-holes",
+    "sonic-trip-project",
+    "sir-petrol",
+    "red-sun",
+    "stellar-cluster",
+    "bridge-to-imla"
+  ]
+}
