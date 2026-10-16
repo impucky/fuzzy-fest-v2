@@ -1,0 +1,14 @@
+{
+  "name": "Fuzz Club",
+  "key": "fuzz-club",
+  "img": "./fuzz-club.webp",
+  "website": "https://www.effenaar.nl/nl/fuzzclub2026",
+  "country": "Netherlands",
+  "city": "Eindhoven",
+  "lat": 51.441692343905224,
+  "lng": 5.483297789580167,
+  "indoor": true,
+  "startDate": "2027-05-21",
+  "endDate": "2027-05-22",
+  "lineup": []
+}

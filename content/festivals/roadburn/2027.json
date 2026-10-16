@@ -1,0 +1,15 @@
+{
+  "name": "Roadburn",
+  "key": "roadburn",
+  "img": "./roadburn.webp",
+  "website": "https://roadburn.com/",
+  "country": "Netherlands",
+  "city": "Tilburg",
+  "lat": 51.5579462421408,
+  "lng": 5.092826165263677,
+  "indoor": true,
+  "startDate": "2027-04-15",
+  "endDate": "2027-04-18",
+  "lineup": [],
+  "partialLineup": true
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Hellseatic",
+  "key": "hellseatic",
+  "img": "./hellseatic.webp",
+  "website": "https://redsmokefestival.com/",
+  "country": "Germany",
+  "city": "Bremen",
+  "lat": 53.088630270987856,
+  "lng": 8.810381072438588,
+  "indoor": true,
+  "startDate": "2027-06-11",
+  "endDate": "2027-06-12",
+  "lineup": []
+}

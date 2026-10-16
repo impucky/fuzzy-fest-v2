@@ -1,0 +1,14 @@
+{
+  "name": "Esbjerg Fuzztival",
+  "key": "esbjerg-fuzztival",
+  "img": "./esbjerg-fuzztival.webp",
+  "website": "https://www.fuzztival.com/",
+  "country": "Denmark",
+  "city": "Esbjerg",
+  "lat": 55.46497946389984,
+  "lng": 8.459744361489337,
+  "indoor": true,
+  "startDate": "2027-05-27",
+  "endDate": "2027-05-29",
+  "lineup": []
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Sonic Rites",
+  "key": "sonic-rites",
+  "img": "./sonic-rites.webp",
+  "website": "https://www.sonicrites.com/",
+  "country": "Finland",
+  "city": "Helsinki",
+  "lat": 60.195288279883954,
+  "lng": 24.94976192034608,
+  "indoor": true,
+  "startDate": "2027-05-21",
+  "endDate": "2027-05-22",
+  "lineup": [
+    "yob",
+    "patriarchy",
+    "inter-arma",
+    "enisum",
+    "heathe",
+    "klps",
+    "t-jarva-and-the-dark-place",
+    "paakallo",
+    "radien",
+    "sunniva",
+    "abysmal-rites"
+  ]
+}

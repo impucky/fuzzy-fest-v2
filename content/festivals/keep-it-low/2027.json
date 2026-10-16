@@ -1,0 +1,14 @@
+{
+  "name": "Keep It Low",
+  "key": "keep-it-low",
+  "img": "./keep-it-low.webp",
+  "website": "https://www.keepitlow.de/",
+  "country": "Germany",
+  "city": "Munich",
+  "lat": 48.14516298288267,
+  "lng": 11.521611734201125,
+  "indoor": true,
+  "startDate": "2027-10-08",
+  "endDate": "2027-10-09",
+  "lineup": []
+}

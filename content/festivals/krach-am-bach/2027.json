@@ -1,0 +1,14 @@
+{
+  "name": "Krach am Bach",
+  "key": "krach-am-bach",
+  "img": "./krach-am-bach.webp",
+  "website": "https://krachambach.de/",
+  "country": "Germany",
+  "city": "Beelen",
+  "lat": 51.91839860165112,
+  "lng": 8.097309672737138,
+  "indoor": false,
+  "startDate": "2027-08-06",
+  "endDate": "2027-08-07",
+  "lineup": []
+}

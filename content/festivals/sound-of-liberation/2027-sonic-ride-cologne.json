@@ -1,0 +1,14 @@
+{
+  "name": "SoL Sonic Ride Cologne",
+  "key": "sol-sonic-ride-cologne",
+  "img": "./sound-of-liberation.webp",
+  "website": "https://www.soundofliberation.com/festivals/sol-sonic-ride-cologne",
+  "country": "Germany",
+  "city": "Köln",
+  "lat": 50.96510886325583,
+  "lng": 7.012098442308215,
+  "indoor": true,
+  "startDate": "2027-04-24",
+  "endDate": "2027-04-24",
+  "lineup": []
+}
