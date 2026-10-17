@@ -83,7 +83,9 @@ export default function Map({
   return (
     <>
       <div className="pointer-events-none absolute z-450 h-full w-full shadow-[inset_0_0_64px_rgba(0,0,0,0.9)]"></div>
-      {path !== "/" && <MapFilters year={year} />}
+      <div style={{ display: path === "/" ? "none" : "block" }}>
+        <MapFilters year={year} />
+      </div>
       {festivals && (
         <MapPane
           initialViewState={initialViewState}
