@@ -3,7 +3,7 @@ import changelog from "../../content/changelog.json";
 ---
 
 <div class="text-left text-sm max-w-8/10">
-  {changelog.map((log) => (
+  {changelog.slice(0,10).map((log) => (
       <p class="text-neutral-300 mt-2">{log.date}</p>
       <ul class="text-neutral-400">
         {log.content.map((item) => (

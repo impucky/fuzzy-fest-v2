@@ -10,5 +10,7 @@
   "indoor": false,
   "startDate": "2027-08-12",
   "endDate": "2027-08-14",
-  "lineup": []
+  "lineup": [
+    "slift", "the-black-wizards"
+  ]
 }

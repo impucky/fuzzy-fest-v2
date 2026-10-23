@@ -1,0 +1,30 @@
+{
+  "name": "Bûche de Noël",
+  "key": "buche-de-noel",
+  "img": "./buche-de-noel.webp",
+  "website": "https://www.instagram.com/poutrasseau/",
+  "country": "France",
+  "city": "Nice",
+  "lat": 43.70255038461098,
+  "lng": 7.221587200051698,
+  "indoor": true,
+  "startDate": "2026-12-18",
+  "endDate": "2026-12-19",
+  "lineup": [
+    "verdun",
+    "if-i-die-today",
+    "throne",
+    "towel",
+    "greyborn",
+    "goatfather",
+    "hemene-and-hel",
+    "sunflower",
+    "carivari",
+    "merakhaazan",
+    "deaf-blokes",
+    "art-death",
+    "mudriver",
+    "fydget",
+    "dorian-caione"
+  ]
+}

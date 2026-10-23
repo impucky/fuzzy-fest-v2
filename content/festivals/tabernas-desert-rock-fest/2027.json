@@ -1,0 +1,16 @@
+{
+  "name": "Tabernas Desert Rock Fest",
+  "key": "tabernas-desert-rock-fest",
+  "img": "./tabernas-desert-rock-fest.webp",
+  "website": "https://www.instagram.com/tabernasdesertrockfest/",
+  "country": "Spain",
+  "city": "Tabernas",
+  "lat": 37.05273591245333,
+  "lng": -2.3902286328881943,
+  "indoor": false,
+  "startDate": "2027-10-01",
+  "endDate": "2027-10-03",
+  "provisionalDate": true,
+  "lineup": [
+  ]
+}
