@@ -10,5 +10,5 @@
   "indoor": true,
   "startDate": "2027-05-29",
   "endDate": "2027-05-30",
-  "lineup": []
+  "lineup": ["mondo-generator"]
 }

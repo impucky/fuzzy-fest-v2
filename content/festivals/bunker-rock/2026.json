@@ -1,0 +1,14 @@
+{
+  "name": "Bunker Rock",
+  "key": "bunker-rock",
+  "img": "./bunker-rock.webp",
+  "website": "https://landgang-brauerei.de/3337",
+  "country": "Germany",
+  "city": "Hamburg",
+  "lat": 53.56560234773134,
+  "lng": 9.92319414533552,
+  "indoor": true,
+  "startDate": "2026-11-21",
+  "endDate": "2026-11-21",
+  "lineup": ["mantis-shrimp-punch", "hansaphonics", "mass-rift", "the-funeral-crankies"]
+}

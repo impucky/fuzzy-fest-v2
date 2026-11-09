@@ -1,0 +1,30 @@
+{
+  "name": "Dragged Into Bliss",
+  "key": "dragged-into-bliss",
+  "img": "./dragged-into-bliss.webp",
+  "website": "https://dcs.wien/dragged-into-bliss/",
+  "country": "Austria",
+  "city": "Wien",
+  "lat": 48.20337012907444,
+  "lng": 16.389468113409308,
+  "indoor": true,
+  "startDate": "2027-01-22",
+  "endDate": "2027-01-23",
+  "lineup": [
+    "henge",
+    "the-black-wizards",
+    "speck",
+    "topsy-turvy",
+    "kaery-ann",
+    "body-horror",
+    "brak",
+    "swanmay",
+    "todesstern",
+    "suntan-club",
+    "zappzarapp",
+    "ossinopopo",
+    "fenkari",
+    "ufonauten",
+    "oskerhase-and-friends"
+  ]
+}
